@@ -9,9 +9,10 @@ public class PlayerController2 : MonoBehaviour
     public bool isGrounded;
     public bool isCrouching;
 
-    private float speed = 0;
-    private float w_speed = 0.05f;
-    private float c_speed = 0.025f;
+    private float speed = 5f;
+    private float w_speed = 5f;
+    private float c_speed = 2.5f;
+    private float rotation_speed = 5f;
     public float rotSpeed;
     public float jumpHeight;
 
@@ -32,35 +33,30 @@ public class PlayerController2 : MonoBehaviour
     void Update()
     {
         //触发蹲下 按下z
-      /*  if (Input.GetKeyDown(KeyCode.Z))
-        {
-            if (isCrouching)
-            {
-                isCrouching = false;
-                //anim.SetBool("isCrouching",false);
-                collider.center = new Vector3(0, 1, 0);
-                // collider.size.Set(collider.size.x, collider.size.y / 2, collider.size.z);
-               // collider.size = new Vector3(1, 1.5f, 1);
-                
-            }
-            else
-            {
-                isCrouching = true;
-                //anim.SetBool("isCrouching",false);
-                collider.center = new Vector3(0, 0.5f, 0);
-                // collider.size.Set(collider.size.x, collider.size.y * 2, collider.size.z);
-               // collider.size = new Vector3(1, 3, 1);
-            }
-        }*/
+        /*  if (Input.GetKeyDown(KeyCode.Z))
+          {
+              if (isCrouching)
+              {
+                  isCrouching = false;
+                  //anim.SetBool("isCrouching",false);
+                  collider.center = new Vector3(0, 1, 0);
+                  // collider.size.Set(collider.size.x, collider.size.y / 2, collider.size.z);
+                 // collider.size = new Vector3(1, 1.5f, 1);
 
-        var y = Input.GetAxis("Vertical") * speed;
-        var x = Input.GetAxis("Horizontal") * speed;
+              }
+              else
+              {
+                  isCrouching = true;
+                  //anim.SetBool("isCrouching",false);
+                  collider.center = new Vector3(0, 0.5f, 0);
+                  // collider.size.Set(collider.size.x, collider.size.y * 2, collider.size.z);
+                 // collider.size = new Vector3(1, 3, 1);
+              }
+          }*/
 
-        transform.Translate(new Vector3(x, 0, y),Space.World);
+        playerMovement();
+       
         
-
-        Vector3 movement = new Vector3(x, 0.0f, y);
-        transform.rotation = Quaternion.LookRotation(movement);
         //transform.Translate(0, 0, z);
         //transform.Rotate(0, y, 0);
 
@@ -87,6 +83,45 @@ public class PlayerController2 : MonoBehaviour
         }
 
 
+    }
+
+    void playerMovement()
+    {
+        float vertical = Input.GetAxis("Vertical") ;
+        float horizontal = Input.GetAxis("Horizontal");
+
+
+        Vector3 movement = new Vector3(horizontal, 0f, vertical) * speed * Time.deltaTime;
+
+        transform.Translate(movement, Space.World);
+
+
+         if(movement.sqrMagnitude>0.00003)
+         {
+            // transform.rotation = Quaternion.LookRotation(movement, Vector3.up);
+
+            transform.rotation = Quaternion.Slerp(
+                                                    transform.rotation,
+                                                    Quaternion.LookRotation(movement),
+                                                    Time.deltaTime * rotation_speed);
+        }
+
+
+
+        /*
+                transform.Translate(new Vector3(x, 0, y), Space.World);
+
+
+                Vector3 movement = new Vector3(x, 0.0f, y);
+
+                if (y == 0 && x == 0)
+                {
+
+                }
+                else
+                {
+                    transform.rotation = Quaternion.LookRotation(movement);
+                }*/
     }
 
     void OnCollisionEnter()
