@@ -63,7 +63,7 @@ public class PlayerController2 : MonoBehaviour
         //transform.Rotate(0, y, 0);
 
         //跳跃 x触发
-        if (Input.GetKey(KeyCode.X) && IsGrounded() == true)
+        if ((Input.GetKey(KeyCode.X)|| Input.GetKey(KeyCode.Space)) && IsGrounded() == true)
         {
 
             rb.AddForce(Vector3.up*jumpHeight,ForceMode.Impulse);
