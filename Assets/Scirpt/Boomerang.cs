@@ -12,7 +12,7 @@ public class Boomerang : MonoBehaviour
     Vector3 frontOfPlayer_location;
 
     public float attack_range = 5f;
-    public float stay_time = 1f;
+    public float stay_time = 0.5f;
     public float fly_speed = 20f;
     public float rotation_speed = 0f;
 
@@ -63,5 +63,15 @@ public class Boomerang : MonoBehaviour
             Destroy(this.gameObject);
         }
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+       // Debug.Log(collision.transform.name);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.transform.name +" Trigger");
     }
 }

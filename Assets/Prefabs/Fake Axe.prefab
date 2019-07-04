@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4309232914419550376}
   - component: {fileID: 8798925288297362952}
+  - component: {fileID: 5986755921511647936}
+  - component: {fileID: 4456484926850026159}
   m_Layer: 0
   m_Name: Fake Axe
-  m_TagString: Untagged
+  m_TagString: Axe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +50,35 @@ MonoBehaviour:
   stay_time: 1
   fly_speed: 30
   rotation_speed: 1000
+--- !u!135 &5986755921511647936
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45178898174279885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.26
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4456484926850026159
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45178898174279885}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1931373172021753302
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,6 +90,7 @@ GameObject:
   - component: {fileID: 1678176650598510028}
   - component: {fileID: 5697501594978940530}
   - component: {fileID: 6114539149554883247}
+  - component: {fileID: 1468399717984551901}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -125,3 +157,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1468399717984551901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931373172021753302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: 0}

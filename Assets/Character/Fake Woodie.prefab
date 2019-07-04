@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7132396115720414012}
   - component: {fileID: 6371687450675393220}
   - component: {fileID: 8463019718205546441}
-  - component: {fileID: 3239054027152211716}
   - component: {fileID: 5865458025470972626}
+  - component: {fileID: 3324822748106827765}
+  - component: {fileID: 3127445547721201875}
   m_Layer: 0
   m_Name: Fake Woodie
   m_TagString: Untagged
@@ -80,19 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3239054027152211716
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3954331213115749750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 3.1700814, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: -0.5850354, z: -0.00000011920929}
 --- !u!54 &5865458025470972626
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -109,6 +97,39 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &3324822748106827765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954331213115749750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5255dd0fa3965e94e94fafabf352e594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGrounded: 0
+  isCrouching: 0
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  rotSpeed: 0
+  jumpHeight: 1
+--- !u!136 &3127445547721201875
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954331213115749750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &4386348113913154267
 GameObject:
   m_ObjectHideFlags: 0

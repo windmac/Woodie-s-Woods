@@ -8,24 +8,26 @@ public class PlayerController2 : MonoBehaviour
 
     public bool isGrounded;
     public bool isCrouching;
+    public LayerMask groundLayers;
+
 
     private float speed = 5f;
     private float w_speed = 5f;
     private float c_speed = 2.5f;
     private float rotation_speed = 5f;
     public float rotSpeed;
-    public float jumpHeight;
+    public float jumpHeight = 1f;
 
     Rigidbody rb;
     // Animator anim;
-    BoxCollider collider;
+    CapsuleCollider collider;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         //      anim = GetComponent<Animator>();
-        collider = GetComponent<BoxCollider>();
+        collider = GetComponent<CapsuleCollider>();
         isGrounded = true;
     }
 
@@ -61,13 +63,14 @@ public class PlayerController2 : MonoBehaviour
         //transform.Rotate(0, y, 0);
 
         //跳跃 x触发
-        if (Input.GetKey(KeyCode.X) )
+        if (Input.GetKey(KeyCode.X) && IsGrounded() == true)
         {
 
-            rb.AddForce(0, jumpHeight, 0);
+            rb.AddForce(Vector3.up*jumpHeight,ForceMode.Impulse);
             //anim.SetTrigger("isJumping");
             isCrouching = false;
-            isGrounded = false;
+            //isGrounded = false;
+            Debug.Log("Jump");
 
         }
 
@@ -84,6 +87,12 @@ public class PlayerController2 : MonoBehaviour
 
 
     }
+    void FixedUpdate()
+    {
+        //修改重力
+        rb.AddForce(Physics.gravity * rb.mass* rb.mass);
+    }
+
 
     void playerMovement()
     {
@@ -124,8 +133,20 @@ public class PlayerController2 : MonoBehaviour
                 }*/
     }
 
+
+
     void OnCollisionEnter()
     {
         isGrounded = true;
+    }
+
+    private bool IsGrounded()
+    {
+        return Physics.CheckCapsule(collider.bounds.center,
+                             new Vector3(collider.bounds.center.x,
+                                         collider.bounds.min.y,
+                                         collider.bounds.center.z),
+                             collider.radius * 0.9f,groundLayers);
+        
     }
 }

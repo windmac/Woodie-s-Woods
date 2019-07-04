@@ -21,7 +21,7 @@ public class UseItem : MonoBehaviour
         float y = transform.position.y;
         float z = transform.position.z;
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C)&&GameObject.FindGameObjectsWithTag("Axe").Length == 0)
         {
             //扔斧头
             if (indication == 0)
