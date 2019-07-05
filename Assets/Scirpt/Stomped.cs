@@ -25,7 +25,7 @@ public class Stomped : MonoBehaviour
         {
             Debug.Log("Springed");
         
-            other.GetComponent<Rigidbody>().AddRelativeForce(other.transform.up * 1000f * Time.fixedDeltaTime, ForceMode.Impulse);
+            other.GetComponent<Rigidbody>().AddRelativeForce(other.transform.up.normalized * 1500f * Time.fixedDeltaTime, ForceMode.Impulse);
             //other.GetComponent<Rigidbody>().AddForce(other.transform.up * 8f*Time.fixedDeltaTime, ForceMode.Impulse);
             GetComponentInParent<EnemyBasic>().health = -2;
         }

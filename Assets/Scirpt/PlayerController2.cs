@@ -96,8 +96,8 @@ public class PlayerController2 : MonoBehaviour
 
     void playerMovement()
     {
-        float vertical = Input.GetAxis("Vertical") ;
-        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical") ;
+        float horizontal = Input.GetAxisRaw("Horizontal");
 
 
         Vector3 movement = new Vector3(horizontal, 0f, vertical) * speed * Time.deltaTime;
