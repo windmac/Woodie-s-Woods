@@ -6,7 +6,7 @@ public class ContactAttack : MonoBehaviour
 {
 
     public float attack_force =1300f;
-    public float damage = 1;
+    public int damage = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +28,7 @@ public class ContactAttack : MonoBehaviour
         {
             
             other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.Impulse);
+            other.gameObject.GetComponent<WoodieStat>().health  -= damage;
             Debug.Log("Ouach");
             Debug.Log(attack_vec);
         }

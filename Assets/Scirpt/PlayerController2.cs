@@ -6,10 +6,10 @@ public class PlayerController2 : MonoBehaviour
 {
 
 
-    public bool isGrounded;
+    //public bool isGrounded;
     public bool isCrouching;
     public LayerMask groundLayers;
-
+    public bool canMove = true;
 
     private float speed = 5f;
     private float w_speed = 5f;
@@ -28,7 +28,7 @@ public class PlayerController2 : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         //      anim = GetComponent<Animator>();
         collider = GetComponent<CapsuleCollider>();
-        isGrounded = true;
+       // isGrounded = true;
     }
 
     // Update is called once per frame
@@ -96,8 +96,15 @@ public class PlayerController2 : MonoBehaviour
 
     void playerMovement()
     {
-        float vertical = Input.GetAxisRaw("Vertical") ;
-        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = 0;
+        float horizontal = 0;
+
+        if (canMove)
+        {
+             vertical = Input.GetAxisRaw("Vertical");
+             horizontal = Input.GetAxisRaw("Horizontal");
+        }
+
 
 
         Vector3 movement = new Vector3(horizontal, 0f, vertical) * speed * Time.deltaTime;
@@ -107,7 +114,7 @@ public class PlayerController2 : MonoBehaviour
 
          if(movement.sqrMagnitude>0.00003)
          {
-            // transform.rotation = Quaternion.LookRotation(movement, Vector3.up);
+            
 
             transform.rotation = Quaternion.Slerp(
                                                     transform.rotation,
@@ -117,30 +124,17 @@ public class PlayerController2 : MonoBehaviour
 
 
 
-        /*
-                transform.Translate(new Vector3(x, 0, y), Space.World);
 
-
-                Vector3 movement = new Vector3(x, 0.0f, y);
-
-                if (y == 0 && x == 0)
-                {
-
-                }
-                else
-                {
-                    transform.rotation = Quaternion.LookRotation(movement);
-                }*/
     }
 
 
 
     void OnCollisionEnter()
     {
-        isGrounded = true;
+       // isGrounded = true;
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics.CheckCapsule(collider.bounds.center,
                              new Vector3(collider.bounds.center.x,

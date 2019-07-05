@@ -7,17 +7,19 @@ public class Watering : MonoBehaviour
     // Start is called before the first frame update
 
     public bool watering = false;
-
+    private PlayerController2 pc;
+    public float stop_time = 0.1f;
     void Start()
     {
-        
+        pc = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C)&& pc.IsGrounded())
         {
+
             StartCoroutine(Coroutine());
             
         }
@@ -38,10 +40,13 @@ public class Watering : MonoBehaviour
     IEnumerator Coroutine()
     {
         watering = true;
-        Debug.Log("Watering");
-        yield return new WaitForSeconds(0.5f);
+   
+        pc.canMove = false;
+        yield return new WaitForSeconds(stop_time);
+
         watering = false;
-        Debug.Log("Stop Watering");
+        pc.canMove = true;
+        //  Debug.Log("Stop Watering");
     }
 
 

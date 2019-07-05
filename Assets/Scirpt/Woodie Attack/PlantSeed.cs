@@ -7,9 +7,12 @@ public class PlantSeed : MonoBehaviour
     // Start is called before the first frame update
     public GameObject seed;
     public float range = 0.8f;
+    private PlayerController2 pc;
+    public float stop_time = 0.1f;
+
     void Start()
     {
-        
+        pc = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
     }
 
     // Update is called once per frame
@@ -20,13 +23,21 @@ public class PlantSeed : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.C) )
+        if (Input.GetKeyDown(KeyCode.C) && pc.IsGrounded())
         {
 
-
+            StartCoroutine(Coroutine());
             GameObject clone;
             clone = Instantiate(seed, plant_posision, transform.rotation) as GameObject;
 
         }
+    }
+
+    IEnumerator Coroutine()
+    {
+        pc.canMove = false;
+        yield return new WaitForSeconds(stop_time);
+        pc.canMove = true;
+
     }
 }
