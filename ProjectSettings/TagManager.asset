@@ -9,6 +9,7 @@ TagManager:
   - Woodie
   - Seed
   - Plant
+  - PickUps
   layers:
   - Default
   - TransparentFX

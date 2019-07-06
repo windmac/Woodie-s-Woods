@@ -129,9 +129,18 @@ public class PlayerController2 : MonoBehaviour
 
 
 
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision collision)
     {
-       // isGrounded = true;
+        
+        //Pick up object
+        if (collision!=null&&collision.collider.tag=="PickUps")
+        {
+            Debug.Log("Pick");
+            collision.collider.GetComponent<ItemPickUp>().PickUp();
+            
+        }
+        
+        
     }
 
     public bool IsGrounded()
