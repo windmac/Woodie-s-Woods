@@ -16,7 +16,7 @@ public class PlayerController2 : MonoBehaviour
     private float c_speed = 2.5f;
     private float rotation_speed = 5f;
     public float rotSpeed;
-    public float jumpHeight = 1f;
+    public float jumpHeight = 2.3f;
 
     Rigidbody rb;
     // Animator anim;

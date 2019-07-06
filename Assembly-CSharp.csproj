@@ -58,12 +58,12 @@
      <Compile Include="Assets\Scirpt\Main Light.cs" />
      <Compile Include="Assets\Scirpt\PlayerController2.cs" />
      <Compile Include="Assets\Scirpt\Seed\Seed.cs" />
-     <Compile Include="Assets\Scirpt\Stomped.cs" />
      <Compile Include="Assets\Scirpt\TopDownCamera.cs" />
      <Compile Include="Assets\Scirpt\UseItem.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\Boomerang.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\ItemSwitch.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\PlantSeed.cs" />
+     <Compile Include="Assets\Scirpt\Woodie Attack\Stomped.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\ThrowAxe.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\Watering.cs" />
      <Compile Include="Assets\Scirpt\WoodieStat.cs" />

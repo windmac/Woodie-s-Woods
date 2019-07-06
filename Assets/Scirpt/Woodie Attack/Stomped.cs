@@ -5,6 +5,10 @@ using UnityEngine;
 public class Stomped : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public float pump_force = 1500f;
+    public int damage = 2;
+
     void Start()
     {
         
@@ -25,9 +29,9 @@ public class Stomped : MonoBehaviour
         {
             Debug.Log("Springed");
         
-            other.GetComponent<Rigidbody>().AddRelativeForce(other.transform.up.normalized * 1500f * Time.fixedDeltaTime, ForceMode.Impulse);
+            other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force * Time.fixedDeltaTime, ForceMode.Impulse);
             //other.GetComponent<Rigidbody>().AddForce(other.transform.up * 8f*Time.fixedDeltaTime, ForceMode.Impulse);
-            GetComponentInParent<EnemyBasic>().health = -2;
+            GetComponentInParent<EnemyBasic>().health = -damage;
         }
     }
 }

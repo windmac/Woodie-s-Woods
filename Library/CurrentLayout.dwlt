@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 883, y: 498}
   m_MaxSize: {x: 16008, y: 14048}
   vertical: 0
-  controlID: 131
+  controlID: 85
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 606, y: 498}
   m_MaxSize: {x: 12006, y: 14048}
   vertical: 1
-  controlID: 69
+  controlID: 86
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_MinSize: {x: 606, y: 224}
   m_MaxSize: {x: 12006, y: 4024}
   vertical: 0
-  controlID: 70
+  controlID: 87
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -436,9 +436,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9efbffff
+      m_SelectedIDs: 72360000
+      m_LastClickedID: 13938
+      m_ExpandedIDs: 7e360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -489,14 +489,14 @@ MonoBehaviour:
     height: 648
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: f865fc485b030e24e8745b311199e938
-  m_SceneLighting: 1
+  m_SceneLighting: 0
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.75650907, y: 0.73545957, z: 1.6735533}
+    m_Target: {x: 5.36959, y: 1.5418724, z: -2.6052742}
     speed: 2
-    m_Value: {x: -0.75650907, y: 0.73545957, z: 1.6735533}
+    m_Value: {x: 5.36959, y: 1.5418724, z: -2.6052742}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -524,13 +524,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.3748199, y: -0.02447115, z: 0.009899575, w: -0.92672175}
+    m_Target: {x: -0.19837765, y: 0.123709396, z: -0.025248319, w: -0.9719593}
     speed: 2
-    m_Value: {x: -0.3748199, y: -0.02447115, z: 0.009899575, w: -0.92672175}
+    m_Value: {x: -0.19837765, y: 0.123709396, z: -0.025248319, w: -0.9719593}
   m_Size:
-    m_Target: 5.1664977
+    m_Target: 4.0426393
     speed: 2
-    m_Value: 5.1664977
+    m_Value: 4.0426393
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -606,19 +606,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Character
+    - Assets/Scirpt/Woodie Attack
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Character
+  - Assets/Scirpt/Woodie Attack
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Unity Projects\Woodie's Woods
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: 2e320000
-    m_LastClickedID: 12846
+    m_SelectedIDs: b8320000
+    m_LastClickedID: 12984
     m_ExpandedIDs: 00000000002d0000a62f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000523500006c38fcffa4a0fbff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1620
+  m_LastSelectedObjectID: 13938
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
