@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c340875cf071e2d4aa37cb2ade8b9ad2, type: 3}
   m_Name: Heart
   m_EditorClassIdentifier: 
-  name: New Item
+  name: Heart
   icon: {fileID: 0}
   isDefaultItem: 0

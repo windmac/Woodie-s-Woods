@@ -14,7 +14,7 @@ public class PlayerController2 : MonoBehaviour
     private float speed = 5f;
     private float w_speed = 5f;
     private float c_speed = 2.5f;
-    private float rotation_speed = 5f;
+    private float rotation_speed = 8f;
     public float rotSpeed;
     public float jumpHeight = 2.3f;
 
@@ -105,8 +105,6 @@ public class PlayerController2 : MonoBehaviour
              horizontal = Input.GetAxisRaw("Horizontal");
         }
 
-
-
         Vector3 movement = new Vector3(horizontal, 0f, vertical) * speed * Time.deltaTime;
 
         transform.Translate(movement, Space.World);
@@ -121,8 +119,6 @@ public class PlayerController2 : MonoBehaviour
                                                     Quaternion.LookRotation(movement),
                                                     Time.deltaTime * rotation_speed);
         }
-
-
 
 
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ContactAttack : MonoBehaviour
 {
 
-    public float attack_force =1300f;
+    public float attack_force =900f;
     public int damage = 1;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class ContactAttack : MonoBehaviour
         {
             
             other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.Impulse);
-            other.gameObject.GetComponent<WoodieStat>().health  -= damage;
+            WoodieStat.instance.takeDamage(damage);
             Debug.Log("Ouach");
             Debug.Log(attack_vec);
         }

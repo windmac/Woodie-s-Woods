@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ItemPickUp : Interactable
 {
+    public Item item;
+
     public override void interact()
     {
         base.interact();
@@ -13,7 +15,14 @@ public class ItemPickUp : Interactable
 
     public virtual void PickUp()
     {
+        
 
-        Destroy(gameObject);
+        bool wasPicked = Inventory.instance.Add(item);
+
+        if (wasPicked)
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

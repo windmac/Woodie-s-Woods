@@ -8,6 +8,7 @@ public class Stomped : MonoBehaviour
 
     public float pump_force = 1500f;
     public int damage = 2;
+    public GameObject enemy;
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class Stomped : MonoBehaviour
         
             other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force * Time.fixedDeltaTime, ForceMode.Impulse);
             //other.GetComponent<Rigidbody>().AddForce(other.transform.up * 8f*Time.fixedDeltaTime, ForceMode.Impulse);
-            GetComponentInParent<EnemyBasic>().health = -damage;
+            GetComponentInParent<EnemyStat>().takeDamage(damage) ;
         }
     }
 }

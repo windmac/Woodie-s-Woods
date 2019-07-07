@@ -25,7 +25,12 @@ public class TopDownCamera2 : MonoBehaviour
 
     void LateUpdate()
     {
-        transform.position = target.position - offset * currentZoom;
-        transform.LookAt(target.position + Vector3.up * pitch);
+
+        if(target!=null)
+        {
+            transform.position = target.position - offset * currentZoom;
+            transform.LookAt(target.position + Vector3.up * pitch);
+        }
+
     }
 }
