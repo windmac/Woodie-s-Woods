@@ -29,8 +29,8 @@ public class ContactAttack : MonoBehaviour
             
             other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.Impulse);
             WoodieStat.instance.takeDamage(damage);
-            Debug.Log("Ouach");
-            Debug.Log(attack_vec);
+           // Debug.Log("Ouach");
+           // Debug.Log(attack_vec);
         }
     }
 }

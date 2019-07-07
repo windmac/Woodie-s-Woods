@@ -46,7 +46,6 @@ public class Watering : MonoBehaviour
 
         watering = false;
         pc.canMove = true;
-        //  Debug.Log("Stop Watering");
     }
 
 

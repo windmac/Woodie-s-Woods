@@ -8,6 +8,9 @@ public class EnemyController : MonoBehaviour
 
     public Transform target;
     NavMeshAgent agent;
+    public float target_facing_rotationSpeed = 10f;
+
+    public Attack attack;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +22,12 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(target.position, transform.position);
+        float distance = 999999999999;
+        if (target != null)
+        {
+            distance = Vector3.Distance(target.position, transform.position);
+        }
+        
 
         if(distance<=lookRadius)
         {
@@ -31,7 +39,21 @@ public class EnemyController : MonoBehaviour
                 //Face the target
                 FaceTarget();
 
+                if(attack!= null)
+                {
+                    attack.attack(target);
+                }
+                
             }
+
+        }
+        else
+        {
+            if (attack != null)
+            {
+                attack.stopAttack();
+            }
+            
         }
     }
 
@@ -39,8 +61,9 @@ public class EnemyController : MonoBehaviour
     {
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * target_facing_rotationSpeed);
 
+      
 
     }
 

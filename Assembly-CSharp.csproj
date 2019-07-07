@@ -55,7 +55,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scirpt\Controller\EnemyController.cs" />
      <Compile Include="Assets\Scirpt\Controller\PlayerController2.cs" />
+     <Compile Include="Assets\Scirpt\Enemy Attck\Attack.cs" />
      <Compile Include="Assets\Scirpt\Enemy Attck\ContactAttack.cs" />
+     <Compile Include="Assets\Scirpt\Enemy Attck\Projectile.cs" />
+     <Compile Include="Assets\Scirpt\Enemy Attck\ShootingAttack.cs" />
      <Compile Include="Assets\Scirpt\EnemyStat.cs" />
      <Compile Include="Assets\Scirpt\Equipment.cs" />
      <Compile Include="Assets\Scirpt\GameManagement\Inventory.cs" />
