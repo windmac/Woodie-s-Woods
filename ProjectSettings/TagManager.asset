@@ -10,6 +10,7 @@ TagManager:
   - Seed
   - Plant
   - PickUps
+  - Friend
   layers:
   - Default
   - TransparentFX

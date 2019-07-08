@@ -29,8 +29,16 @@ public class ContactAttack : MonoBehaviour
             
             other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.Impulse);
             WoodieStat.instance.takeDamage(damage);
-           // Debug.Log("Ouach");
-           // Debug.Log(attack_vec);
+        }
+
+        if (other.transform.tag == "Friend")
+        {
+
+            //other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.Impulse);
+           // WoodieStat.instance.takeDamage(damage);
+           // other.GetComponent<EnemyStat>().takeDamage(damage);
+            other.GetComponent<EnemyStat>().die();
+            Debug.Log("Friend damaged");
         }
     }
 }

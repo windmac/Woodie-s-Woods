@@ -16,7 +16,7 @@ public class PlayerController2 : MonoBehaviour
     private float c_speed = 2.5f;
     private float rotation_speed = 8f;
     public float rotSpeed;
-    public float jumpHeight = 2.3f;
+    public float jumpHeight = 300;
 
     Rigidbody rb;
     // Animator anim;
@@ -66,7 +66,7 @@ public class PlayerController2 : MonoBehaviour
         if ((Input.GetKey(KeyCode.X)|| Input.GetKey(KeyCode.Space)) && IsGrounded() == true)
         {
 
-            rb.AddForce(Vector3.up*jumpHeight,ForceMode.Impulse);
+            rb.AddForce(Vector3.up*jumpHeight*Time.deltaTime,ForceMode.Impulse);
             //anim.SetTrigger("isJumping");
             isCrouching = false;
             //isGrounded = false;

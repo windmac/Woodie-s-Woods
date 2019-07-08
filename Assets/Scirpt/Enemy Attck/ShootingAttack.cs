@@ -16,7 +16,7 @@ public class ShootingAttack : Attack
     public float projectile_speed = 2f;
     private Transform target;
     public float projectile_existing_time = 3f;
-    
+    public bool friend_or_enemy = false;
 
     void Update()
     {
@@ -30,6 +30,7 @@ public class ShootingAttack : Attack
                 shootCounter = timeBetweenShoot;
                 Projectile projectile_ref = Instantiate(projectile, shoot_position.position, shoot_position.rotation) as Projectile;
                 projectile_ref.speed = projectile_speed;
+                projectile_ref.friend_or_enemy = friend_or_enemy;
                 //projectile_ref.direction = (target.position- shoot_position.position).normalized;
                Destroy(projectile_ref.gameObject, projectile_existing_time);
             }

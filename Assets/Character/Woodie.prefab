@@ -286,7 +286,7 @@ MonoBehaviour:
     m_Bits: 1025
   canMove: 1
   rotSpeed: 0
-  jumpHeight: 2.3
+  jumpHeight: 300
 --- !u!136 &2106113077571800677
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -9,20 +9,28 @@ public class EnemyController : MonoBehaviour
     public Transform target;
     NavMeshAgent agent;
     public float target_facing_rotationSpeed = 10f;
-
+    public Sensation sensation;
     public Attack attack;
+    private Vector3 origin_position;
 
     // Start is called before the first frame update
     void Start()
     {
-        target = PlayerManager.instance.player.transform;
+        if(this.tag=="Enemy")
+        {
+            target = PlayerManager.instance.player.transform;
+        }
+
         agent = GetComponent<NavMeshAgent>();
+        origin_position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
     void Update()
     {
         float distance = 999999999999;
+        target = sensation.target;
+
         if (target != null)
         {
             distance = Vector3.Distance(target.position, transform.position);
@@ -49,6 +57,12 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
+            if(agent.remainingDistance<=0.1f)
+            {
+                Debug.Log("Agent Stop");
+                agent.SetDestination(origin_position);
+            }
+           
             if (attack != null)
             {
                 attack.stopAttack();

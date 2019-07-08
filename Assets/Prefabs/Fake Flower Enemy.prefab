@@ -107,6 +107,7 @@ Transform:
   m_Children:
   - {fileID: 3573870151573745587}
   - {fileID: 3978342431674243473}
+  - {fileID: 4164684301389050316}
   m_Father: {fileID: 5277979232663229893}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -131,6 +132,7 @@ MonoBehaviour:
   timeBetweenShoot: 1
   projectile_speed: 10
   projectile_existing_time: 3
+  friend_or_enemy: 0
 --- !u!1 &5277979231013867749
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,6 +223,7 @@ GameObject:
   - component: {fileID: 1810582116115559155}
   - component: {fileID: 6713976643938624060}
   - component: {fileID: 6823112506381449858}
+  - component: {fileID: 5273005062554731554}
   m_Layer: 0
   m_Name: Fake Flower Enemy
   m_TagString: Enemy
@@ -296,6 +299,7 @@ MonoBehaviour:
   lookRadius: 10
   target: {fileID: 0}
   target_facing_rotationSpeed: 10
+  sensation: {fileID: 9189021758970941770}
   attack: {fileID: 2952406710473893754}
 --- !u!136 &6823112506381449858
 CapsuleCollider:
@@ -311,6 +315,20 @@ CapsuleCollider:
   m_Height: 1.31
   m_Direction: 1
   m_Center: {x: 0, y: 0.54, z: 0}
+--- !u!136 &5273005062554731554
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5277979232663229890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.67, z: 0}
 --- !u!1 &5285078526980146816
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +452,67 @@ Transform:
   m_Father: {fileID: 7412008714945352397}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7159894099770470789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4164684301389050316}
+  - component: {fileID: 7547807005762918518}
+  - component: {fileID: 9189021758970941770}
+  m_Layer: 0
+  m_Name: Sensation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4164684301389050316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159894099770470789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7412008714945352397}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7547807005762918518
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159894099770470789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9189021758970941770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159894099770470789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1483ea765a408ea469b5deb7fa9d6a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  friend_or_enemy: 0
+  self: {fileID: 5277979232663229890}
+  str: 
 --- !u!1 &7507335982184422059
 GameObject:
   m_ObjectHideFlags: 0

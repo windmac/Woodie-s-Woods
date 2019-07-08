@@ -53,11 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fantasy Adventure Environment\_DemoScenes\Source\FAE_DemoOrbitCamera.cs" />
+     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\CliffAppearance.cs" />
+     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\FoliageBender.cs" />
+     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\PigmentMapGenerator.cs" />
+     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\SubstanceBaker.cs" />
+     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\TerrainUVUtil.cs" />
+     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\WindController.cs" />
      <Compile Include="Assets\Scirpt\Controller\EnemyController.cs" />
      <Compile Include="Assets\Scirpt\Controller\PlayerController2.cs" />
      <Compile Include="Assets\Scirpt\Enemy Attck\Attack.cs" />
      <Compile Include="Assets\Scirpt\Enemy Attck\ContactAttack.cs" />
      <Compile Include="Assets\Scirpt\Enemy Attck\Projectile.cs" />
+     <Compile Include="Assets\Scirpt\Enemy Attck\Sensation.cs" />
      <Compile Include="Assets\Scirpt\Enemy Attck\ShootingAttack.cs" />
      <Compile Include="Assets\Scirpt\EnemyStat.cs" />
      <Compile Include="Assets\Scirpt\Equipment.cs" />
@@ -78,7 +86,24 @@
      <Compile Include="Assets\Scirpt\Woodie Attack\Stomped.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\ThrowAxe.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\Watering.cs" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_FogSheet.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Foliage.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\VS_InstancedIndirect.cginc" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Water.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Changelog.txt" />
+     <None Include="Assets\Fantasy Adventure Environment\_DemoScenes\Source\FAE_WaterfallFoam.shader" />
      <None Include="Assets\Shader\Cel Shader 2.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_TreeTrunk.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_TreeBillboard.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_TreeBranch.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_SunshaftParticle.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\_DemoScenes\Source\_These assets are not officially included, only produced for the demo scene.txt" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Grass.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Cliff.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\_DemoScenes\Source\FAE_Waterfall.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\PostProcessingAssets\Readme.txt" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Sunshaft.shader" />
+     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Cliff_Coverage.shader" />
  <Reference Include="Unity.RenderPipelines.Core.Editor">
  <HintPath>F:/Unity Projects/Woodie&apos;s Woods/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>

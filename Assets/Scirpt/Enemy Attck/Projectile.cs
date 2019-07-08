@@ -33,9 +33,12 @@ public class Projectile : MonoBehaviour
 
             other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force*Time.deltaTime , ForceMode.Impulse);
             WoodieStat.instance.takeDamage(damage);
-        //    Debug.Log("Ouach");
-            Debug.Log(attack_vec);
+            Debug.Log("Woodie Damaged " + damage);
+            //    Debug.Log("Ouach");
+            //    Debug.Log(attack_vec);
         }
+
+
 
         if (other.transform.tag == "Enemy" && friend_or_enemy == true)
         {
@@ -43,7 +46,7 @@ public class Projectile : MonoBehaviour
             other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force* Time.deltaTime, ForceMode.Impulse);
             other.GetComponent<EnemyStat>().takeDamage(damage);
             //WoodieStat.instance.takeDamage(damage);
-            // Debug.Log("Ouach");
+            Debug.Log("Enemy Damaged "+damage);
             // Debug.Log(attack_vec);
         }
 
