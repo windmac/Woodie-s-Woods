@@ -76,7 +76,7 @@ PrefabInstance:
         type: 3}
       propertyPath: plant
       value: 
-      objectReference: {fileID: 3824007394192011360, guid: ea164bdbe2de6cf45ac54f6d281b69d1,
+      objectReference: {fileID: 1868294428213745166, guid: f7df43079509cb7409ec41c2a14276fe,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9736270fb6f08404c9d47ffe568b78de, type: 3}

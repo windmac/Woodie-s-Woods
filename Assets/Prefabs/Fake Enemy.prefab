@@ -286,8 +286,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.33
-  m_Height: 0.8
+  m_Radius: 0.35
+  m_Height: 0.71
   m_Direction: 1
   m_Center: {x: 0, y: 0.31, z: 0}
 --- !u!1 &4882566260374042803
@@ -427,7 +427,8 @@ MonoBehaviour:
   target: {fileID: 0}
   friend_or_enemy: 0
   self: {fileID: 3415652823092911664}
-  str: 
+  self_tag: 
+  other_tag: 
 --- !u!1 &5873670515071969304
 GameObject:
   m_ObjectHideFlags: 0

@@ -77,6 +77,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5273005062554731554, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273005062554731554, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9189021758970941770, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
       propertyPath: friend_or_enemy
@@ -92,10 +102,50 @@ PrefabInstance:
       propertyPath: friend_or_enemy
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7507335982184422059, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240192981324763216, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 6179222776906276057, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159894099770470789, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5285078526980146816, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087670431939462026, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277979231013867749, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669348718530156711, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600771117018640229, guid: bd511df7c08cd93448e0a96386fcae71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friend
       objectReference: {fileID: 0}
     - target: {fileID: 8591750250347188343, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
@@ -117,16 +167,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 21bf48962aa1d8840b11690bfe457c79, type: 2}
-    - target: {fileID: 5273005062554731554, guid: bd511df7c08cd93448e0a96386fcae71,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5273005062554731554, guid: bd511df7c08cd93448e0a96386fcae71,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd511df7c08cd93448e0a96386fcae71, type: 3}
 --- !u!1 &3824007394192011360 stripped

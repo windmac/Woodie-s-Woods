@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     // public float projectile_existing_time = 3f;
     public bool friend_or_enemy = false;
     public int damage = 1;
-    public float attack_force =1200f;
+    public float attack_force =1000f;
 
     void Start()
     {

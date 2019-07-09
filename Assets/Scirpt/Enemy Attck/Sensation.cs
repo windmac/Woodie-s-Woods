@@ -9,8 +9,10 @@ public class Sensation : MonoBehaviour
     public Transform target;
     public bool friend_or_enemy;
     public GameObject self;
-    public string str;
+    public string self_tag;
+    public string other_tag;
 
+    private Collider debug_other;
     /*   void OnTriggerEnter(Collider other)
        {
           // Debug.Log("other tag " + other.tag);
@@ -37,15 +39,20 @@ public class Sensation : MonoBehaviour
        //target = null;
    }
    */
-     void OnTriggerStay(Collider other)
+    void OnTriggerStay(Collider other)
      {
-          str = other.transform.tag;
 
-        
-         if ((other.tag == "Woodie"|| other.tag == "Friend") && self.tag == "Enemy")
+        self_tag = self.transform.tag;
+        other_tag = other.transform.tag;
+        debug_other = other;
+
+
+       // Debug.Log(this.tag + " find " + other.transform.tag);
+
+        if ((other.transform.tag == "Woodie"|| other.transform.tag == "Friend") && self.transform.tag == "Enemy")
          {
             // Debug.Log("Woodie Detected");
-            if(other.tag == "Friend")
+            if(other.transform.tag == "Friend")
             {
                 Debug.Log("Friend Detected");
             }
@@ -53,20 +60,27 @@ public class Sensation : MonoBehaviour
              target = other.transform;
          }
 
-        if (other.tag == "Enemy")
+        if (other.transform.tag == "Enemy")
         {
             Debug.Log("Enemy Approching");
-            Debug.Log("Self tag " + self.tag);
-            if (self.tag == "Friend")
+            Debug.Log("Self tag " + self.transform.tag);
+            if (self.transform.tag == "Friend")
             {
                 Debug.Log("Friend shoot enemy");
                 target = other.transform;
             }
 
         }
-        
-
-
-
      }
+
+    void OnDrawGizmosSelected()
+    {
+        if(debug_other!=null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawLine(self.transform.position, debug_other.transform.position);
+           
+        }
+       
+    }
 }

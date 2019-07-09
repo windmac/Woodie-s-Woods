@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6240903517140806223}
   - component: {fileID: 6148035562055342882}
   - component: {fileID: 3011207206333680100}
-  - component: {fileID: 4766331158027662722}
   - component: {fileID: 7794864408828984511}
+  - component: {fileID: 681338865660269370}
   m_Layer: 0
   m_Name: Fake stone
   m_TagString: Untagged
@@ -79,19 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &4766331158027662722
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2387644005833724455}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.74
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7794864408828984511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,4 +95,17 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 1}
   friend_or_enemy: 0
   damage: 1
-  attack_force: 1200
+  attack_force: 1000
+--- !u!65 &681338865660269370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2387644005833724455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.6765897, z: 1}
+  m_Center: {x: 0, y: -0.06687805, z: 0}
