@@ -76,7 +76,9 @@
      <Compile Include="Assets\Scirpt\Item.cs" />
      <Compile Include="Assets\Scirpt\ItemPickUp.cs" />
      <Compile Include="Assets\Scirpt\Main Light.cs" />
+     <Compile Include="Assets\Scirpt\NPC\NPC_Manager.cs" />
      <Compile Include="Assets\Scirpt\Seed\Seed.cs" />
+     <Compile Include="Assets\Scirpt\TalkUI.cs" />
      <Compile Include="Assets\Scirpt\TopDownCamera.cs" />
      <Compile Include="Assets\Scirpt\TopDownCamera2.cs" />
      <Compile Include="Assets\Scirpt\UseItem.cs" />
