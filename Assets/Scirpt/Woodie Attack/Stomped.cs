@@ -24,7 +24,7 @@ public class Stomped : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        Debug.Log("Stomped" + other.tag);
+      //  Debug.Log("Stomped" + other.tag);
 
         if (other.tag == "Woodie")
         {

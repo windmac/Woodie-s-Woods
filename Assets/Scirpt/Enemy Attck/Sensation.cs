@@ -52,21 +52,21 @@ public class Sensation : MonoBehaviour
         if ((other.transform.tag == "Woodie"|| other.transform.tag == "Friend") && self.transform.tag == "Enemy")
          {
             // Debug.Log("Woodie Detected");
-            if(other.transform.tag == "Friend")
+         /*   if(other.transform.tag == "Friend")
             {
                 Debug.Log("Friend Detected");
-            }
+            }*/
 
              target = other.transform;
          }
 
         if (other.transform.tag == "Enemy")
         {
-            Debug.Log("Enemy Approching");
-            Debug.Log("Self tag " + self.transform.tag);
+          //  Debug.Log("Enemy Approching");
+           // Debug.Log("Self tag " + self.transform.tag);
             if (self.transform.tag == "Friend")
             {
-                Debug.Log("Friend shoot enemy");
+             //   Debug.Log("Friend shoot enemy");
                 target = other.transform;
             }
 

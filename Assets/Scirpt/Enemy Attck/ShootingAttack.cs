@@ -43,7 +43,7 @@ public class ShootingAttack : Attack
     {
         is_attacking = true;
         this.target = target;
-        Debug.Log("Start Attacking");
+        //Debug.Log("Start Attacking");
 
     }
 

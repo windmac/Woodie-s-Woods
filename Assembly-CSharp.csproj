@@ -60,6 +60,12 @@
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\SubstanceBaker.cs" />
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\TerrainUVUtil.cs" />
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\WindController.cs" />
+     <Compile Include="Assets\Low Poly Vegetation Pack\Bonus Assets\Scripts\LowPolyVegetation_CameraControl.cs" />
+     <Compile Include="Assets\Low Poly Vegetation Pack\Bonus Assets\Scripts\LowPolyVegetation_CloudsControl.cs" />
+     <Compile Include="Assets\Low Poly Vegetation Pack\Bonus Assets\Scripts\LowPolyVegetation_SunControl.cs" />
+     <Compile Include="Assets\Scirpt\Camera\HideObjectsInSight.cs" />
+     <Compile Include="Assets\Scirpt\Camera\TopDownCamera.cs" />
+     <Compile Include="Assets\Scirpt\Camera\TopDownCamera2.cs" />
      <Compile Include="Assets\Scirpt\Controller\EnemyController.cs" />
      <Compile Include="Assets\Scirpt\Controller\PlayerController2.cs" />
      <Compile Include="Assets\Scirpt\Enemy Attck\Attack.cs" />
@@ -78,9 +84,8 @@
      <Compile Include="Assets\Scirpt\Main Light.cs" />
      <Compile Include="Assets\Scirpt\NPC\NPC_Manager.cs" />
      <Compile Include="Assets\Scirpt\Seed\Seed.cs" />
+     <Compile Include="Assets\Scirpt\Seed\SpringMushroom.cs" />
      <Compile Include="Assets\Scirpt\TalkUI.cs" />
-     <Compile Include="Assets\Scirpt\TopDownCamera.cs" />
-     <Compile Include="Assets\Scirpt\TopDownCamera2.cs" />
      <Compile Include="Assets\Scirpt\UseItem.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\Boomerang.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\ItemSwitch.cs" />
@@ -88,6 +93,11 @@
      <Compile Include="Assets\Scirpt\Woodie Attack\Stomped.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\ThrowAxe.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\Watering.cs" />
+     <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenAlphaTo.cs" />
+     <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenEditor.cs" />
+     <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenPositionTo.cs" />
+     <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenValueTo.cs" />
+     <Compile Include="Assets\Vortex Game Studios\iTween Editor\Samples\iTweenEventSample.cs" />
      <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_FogSheet.shader" />
      <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Foliage.shader" />
      <None Include="Assets\Fantasy Adventure Environment\Shaders\VS_InstancedIndirect.cginc" />
@@ -703,6 +713,10 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>E:/Softwares/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C9CEC49B-5DAA-F934-C923-6122B5F493E4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
