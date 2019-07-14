@@ -59,7 +59,7 @@ public class EnemyController : MonoBehaviour
         {
             if(agent.remainingDistance<=0.1f)
             {
-                Debug.Log("Agent Stop");
+                //Debug.Log("Agent Stop");
                 agent.SetDestination(origin_position);
             }
            

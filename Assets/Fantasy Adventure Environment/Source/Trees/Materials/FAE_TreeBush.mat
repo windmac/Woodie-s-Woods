@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FAE_TreeBush
   m_Shader: {fileID: 4800000, guid: 85827a98514358f438446da0fc64b0f5, type: 3}
   m_ShaderKeywords: GEOM_TYPE_LEAF _ALPHATEST_ON
@@ -156,7 +157,7 @@ Material:
     - _ObjectPosition: {r: 0, g: 22.15737, b: 0, a: 0}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
     - _Transmisioncolor: {r: 1, g: 0.9724137, b: 0, a: 0}
-    - _TransmissionColor: {r: 0.6965517, g: 1, b: 0, a: 0.059}
+    - _TransmissionColor: {r: 0.6965517, g: 1, b: 0, a: 0.078431375}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
     - _VariationColor: {r: 1, g: 0.6827586, b: 0, a: 0.05882353}
