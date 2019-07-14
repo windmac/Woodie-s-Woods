@@ -15,6 +15,7 @@ public class Boomerang : MonoBehaviour
     public float stay_time = 0.5f;
     public float fly_speed = 20f;
     public float rotation_speed = 0f;
+    public int damage = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +73,11 @@ public class Boomerang : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.transform.name +" Trigger");
+        if (other.transform.tag == "Enemy")
+        {
+            Debug.Log(other.transform.name + " Damaged");
+
+            other.GetComponent<EnemyStat>().takeDamage(damage);
+        }
     }
 }

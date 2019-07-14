@@ -25,11 +25,7 @@ public class EnemyStat : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        
-        if (other.transform.tag == "Axe")
-        {
-            Debug.Log(enemy.transform.name + " Damaged");
-            takeDamage(1);
-        }
+
     }
 
     public void takeDamage(int damage)

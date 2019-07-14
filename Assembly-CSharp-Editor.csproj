@@ -63,6 +63,20 @@
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\TreeBranchShaderGUI.cs" />
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\TreeTrunkShaderGUI.cs" />
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\WindControllerInspector.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\CreaseShadingEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\Top-Down Enviroment 2.0\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
      <None Include="Assets\Fantasy Adventure Environment\Scripts\Editor\PigmentMapComposite.shader" />
      <None Include="Assets\Fantasy Adventure Environment\Scripts\Editor\SubstanceBakerShader.shader" />
  <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -313,12 +327,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>E:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>E:/Softwares/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>E:/Softwares/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.GoogleAudioSpatializer">
  <HintPath>E:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
