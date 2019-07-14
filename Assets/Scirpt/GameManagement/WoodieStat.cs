@@ -2,16 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class WoodieStat : MonoBehaviour
 {
     // Start is called before the first frame update
     public int max_health = 5;
     public int current_health { get; private set; }
 
+   // public ItemSwitch equipment_system;
 
     public GameObject player;
-
-
+    public Text HealthUI_text;
+  
 
     public static WoodieStat instance;
     void Awake()
@@ -25,6 +28,9 @@ public class WoodieStat : MonoBehaviour
 
 
         current_health = max_health;
+
+        //UI initialization
+        HealthUI_text.text = "生命值：" + current_health;
     }
 
    
@@ -35,6 +41,7 @@ public class WoodieStat : MonoBehaviour
         current_health -= damage;
         Debug.Log(player.name + "takes " + damage + " damage");
 
+        HealthUI_text.text = "生命值：" + current_health;
         //If health belows 0, then die
         if (current_health <= 0)
         {
