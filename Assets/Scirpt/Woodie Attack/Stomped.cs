@@ -6,7 +6,7 @@ public class Stomped : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public float pump_force = 1500f;
+    public float pump_force = 10f;
     public int damage = 2;
     public GameObject enemy;
 
@@ -30,7 +30,9 @@ public class Stomped : MonoBehaviour
         {
             Debug.Log("Springed");
         
-            other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force * Time.fixedDeltaTime, ForceMode.Impulse);
+           // other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force * Time.fixedDeltaTime, ForceMode.VelocityChange);
+           // other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force , ForceMode.VelocityChange);
+            other.GetComponent<Rigidbody>().velocity = other.transform.up.normalized * pump_force;
             //other.GetComponent<Rigidbody>().AddForce(other.transform.up * 8f*Time.fixedDeltaTime, ForceMode.Impulse);
             GetComponentInParent<EnemyStat>().takeDamage(damage) ;
         }

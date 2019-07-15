@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34d9238fc4470d498f3d8b54fa79042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pump_force: 1500
+  pump_force: 10
   damage: 2
   enemy: {fileID: 3415652823092911664}
 --- !u!1 &2013604814286350965
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6f7ae9588bb7e4e8b9a919fc94a824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack_force: 900
+  attack_force: 8
   damage: 1
 --- !u!136 &6755802887869799732
 CapsuleCollider:
