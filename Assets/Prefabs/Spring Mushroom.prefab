@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 502023862bd29a64c8abec286ec7a1e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pump_force: 20
+  pump_force: 3000
 --- !u!1 &7532579747445318961
 GameObject:
   m_ObjectHideFlags: 0

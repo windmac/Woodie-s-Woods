@@ -96,7 +96,7 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 1}
   friend_or_enemy: 0
   damage: 1
-  attack_force: 10
+  attack_force: 1000
   rotate_speed: 500
 --- !u!65 &681338865660269370
 BoxCollider:

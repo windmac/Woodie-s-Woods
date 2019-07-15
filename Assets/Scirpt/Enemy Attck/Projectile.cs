@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     // public float projectile_existing_time = 3f;
     public bool friend_or_enemy = false;
     public int damage = 1;
-    public float attack_force =8f;
+    public float attack_force =1000f;
     public float rotate_speed = 500f;
 
     void Start()
@@ -33,8 +33,7 @@ public class Projectile : MonoBehaviour
         if (other.transform.tag == "Woodie"&& friend_or_enemy==false)
         {
 
-           // other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force , ForceMode.VelocityChange);
-            other.GetComponent<Rigidbody>().velocity = attack_vec * attack_force;
+            other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force*Time.deltaTime , ForceMode.Impulse);
             WoodieStat.instance.takeDamage(damage);
             Debug.Log("Woodie Damaged " + damage);
             //    Debug.Log("Ouach");
@@ -46,8 +45,7 @@ public class Projectile : MonoBehaviour
         if (other.transform.tag == "Enemy" && friend_or_enemy == true)
         {
 
-           // other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force, ForceMode.VelocityChange);
-            other.GetComponent<Rigidbody>().velocity = attack_vec * attack_force;
+            other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force* Time.deltaTime, ForceMode.Impulse);
             other.GetComponent<EnemyStat>().takeDamage(damage);
             //WoodieStat.instance.takeDamage(damage);
             Debug.Log("Enemy Damaged "+damage);
