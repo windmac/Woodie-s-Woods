@@ -132,13 +132,17 @@ GameObject:
   m_Component:
   - component: {fileID: 4081129071478060}
   - component: {fileID: 95663668927121952}
+<<<<<<< HEAD
   - component: {fileID: 1768968709}
   - component: {fileID: 1768968711}
   - component: {fileID: 1768968708}
   - component: {fileID: 691109382}
   m_Layer: 9
+=======
+  m_Layer: 0
+>>>>>>> c862ad9f08670fac4a166f726b1bca4d903b68e8
   m_Name: Character_Elf
-  m_TagString: Woodie
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,6 +182,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 --- !u!135 &1768968709
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -241,6 +246,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+=======
+>>>>>>> c862ad9f08670fac4a166f726b1bca4d903b68e8
 --- !u!1 &1103208023307964
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ public class Projectile : MonoBehaviour
     public bool friend_or_enemy = false;
     public int damage = 1;
     public float attack_force =1000f;
-    public float rotate_speed = 500f;
 
     void Start()
     {
@@ -22,7 +21,6 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         transform.Translate(direction * speed * Time.deltaTime);
-        transform.GetChild(0).Rotate(0, 0, rotate_speed * Time.deltaTime);
     }
 
 
