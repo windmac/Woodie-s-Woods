@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ItemSwitch : MonoBehaviour
 {
     public int selectedItem = 0;
     private int num_items;
+    public Text EquipmentUI_text;
 
     // Start is called before the first frame update
     void Start()
@@ -42,10 +43,19 @@ public class ItemSwitch : MonoBehaviour
         foreach(Transform item in transform)
         {
             if (i == selectedItem)
+            {
                 item.gameObject.SetActive(true);
+                EquipmentUI_text.text = "装备：" + item.name;
+            }
             else
+            {
                 item.gameObject.SetActive(false);
+            }
+
             i++;
         }
+
+
+        
     }
 }

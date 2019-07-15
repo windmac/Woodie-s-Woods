@@ -287,24 +287,18 @@ PrefabInstance:
     - target: {fileID: 4000012627607500, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 2
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 6
 =======
       value: 23
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 24
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000012627607500, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -412,9 +406,15 @@ RectTransform:
   m_Children:
   - {fileID: 456586127}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 1733796906}
   m_RootOrder: 2
 =======
+=======
+  - {fileID: 876049328}
+  - {fileID: 2146665575}
+  - {fileID: 1032986025}
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
   m_Father: {fileID: 0}
 <<<<<<< HEAD
   m_RootOrder: 41
@@ -482,24 +482,18 @@ PrefabInstance:
     - target: {fileID: 4000010509172042, guid: daf963f55dae25f47949ddb85d06c0f7, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 4
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 7
 =======
       value: 24
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 25
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000010509172042, guid: daf963f55dae25f47949ddb85d06c0f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -572,10 +566,14 @@ PrefabInstance:
     - target: {fileID: 4000010392036792, guid: 7ae254bddcf0def478298b88c82e882a, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
 =======
       value: 32
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 33
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 4000010392036792, guid: 7ae254bddcf0def478298b88c82e882a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -639,24 +637,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 13
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 0
 =======
       value: 29
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 30
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 5018838527562444970, guid: f7df43079509cb7409ec41c2a14276fe,
         type: 3}
@@ -747,7 +739,6 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 33
 =======
 <<<<<<< HEAD
@@ -757,10 +748,6 @@ Transform:
   m_RootOrder: 36
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-  m_RootOrder: 35
->>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
->>>>>>> parent of 54e2db03... Mission
   m_LocalEulerAnglesHint: {x: 127.47699, y: 225.969, z: 203.719}
 --- !u!1 &191178874
 GameObject:
@@ -790,7 +777,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 488884987}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &250927213
 PrefabInstance:
@@ -855,24 +842,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 15
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 7
 =======
       value: 6
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 7
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
         type: 3}
@@ -1083,14 +1064,10 @@ PrefabInstance:
     - target: {fileID: 4000010713172524, guid: 27bfb3979856b984bb7bbd493d0465ae, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 23
 =======
       value: 13
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-      value: 12
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000010713172524, guid: 27bfb3979856b984bb7bbd493d0465ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1172,11 +1149,7 @@ PrefabInstance:
     - target: {fileID: 5277979232663229893, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 12
-=======
-      value: 9
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 5277979232663229893, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
@@ -1355,10 +1328,14 @@ PrefabInstance:
     - target: {fileID: 4000013870848068, guid: a4b8fdb60457a0d4fbf9bd3b0764ddd5, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8
 =======
       value: 25
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 26
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 4000013870848068, guid: a4b8fdb60457a0d4fbf9bd3b0764ddd5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1434,11 +1411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013189297366, guid: e979b610c33ad974ea7b7efea2115e3a, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 25
-=======
-      value: 14
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000013189297366, guid: e979b610c33ad974ea7b7efea2115e3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1619,24 +1592,18 @@ PrefabInstance:
     - target: {fileID: 4081129071478060, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 32
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 1
 =======
       value: 34
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 35
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4081129071478060, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1698,24 +1665,18 @@ PrefabInstance:
     - target: {fileID: 480308, guid: dda0b36e6d1421e4a84d9c8d8e251b51, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 22
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 18
 =======
       value: 11
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 12
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 480308, guid: dda0b36e6d1421e4a84d9c8d8e251b51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1903,24 +1864,18 @@ PrefabInstance:
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 26
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 20
 =======
       value: 15
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 16
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1977,11 +1932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4740456514579090, guid: 639fc7b1af2e90f41bf95e8c9ca183dc, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 21
-=======
-      value: 10
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4740456514579090, guid: 639fc7b1af2e90f41bf95e8c9ca183dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2114,24 +2065,18 @@ PrefabInstance:
     - target: {fileID: 425840, guid: df50c3df47e4d0142beda53605fbd84e, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 24
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 19
 =======
       value: 13
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 14
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 425840, guid: df50c3df47e4d0142beda53605fbd84e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2173,7 +2118,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 18.196083
 =======
 <<<<<<< HEAD
@@ -2182,9 +2126,6 @@ PrefabInstance:
       value: -20.78
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-      value: -23.314007
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
         type: 3}
@@ -2199,7 +2140,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: -15.010147
 =======
 <<<<<<< HEAD
@@ -2208,9 +2148,6 @@ PrefabInstance:
       value: 6.38
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-      value: 15.306015
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
         type: 3}
@@ -2236,24 +2173,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 17
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 16
 =======
       value: 20
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 21
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
         type: 3}
@@ -2484,24 +2415,18 @@ PrefabInstance:
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 6
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 12
 =======
       value: 18
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 19
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2516,13 +2441,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 0a9df222064d4534da4279115fea376b, type: 3}
 --- !u!1 &835988184
-=======
-  m_SourcePrefab: {fileID: 100100000, guid: 59ea8dccea231504d847f113cb54cada, type: 3}
---- !u!1 &818114450
->>>>>>> parent of 54e2db03... Mission
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2530,93 +2450,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 818114454}
-  - component: {fileID: 818114453}
-  - component: {fileID: 818114452}
-  - component: {fileID: 818114451}
-  m_Layer: 11
-  m_Name: Plane
-  m_TagString: Untagged
+  - component: {fileID: 835988185}
+  m_Layer: 0
+  m_Name: test enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &818114451
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818114450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &818114452
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818114450}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 8193
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 01aa810ea0f5cde41bd740dc7f602f1b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &818114453
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818114450}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &818114454
+--- !u!4 &835988185
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 818114450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.3699367, y: -8.19608, z: 11.1746855}
   m_LocalScale: {x: 10, y: 10, z: 10}
+=======
+  m_GameObject: {fileID: 835988184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -6.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
   m_Children: []
 <<<<<<< HEAD
   m_Father: {fileID: 362555897}
   m_RootOrder: 22
 =======
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2715,8 +2579,6 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
   m_RootOrder: 36
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2739,6 +2601,11 @@ Transform:
   m_PrefabInstance: {fileID: 2095499093}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &874506081
+=======
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &876049327
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2746,21 +2613,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 874506082}
   - component: {fileID: 874506083}
   m_Layer: 0
   m_Name: MissionManager
+=======
+  - component: {fileID: 876049328}
+  - component: {fileID: 876049330}
+  - component: {fileID: 876049329}
+  m_Layer: 5
+  m_Name: EquipmentUI
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &874506082
 Transform:
+=======
+--- !u!224 &876049328
+RectTransform:
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 874506081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2775,7 +2656,6 @@ Transform:
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &874506083
-<<<<<<< HEAD
 =======
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
   m_GameObject: {fileID: 876049327}
@@ -2793,13 +2673,12 @@ Transform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876049329
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
-=======
->>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 874506081}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2807,7 +2686,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MissionListPath: 
-<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 876049327}
   m_Enabled: 1
@@ -2918,8 +2796,6 @@ PrefabInstance:
 =======
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &955399796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2962,18 +2838,14 @@ PrefabInstance:
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 27
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 21
 =======
       value: 16
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 17
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
@@ -3092,8 +2964,6 @@ PrefabInstance:
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
       propertyPath: m_RootOrder
       value: 5
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3209,6 +3079,85 @@ Transform:
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
   m_LocalEulerAnglesHint: {x: -81.37, y: -139.014, z: 0}
+--- !u!1 &1032986024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032986025}
+  - component: {fileID: 1032986027}
+  - component: {fileID: 1032986026}
+  m_Layer: 5
+  m_Name: HealthUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1032986025
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032986024}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56258735}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 325, y: -392.66}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1032986026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032986024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u751F\u547D\u503C:"
+--- !u!222 &1032986027
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032986024}
+  m_CullTransparentMesh: 0
 --- !u!1 &1035574980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,6 +3228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   max_health: 20
   player: {fileID: 1958469697}
+  HealthUI_text: {fileID: 1032986026}
 --- !u!114 &1035574984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3457,24 +3407,18 @@ PrefabInstance:
     - target: {fileID: 4000014207090330, guid: bb3a5ff4d3b7e7245b806c50ac836117, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 31
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 11
 =======
       value: 28
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 29
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014207090330, guid: bb3a5ff4d3b7e7245b806c50ac836117, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3623,8 +3567,12 @@ Transform:
   m_RootOrder: 5
 =======
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+  m_RootOrder: 5
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1104289931
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
@@ -3690,24 +3638,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 11
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 9
 =======
       value: 26
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 27
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 5277979232663229893, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
@@ -3784,24 +3726,18 @@ PrefabInstance:
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 29
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 1
 =======
       value: 30
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 31
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3883,24 +3819,18 @@ PrefabInstance:
     - target: {fileID: 4000014238077246, guid: a6f0f657df210b34a908f9c13a1ee35f, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 28
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 8
 =======
       value: 7
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 8
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014238077246, guid: a6f0f657df210b34a908f9c13a1ee35f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3993,24 +3923,18 @@ PrefabInstance:
     - target: {fileID: 4000012727282144, guid: c26f1e4e3796d394d8d50364ab123588, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 1
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 14
 =======
       value: 17
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 18
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000012727282144, guid: c26f1e4e3796d394d8d50364ab123588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4095,15 +4019,15 @@ Transform:
 =======
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
   m_RootOrder: 45
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+  m_RootOrder: 46
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1342331558
 PrefabInstance:
@@ -4151,10 +4075,14 @@ PrefabInstance:
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 15
 =======
       value: 19
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 20
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4182,7 +4110,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a9df222064d4534da4279115fea376b, type: 3}
-<<<<<<< HEAD
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
 --- !u!1 &1354072628
 GameObject:
@@ -4278,8 +4205,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &1390726063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4326,10 +4251,14 @@ PrefabInstance:
     - target: {fileID: 4000012627607500, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
 =======
       value: 33
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 34
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 4000012627607500, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4487,10 +4416,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
 =======
       value: 5
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 6
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 5277979232663229893, guid: bd511df7c08cd93448e0a96386fcae71,
         type: 3}
@@ -4566,10 +4499,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
 =======
       value: 2
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 3
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 3824007394192011367, guid: ea164bdbe2de6cf45ac54f6d281b69d1,
         type: 3}
@@ -4700,24 +4637,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 14
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 4
 =======
       value: 3
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 4
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
         type: 3}
@@ -4838,10 +4769,14 @@ PrefabInstance:
     - target: {fileID: 4000011605300422, guid: a86c864654770cb4ca9ef85852fde415, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 10
 =======
       value: 27
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+=======
+      value: 28
+>>>>>>> 95ec44b837123d95579c31302b627833645c7825
       objectReference: {fileID: 0}
     - target: {fileID: 4000011605300422, guid: a86c864654770cb4ca9ef85852fde415, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5077,24 +5012,18 @@ PrefabInstance:
     - target: {fileID: 4000011386335912, guid: e70352c946d2d3249b00e9e0a8b5a18f, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 3
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 2
 =======
       value: 31
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 32
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000011386335912, guid: e70352c946d2d3249b00e9e0a8b5a18f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5164,24 +5093,18 @@ PrefabInstance:
     - target: {fileID: 4000011605300422, guid: a86c864654770cb4ca9ef85852fde415, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 30
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 17
 =======
       value: 21
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 22
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000011605300422, guid: a86c864654770cb4ca9ef85852fde415, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5251,24 +5174,18 @@ PrefabInstance:
     - target: {fileID: 4000010334272268, guid: 6df651d459fb20b4290d1595b18b35c1, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 8
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 5
 =======
       value: 22
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 23
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000010334272268, guid: 6df651d459fb20b4290d1595b18b35c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5283,7 +5200,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 6df651d459fb20b4290d1595b18b35c1, type: 3}
 --- !u!1 &1958469697 stripped
 GameObject:
@@ -5401,9 +5317,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146665574}
   m_CullTransparentMesh: 0
-=======
-  m_SourcePrefab: {fileID: 100100000, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
->>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &454680004892344573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5455,24 +5368,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 20
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
       value: 11
 =======
       value: 8
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
-<<<<<<< HEAD
 =======
       value: 9
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 3868584369477720903, guid: 584701e4ac44e3448bffd646ce464930,
         type: 3}
@@ -5511,7 +5418,7 @@ PrefabInstance:
     - target: {fileID: 7457702654281684456, guid: ed27a3ef416a72342ad41ed8b2f7365c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0217027e-16
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: 7457702654281684456, guid: ed27a3ef416a72342ad41ed8b2f7365c,
         type: 3}
@@ -5541,11 +5448,7 @@ PrefabInstance:
     - target: {fileID: 7457702654281684456, guid: ed27a3ef416a72342ad41ed8b2f7365c,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 19
-=======
-      value: 1
->>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 7457702654281684456, guid: ed27a3ef416a72342ad41ed8b2f7365c,
         type: 3}
@@ -5564,7 +5467,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed27a3ef416a72342ad41ed8b2f7365c, type: 3}
-<<<<<<< HEAD
 --- !u!1001 &1277623989727126374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5639,8 +5541,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 06c3f6a147c163d40af211bc63653a65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87b78c0187368349ab65e14f812897e, type: 3}
-=======
->>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &2106113077351744669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5711,7 +5611,7 @@ PrefabInstance:
     - target: {fileID: 3495851143391326469, guid: 0c8550cf749a26240ab9c26f0a5a3023,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2106113077571800683, guid: 0c8550cf749a26240ab9c26f0a5a3023,
         type: 3}
@@ -5740,6 +5640,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 614990234247789906, guid: 0c8550cf749a26240ab9c26f0a5a3023,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772787497367858819, guid: 0c8550cf749a26240ab9c26f0a5a3023,
+        type: 3}
+      propertyPath: m_Name
+      value: Seed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015649476843379210, guid: 0c8550cf749a26240ab9c26f0a5a3023,
+        type: 3}
+      propertyPath: EquipmentUI_text
+      value: 
+      objectReference: {fileID: 876049329}
+    - target: {fileID: 7271553735884863628, guid: 0c8550cf749a26240ab9c26f0a5a3023,
+        type: 3}
+      propertyPath: SeedUI_text
+      value: 
+      objectReference: {fileID: 2146665576}
+    - target: {fileID: 2411858230830638753, guid: 0c8550cf749a26240ab9c26f0a5a3023,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5821,7 +5741,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7df43079509cb7409ec41c2a14276fe, type: 3}
-<<<<<<< HEAD
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
 --- !u!1001 &7588882628300161808
 PrefabInstance:
@@ -5894,8 +5813,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 7d0f3d44828496742aae6f1741b8fa16, type: 3}
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &8058739396778155556
 PrefabInstance:
   m_ObjectHideFlags: 0
