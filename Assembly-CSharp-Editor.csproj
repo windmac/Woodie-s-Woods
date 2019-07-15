@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\CliffAppearanceInspector.cs" />
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\FAE_Core.cs" />
      <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\FoliageShaderGUI.cs" />
@@ -738,6 +739,8 @@
  <HintPath>E:/Softwares/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\CliffAppearanceInspector.cs" />
     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\FAE_Core.cs" />
     <Compile Include="Assets\Fantasy Adventure Environment\Scripts\Editor\FoliageShaderGUI.cs" />
@@ -1395,6 +1398,9 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/2018.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   </ItemGroup>
   <ItemGroup>

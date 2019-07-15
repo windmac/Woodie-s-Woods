@@ -21,16 +21,22 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 300}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
   m_RootView: {fileID: 4}
   m_MinSize: {x: 950, y: 300}
 =======
   m_RootView: {fileID: 8}
   m_MinSize: {x: 950, y: 548}
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
@@ -53,12 +59,15 @@ MonoBehaviour:
     y: 673
     width: 1920
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 947
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
   controlID: 172
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
     height: 274
   m_MinSize: {x: 230, y: 274}
   m_MaxSize: {x: 10000, y: 10024}
@@ -77,6 +86,9 @@ MonoBehaviour:
   - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!114 &3
 MonoBehaviour:
@@ -96,6 +108,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1531
     y: 0
     width: 389
@@ -108,6 +121,8 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
     x: 0
     y: 30
 <<<<<<< HEAD
@@ -129,6 +144,9 @@ MonoBehaviour:
   controlID: 197
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!114 &4
 MonoBehaviour:
@@ -148,12 +166,15 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 379
     height: 573
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
     width: 1366
     height: 725
   m_MinSize: {x: 950, y: 300}
@@ -163,6 +184,9 @@ MonoBehaviour:
     height: 673
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   m_ActualView: {fileID: 15}
   m_Panes:
@@ -212,7 +236,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
   m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -277,6 +304,9 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
@@ -296,8 +326,11 @@ MonoBehaviour:
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &7
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
 =======
     width: 623
     height: 675
@@ -311,6 +344,9 @@ MonoBehaviour:
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 --- !u!114 &9
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,8 +392,11 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &9
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
 =======
     x: 1061
     y: 0
@@ -372,6 +411,9 @@ MonoBehaviour:
   m_LastSelected: 0
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 --- !u!114 &11
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,6 +432,7 @@ MonoBehaviour:
     x: 1623
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1531
     height: 947
   m_MinSize: {x: 406, y: 498}
@@ -399,6 +442,8 @@ MonoBehaviour:
 --- !u!114 &10
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
     width: 297
     height: 673
   m_MinSize: {x: 277, y: 74}
@@ -416,6 +461,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -531,8 +579,11 @@ MonoBehaviour:
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &13
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
@@ -620,6 +671,9 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &17
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -669,11 +723,14 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 844b0000
     m_LastClickedID: 19332
     m_ExpandedIDs: 00000000dc330000723400005635000032380000ce390000283a0000303b0000ac3b0000be3b00000c3c0000623c00005c3f000036420000d442000054460000244700006c480000dc4b0000204c0000f64c0000424d00000e4f0000aa560000ac560000ae560000b0560000b2560000b4560000b656000000ca9a3b
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 8e2e0000
@@ -691,6 +748,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000b82c0000462d00004a2e0000ee2f000038310000fa3300004036000060360000bc360000843700006c3e00006e3e0000703e0000723e0000743e0000763e0000783e0000
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -720,9 +780,12 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000dc3300005635000032380000ce390000303b0000ac3b00000c3c0000623c00005c3f000036420000d442000054460000244700006c480000dc4b0000204c0000f64c0000424d00000e4f0000aa560000ac560000ae560000b0560000b2560000b4560000b6560000
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
     m_ExpandedIDs: 00000000b82c0000462d00004a2e0000ee2f000038310000fa3300004036000060360000bc36000084370000783e00007a3e00007c3e00007e3e0000803e0000823e0000843e0000
 =======
 <<<<<<< HEAD
@@ -731,6 +794,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000b82c0000462d00004a2e0000ee2f000038310000fa3300004036000060360000bc360000843700006c3e00006e3e0000703e0000723e0000743e0000763e0000783e0000
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -899,11 +965,14 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -1.3941728, y: 5.676691, z: -25.107347}
     speed: 2
     m_Value: {x: -1.3941728, y: 5.676691, z: -25.107347}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
     m_Target: {x: 0.99638724, y: 0.7581825, z: -5.321727}
     speed: 2
     m_Value: {x: 0.99638724, y: 0.7581825, z: -5.321727}
@@ -918,6 +987,9 @@ MonoBehaviour:
     m_Value: {x: 0.3699367, y: 8.19608, z: -11.1746855}
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   m_RenderMode: 0
   m_CameraMode:
@@ -947,6 +1019,7 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.28001392, y: -0.005186034, z: 0.0015130644, w: -0.9599808}
     speed: 2
     m_Value: {x: -0.28001392, y: -0.005186034, z: 0.0015130644, w: -0.9599808}
@@ -956,6 +1029,8 @@ MonoBehaviour:
     m_Value: 4.52486
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
     m_Target: {x: -0.22272551, y: 0.056993134, z: -0.013044315, w: -0.9731264}
 =======
 <<<<<<< HEAD
@@ -980,6 +1055,9 @@ MonoBehaviour:
     m_Value: 3.8719184
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   m_Ortho:
     m_Target: 0

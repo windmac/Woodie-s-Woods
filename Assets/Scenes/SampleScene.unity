@@ -266,13 +266,19 @@ PrefabInstance:
     - target: {fileID: 4000010509172042, guid: daf963f55dae25f47949ddb85d06c0f7, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 24
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 6
 =======
       value: 23
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000010509172042, guid: daf963f55dae25f47949ddb85d06c0f7, type: 3}
@@ -393,11 +399,17 @@ RectTransform:
   m_Children:
   - {fileID: 456586127}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 876049328}
   - {fileID: 2146665575}
   - {fileID: 1032986025}
 =======
 <<<<<<< HEAD
+  m_Father: {fileID: 1733796906}
+  m_RootOrder: 2
+=======
+>>>>>>> parent of 54e2db03... Mission
+=======
   m_Father: {fileID: 1733796906}
   m_RootOrder: 2
 =======
@@ -456,13 +468,19 @@ PrefabInstance:
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 25
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 7
 =======
       value: 24
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
@@ -533,13 +551,19 @@ PrefabInstance:
     - target: {fileID: 4000010392036792, guid: 7ae254bddcf0def478298b88c82e882a, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 33
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 3
 =======
       value: 32
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000010392036792, guid: 7ae254bddcf0def478298b88c82e882a, type: 3}
@@ -598,13 +622,19 @@ PrefabInstance:
     - target: {fileID: 4000011889476344, guid: 9064929bb9122724684ed7abbf313f4d, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 30
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 0
 =======
       value: 29
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000011889476344, guid: 9064929bb9122724684ed7abbf313f4d, type: 3}
@@ -689,7 +719,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 36
+=======
+  m_RootOrder: 35
+>>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+>>>>>>> parent of 54e2db03... Mission
 =======
   m_RootOrder: 35
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
@@ -776,13 +811,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 7
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 7
 =======
       value: 6
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
@@ -1119,13 +1160,19 @@ PrefabInstance:
     - target: {fileID: 4000013870848068, guid: a4b8fdb60457a0d4fbf9bd3b0764ddd5, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 26
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 8
 =======
       value: 25
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000013870848068, guid: a4b8fdb60457a0d4fbf9bd3b0764ddd5, type: 3}
@@ -1359,13 +1406,19 @@ PrefabInstance:
     - target: {fileID: 4081129071478060, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 35
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 1
 =======
       value: 34
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4081129071478060, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
@@ -1424,13 +1477,19 @@ PrefabInstance:
     - target: {fileID: 480308, guid: dda0b36e6d1421e4a84d9c8d8e251b51, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 12
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 18
 =======
       value: 11
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 480308, guid: dda0b36e6d1421e4a84d9c8d8e251b51, type: 3}
@@ -1610,13 +1669,19 @@ PrefabInstance:
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 20
 =======
       value: 15
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
@@ -1772,13 +1837,19 @@ PrefabInstance:
     - target: {fileID: 425840, guid: df50c3df47e4d0142beda53605fbd84e, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 14
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 19
 =======
       value: 13
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 425840, guid: df50c3df47e4d0142beda53605fbd84e, type: 3}
@@ -1813,7 +1884,11 @@ PrefabInstance:
     - target: {fileID: 4000012239912756, guid: 95c8a7510ec354946b3fd45db8e83359, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -20.78
+=======
+      value: -23.314007
+>>>>>>> parent of 54e2db03... Mission
 =======
       value: -23.314007
 >>>>>>> parent of 54e2db03... Mission
@@ -1825,7 +1900,11 @@ PrefabInstance:
     - target: {fileID: 4000012239912756, guid: 95c8a7510ec354946b3fd45db8e83359, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6.38
+=======
+      value: 15.306015
+>>>>>>> parent of 54e2db03... Mission
 =======
       value: 15.306015
 >>>>>>> parent of 54e2db03... Mission
@@ -1849,13 +1928,19 @@ PrefabInstance:
     - target: {fileID: 4000012239912756, guid: 95c8a7510ec354946b3fd45db8e83359, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 21
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 16
 =======
       value: 20
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000012239912756, guid: 95c8a7510ec354946b3fd45db8e83359, type: 3}
@@ -2061,13 +2146,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 19
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 12
 =======
       value: 18
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
@@ -2172,6 +2263,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 835988184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -6.31}
@@ -2181,14 +2273,27 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.3699367, y: -8.19608, z: 11.1746855}
   m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+<<<<<<< HEAD
+  m_Father: {fileID: 362555897}
+  m_RootOrder: 22
+>>>>>>> parent of 54e2db03... Mission
+=======
+  m_GameObject: {fileID: 818114450}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3699367, y: -8.19608, z: 11.1746855}
+  m_LocalScale: {x: 10, y: 10, z: 10}
 >>>>>>> parent of 54e2db03... Mission
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &876049327
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
   m_RootOrder: 36
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2211,6 +2316,9 @@ Transform:
   m_PrefabInstance: {fileID: 2095499093}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &874506081
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,16 +2328,22 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 876049328}
   - component: {fileID: 876049330}
   - component: {fileID: 876049329}
   m_Layer: 5
   m_Name: EquipmentUI
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
   - component: {fileID: 874506082}
   - component: {fileID: 874506083}
   m_Layer: 0
   m_Name: MissionManager
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,8 +2351,13 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &876049328
 RectTransform:
+=======
+--- !u!4 &874506082
+Transform:
+>>>>>>> parent of 54e2db03... Mission
 =======
 --- !u!4 &874506082
 Transform:
@@ -2247,6 +2366,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 876049327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2263,6 +2383,8 @@ Transform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876049329
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
   m_GameObject: {fileID: 874506081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2277,12 +2399,16 @@ Transform:
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &874506083
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 876049327}
   m_Enabled: 1
@@ -2321,6 +2447,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 876049327}
   m_CullTransparentMesh: 0
 =======
+=======
+>>>>>>> parent of 54e2db03... Mission
   m_GameObject: {fileID: 874506081}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2328,6 +2456,9 @@ CanvasRenderer:
   m_Name: 
   m_EditorClassIdentifier: 
   MissionListPath: 
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &955399796
 PrefabInstance:
@@ -2371,13 +2502,19 @@ PrefabInstance:
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 17
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 21
 =======
       value: 16
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 424156, guid: 32e0928811ddd0e44a0bdde5771205fe, type: 3}
@@ -2723,13 +2860,19 @@ PrefabInstance:
     - target: {fileID: 4000014207090330, guid: bb3a5ff4d3b7e7245b806c50ac836117, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 29
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 11
 =======
       value: 28
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014207090330, guid: bb3a5ff4d3b7e7245b806c50ac836117, type: 3}
@@ -2875,6 +3018,12 @@ Transform:
 <<<<<<< HEAD
   m_RootOrder: 5
 =======
+<<<<<<< HEAD
+  m_RootOrder: 4
+>>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+>>>>>>> parent of 54e2db03... Mission
+=======
+  m_Father: {fileID: 0}
   m_RootOrder: 4
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 >>>>>>> parent of 54e2db03... Mission
@@ -2925,13 +3074,19 @@ PrefabInstance:
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 27
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 9
 =======
       value: 26
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
@@ -3002,13 +3157,19 @@ PrefabInstance:
     - target: {fileID: 4000012523122978, guid: 46f914c080cc6aa47a14f453dedb8715, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 31
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 1
 =======
       value: 30
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000012523122978, guid: 46f914c080cc6aa47a14f453dedb8715, type: 3}
@@ -3076,13 +3237,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 8
 =======
       value: 7
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 6538005150278909631, guid: 59ea8dccea231504d847f113cb54cada,
@@ -3144,13 +3311,19 @@ PrefabInstance:
     - target: {fileID: 4000014238077246, guid: a6f0f657df210b34a908f9c13a1ee35f, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 18
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 14
 =======
       value: 17
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014238077246, guid: a6f0f657df210b34a908f9c13a1ee35f, type: 3}
@@ -3232,7 +3405,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 46
+=======
+  m_RootOrder: 45
+>>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+>>>>>>> parent of 54e2db03... Mission
 =======
   m_RootOrder: 45
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
@@ -3284,13 +3462,19 @@ PrefabInstance:
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 20
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 15
 =======
       value: 19
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
@@ -3365,13 +3549,19 @@ PrefabInstance:
     - target: {fileID: 4000012627607500, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 34
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 4
 =======
       value: 33
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000012627607500, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
@@ -3524,13 +3714,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 6
 =======
       value: 5
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 5277979232663229893, guid: bd511df7c08cd93448e0a96386fcae71,
@@ -3601,13 +3797,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 3
 =======
       value: 2
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 3824007394192011367, guid: ea164bdbe2de6cf45ac54f6d281b69d1,
@@ -3678,13 +3880,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 4
 =======
       value: 3
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 5277979232663229893, guid: bd511df7c08cd93448e0a96386fcae71,
@@ -3815,13 +4023,19 @@ PrefabInstance:
     - target: {fileID: 4000011605300422, guid: a86c864654770cb4ca9ef85852fde415, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 28
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 10
 =======
       value: 27
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000011605300422, guid: a86c864654770cb4ca9ef85852fde415, type: 3}
@@ -3998,13 +4212,19 @@ PrefabInstance:
     - target: {fileID: 457264, guid: c3b3b094d9b00dc44bb64172916547ae, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 32
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 2
 =======
       value: 31
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 457264, guid: c3b3b094d9b00dc44bb64172916547ae, type: 3}
@@ -4067,13 +4287,19 @@ PrefabInstance:
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 17
 =======
       value: 21
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000014280216940, guid: 0a9df222064d4534da4279115fea376b, type: 3}
@@ -4148,13 +4374,19 @@ PrefabInstance:
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 23
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 5
 =======
       value: 22
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
@@ -4234,13 +4466,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 54e2db03... Mission
       value: 11
 =======
       value: 8
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
+<<<<<<< HEAD
+>>>>>>> parent of 54e2db03... Mission
+=======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 3868584369477720903, guid: 584701e4ac44e3448bffd646ce464930,
