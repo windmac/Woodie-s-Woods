@@ -66,7 +66,6 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
     height: 947
   m_MinSize: {x: 683, y: 498}
@@ -78,8 +77,6 @@ MonoBehaviour:
   controlID: 172
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!114 &3
@@ -618,23 +615,17 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
-<<<<<<< HEAD
     - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Prefabs
 =======
-=======
->>>>>>> parent of 54e2db03... Mission
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
-<<<<<<< HEAD
->>>>>>> parent of 54e2db03... Mission
-=======
 >>>>>>> parent of 54e2db03... Mission
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Unity Projects\Woodie's Woods
@@ -643,15 +634,12 @@ MonoBehaviour:
   m_FolderTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     scrollPos: {x: 0, y: 927}
     m_SelectedIDs: 88390000
     m_LastClickedID: 14728
     m_ExpandedIDs: 00000000be3400005c35000064360000883900001c3a0000343b0000643b0000963b0000a83c00002a3d00003c3d00008c3d0000e63d0000323f0000064100001c4200000a440000be4400006a4800003e490000a24a00004a4e0000964e00007a4f0000ca4f00003a510000a8510000be5100002a5a00002c5a00002e5a0000305a0000325a0000345a000000ca9a3b
 =======
     scrollPos: {x: 0, y: 79}
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 <<<<<<< HEAD
@@ -672,15 +660,12 @@ MonoBehaviour:
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
     m_SelectedIDs: 844b0000
     m_LastClickedID: 19332
     m_ExpandedIDs: 00000000dc330000723400005635000032380000ce390000283a0000303b0000ac3b0000be3b00000c3c0000623c00005c3f000036420000d442000054460000244700006c480000dc4b0000204c0000f64c0000424d00000e4f0000aa560000ac560000ae560000b0560000b2560000b4560000b656000000ca9a3b
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
     m_RenameOverlay:
@@ -712,13 +697,10 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_ExpandedIDs: 00000000be3400005c35000064360000883900001c3a0000343b0000643b0000963b0000a83c00002a3d00003c3d00008c3d0000e63d0000323f0000064100001c4200000a440000be4400006a4800003e490000a24a00004a4e0000964e00007a4f0000ca4f00003a510000a8510000be5100002a5a00002c5a00002e5a0000305a0000325a0000345a0000
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
     m_ExpandedIDs: 00000000b82c0000462d00004a2e0000ee2f000038310000fa3300004036000060360000bc36000084370000783e00007a3e00007c3e00007e3e0000803e0000823e0000843e0000
@@ -730,13 +712,10 @@ MonoBehaviour:
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
     m_ExpandedIDs: 00000000dc3300005635000032380000ce390000303b0000ac3b00000c3c0000623c00005c3f000036420000d442000054460000244700006c480000dc4b0000204c0000f64c0000424d00000e4f0000aa560000ac560000ae560000b0560000b2560000b4560000b6560000
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
     m_RenameOverlay:
@@ -820,7 +799,6 @@ MonoBehaviour:
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
@@ -852,8 +830,6 @@ MonoBehaviour:
   m_WindowGUID: 3d51b93b53e7392479544eac7695fdd1
 --- !u!114 &16
 =======
-=======
->>>>>>> parent of 54e2db03... Mission
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -909,9 +885,6 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
 --- !u!114 &19
-<<<<<<< HEAD
->>>>>>> parent of 54e2db03... Mission
-=======
 >>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -939,12 +912,9 @@ MonoBehaviour:
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_WindowGUID: 7553ae3a8073ba04b9f4b20a13573a15
   m_SceneLighting: 0
 =======
-=======
->>>>>>> parent of 54e2db03... Mission
   m_WindowGUID: 2b1a612432beb0948b097e6b7fe5c4b5
   m_SceneLighting: 1
 >>>>>>> parent of 54e2db03... Mission
@@ -954,15 +924,12 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
     m_Target: {x: 0.99638724, y: 0.7581825, z: -5.321727}
@@ -980,15 +947,12 @@ MonoBehaviour:
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
     m_Target: {x: -1.3941728, y: 5.676691, z: -25.107347}
     speed: 2
     m_Value: {x: -1.3941728, y: 5.676691, z: -25.107347}
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
   m_RenderMode: 0
@@ -1020,13 +984,10 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_Target: {x: -0.2166652, y: -0.6399701, z: 0.19503339, w: -0.71095467}
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
     m_Target: {x: -0.22272551, y: 0.056993134, z: -0.013044315, w: -0.9731264}
@@ -1054,7 +1015,6 @@ MonoBehaviour:
 >>>>>>> 019254abb9009ff5b586451f0d328a71e70d5364
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
     m_Target: {x: -0.28001392, y: -0.005186034, z: 0.0015130644, w: -0.9599808}
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
@@ -1071,8 +1031,6 @@ MonoBehaviour:
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
 =======
 >>>>>>> parent of 54e2db03... Mission
-=======
->>>>>>> parent of 54e2db03... Mission
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1084,7 +1042,6 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &17
 MonoBehaviour:
@@ -1217,7 +1174,5 @@ MonoBehaviour:
     width: 320
     height: 550
   m_PersistentViewDataDictionary: {fileID: 0}
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission

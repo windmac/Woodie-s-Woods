@@ -11,12 +11,8 @@ public class Projectile : MonoBehaviour
     public bool friend_or_enemy = false;
     public int damage = 1;
 <<<<<<< HEAD
-<<<<<<< HEAD
     public float attack_force =8f;
     public float rotate_speed = 500f;
-=======
-    public float attack_force =1000f;
->>>>>>> parent of 54e2db03... Mission
 =======
     public float attack_force =1000f;
 >>>>>>> parent of 54e2db03... Mission

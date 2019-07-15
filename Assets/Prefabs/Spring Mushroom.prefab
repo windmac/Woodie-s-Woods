@@ -40,7 +40,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
-<<<<<<< HEAD
   pump_force: 20
 --- !u!1 &7532579747445318961
 GameObject:
@@ -154,8 +153,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7238324061658368096}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &7457702654281781388

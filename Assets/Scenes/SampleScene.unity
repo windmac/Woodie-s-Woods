@@ -288,13 +288,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 2
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 6
@@ -302,13 +299,10 @@ PrefabInstance:
       value: 23
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 24
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -489,13 +483,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 4
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 7
@@ -503,13 +494,10 @@ PrefabInstance:
       value: 24
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 25
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -652,13 +640,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 13
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 0
@@ -666,13 +651,10 @@ PrefabInstance:
       value: 29
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 30
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -766,7 +748,6 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 33
 =======
 <<<<<<< HEAD
@@ -776,10 +757,6 @@ Transform:
   m_RootOrder: 36
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-  m_RootOrder: 35
->>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
->>>>>>> parent of 54e2db03... Mission
 =======
   m_RootOrder: 35
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
@@ -879,13 +856,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 15
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 7
@@ -893,13 +867,10 @@ PrefabInstance:
       value: 6
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 7
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -1113,14 +1084,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 23
 =======
       value: 13
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-      value: 12
->>>>>>> parent of 54e2db03... Mission
 =======
       value: 12
 >>>>>>> parent of 54e2db03... Mission
@@ -1206,11 +1173,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 12
-=======
-      value: 9
->>>>>>> parent of 54e2db03... Mission
 =======
       value: 9
 >>>>>>> parent of 54e2db03... Mission
@@ -1472,11 +1435,7 @@ PrefabInstance:
     - target: {fileID: 4000013189297366, guid: e979b610c33ad974ea7b7efea2115e3a, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 25
-=======
-      value: 14
->>>>>>> parent of 54e2db03... Mission
 =======
       value: 14
 >>>>>>> parent of 54e2db03... Mission
@@ -1661,13 +1620,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 32
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 1
@@ -1675,13 +1631,10 @@ PrefabInstance:
       value: 34
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 35
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -1746,13 +1699,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 22
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 18
@@ -1760,13 +1710,10 @@ PrefabInstance:
       value: 11
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 12
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -1957,13 +1904,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 26
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 20
@@ -1971,13 +1915,10 @@ PrefabInstance:
       value: 15
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 16
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -2037,11 +1978,7 @@ PrefabInstance:
     - target: {fileID: 4740456514579090, guid: 639fc7b1af2e90f41bf95e8c9ca183dc, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 21
-=======
-      value: 10
->>>>>>> parent of 54e2db03... Mission
 =======
       value: 10
 >>>>>>> parent of 54e2db03... Mission
@@ -2178,13 +2115,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 24
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 19
@@ -2192,13 +2126,10 @@ PrefabInstance:
       value: 13
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 14
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -2243,7 +2174,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 18.196083
 =======
 <<<<<<< HEAD
@@ -2252,9 +2182,6 @@ PrefabInstance:
       value: -20.78
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-      value: -23.314007
->>>>>>> parent of 54e2db03... Mission
 =======
       value: -23.314007
 >>>>>>> parent of 54e2db03... Mission
@@ -2273,7 +2200,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: -15.010147
 =======
 <<<<<<< HEAD
@@ -2282,9 +2208,6 @@ PrefabInstance:
       value: 6.38
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
-      value: 15.306015
->>>>>>> parent of 54e2db03... Mission
 =======
       value: 15.306015
 >>>>>>> parent of 54e2db03... Mission
@@ -2314,13 +2237,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 17
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 16
@@ -2328,13 +2248,10 @@ PrefabInstance:
       value: 20
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 21
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -2568,13 +2485,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 6
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 12
@@ -2582,13 +2496,10 @@ PrefabInstance:
       value: 18
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 19
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -2606,13 +2517,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 0a9df222064d4534da4279115fea376b, type: 3}
 --- !u!1 &835988184
-=======
-  m_SourcePrefab: {fileID: 100100000, guid: 59ea8dccea231504d847f113cb54cada, type: 3}
---- !u!1 &818114450
->>>>>>> parent of 54e2db03... Mission
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 59ea8dccea231504d847f113cb54cada, type: 3}
 --- !u!1 &818114450
@@ -2710,7 +2616,6 @@ Transform:
   m_RootOrder: 22
 =======
   m_Father: {fileID: 0}
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 40
@@ -2812,8 +2717,6 @@ RectTransform:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 54e2db03... Mission
-=======
->>>>>>> parent of 54e2db03... Mission
   m_RootOrder: 36
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2873,7 +2776,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &874506083
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
   m_GameObject: {fileID: 876049327}
@@ -2893,8 +2795,6 @@ Transform:
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 =======
 >>>>>>> parent of 54e2db03... Mission
-=======
->>>>>>> parent of 54e2db03... Mission
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2907,7 +2807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MissionListPath: 
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   m_GameObject: {fileID: 876049327}
@@ -3019,8 +2918,6 @@ PrefabInstance:
 =======
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &955399796
@@ -3137,7 +3034,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012239912756, guid: 95c8a7510ec354946b3fd45db8e83359, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4000012239912756, guid: 95c8a7510ec354946b3fd45db8e83359, type: 3}
@@ -3197,13 +3093,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 5
 =======
->>>>>>> parent of 54e2db03... Mission
-=======
-<<<<<<< HEAD
-      value: 21
-=======
-      value: 16
->>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
     - target: {fileID: 4000013386569964, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
@@ -3569,13 +3458,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 31
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 11
@@ -3583,13 +3469,10 @@ PrefabInstance:
       value: 28
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 29
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -3808,13 +3691,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 11
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 9
@@ -3822,13 +3702,10 @@ PrefabInstance:
       value: 26
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 27
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -3908,13 +3785,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 29
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 1
@@ -3922,13 +3796,10 @@ PrefabInstance:
       value: 30
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 31
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -4013,13 +3884,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 28
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 8
@@ -4027,13 +3895,10 @@ PrefabInstance:
       value: 7
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 8
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -4129,13 +3994,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 1
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 14
@@ -4143,13 +4005,10 @@ PrefabInstance:
       value: 17
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 18
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -4237,13 +4096,10 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
   m_RootOrder: 45
@@ -4326,7 +4182,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a9df222064d4534da4279115fea376b, type: 3}
-<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
 --- !u!1 &1354072628
@@ -4423,8 +4278,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &1390726063
@@ -4848,13 +4701,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 14
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 4
@@ -4862,13 +4712,10 @@ PrefabInstance:
       value: 3
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 4
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -5231,13 +5078,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 3
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 2
@@ -5245,13 +5089,10 @@ PrefabInstance:
       value: 31
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 32
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -5324,13 +5165,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 30
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 17
@@ -5338,13 +5176,10 @@ PrefabInstance:
       value: 21
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 22
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -5417,13 +5252,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 8
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 5
@@ -5431,13 +5263,10 @@ PrefabInstance:
       value: 22
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 23
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -5454,7 +5283,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 6df651d459fb20b4290d1595b18b35c1, type: 3}
 --- !u!1 &1958469697 stripped
@@ -5576,9 +5404,6 @@ CanvasRenderer:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
 >>>>>>> parent of 54e2db03... Mission
-=======
-  m_SourcePrefab: {fileID: 100100000, guid: 0187e5c0eb4502342aa89cbcbce11447, type: 3}
->>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &454680004892344573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5631,13 +5456,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 20
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       value: 11
@@ -5645,13 +5467,10 @@ PrefabInstance:
       value: 8
 >>>>>>> 8b8323228a8c7978c578b3344e00da34d4e7fd48
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
       value: 9
 >>>>>>> 95ec44b837123d95579c31302b627833645c7825
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
       objectReference: {fileID: 0}
@@ -5723,11 +5542,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 19
-=======
-      value: 1
->>>>>>> parent of 54e2db03... Mission
 =======
       value: 1
 >>>>>>> parent of 54e2db03... Mission
@@ -5749,7 +5564,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed27a3ef416a72342ad41ed8b2f7365c, type: 3}
-<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1277623989727126374
 PrefabInstance:
@@ -5825,8 +5639,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 06c3f6a147c163d40af211bc63653a65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87b78c0187368349ab65e14f812897e, type: 3}
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &2106113077351744669
@@ -6010,7 +5822,6 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7df43079509cb7409ec41c2a14276fe, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> 54e2db031c1847a4a43c408880de2ff8f03bfc73
 --- !u!1001 &7588882628300161808
 PrefabInstance:
@@ -6083,8 +5894,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 7d0f3d44828496742aae6f1741b8fa16, type: 3}
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 54e2db03... Mission
 =======
 >>>>>>> parent of 54e2db03... Mission
 --- !u!1001 &8058739396778155556
