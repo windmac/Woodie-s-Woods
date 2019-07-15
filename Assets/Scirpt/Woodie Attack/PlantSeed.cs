@@ -38,6 +38,14 @@ public class PlantSeed : MonoBehaviour
                 selected_seed++;
 
             SeedUI_text.text = "种子：" + seeds[selected_seed].name;
+
+            
+            foreach(Transform child in transform)
+            {
+                child.gameObject.SetActive(false);
+            }
+
+            transform.GetChild(selected_seed).gameObject.SetActive(true);
         }
 
 
