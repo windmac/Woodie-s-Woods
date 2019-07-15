@@ -5,7 +5,7 @@ using UnityEngine;
 public class ContactAttack : MonoBehaviour
 {
 
-    public float attack_force =900f;
+    public float attack_force =8f;
     public int damage = 1;
     // Start is called before the first frame update
     void Start()
@@ -27,7 +27,9 @@ public class ContactAttack : MonoBehaviour
         if(other.transform.tag=="Woodie")
         {
             
-            other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.Impulse);
+            //other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force * Time.fixedDeltaTime, ForceMode.VelocityChange);
+            //other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force , ForceMode.VelocityChange);
+            other.GetComponent<Rigidbody>().velocity = attack_vec * attack_force;
             WoodieStat.instance.takeDamage(damage);
         }
 
