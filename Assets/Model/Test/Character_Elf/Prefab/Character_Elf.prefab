@@ -132,11 +132,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4081129071478060}
   - component: {fileID: 95663668927121952}
-  - component: {fileID: 1768968710}
   - component: {fileID: 1768968709}
   - component: {fileID: 1768968711}
   - component: {fileID: 1768968708}
-  m_Layer: 0
+  - component: {fileID: 691109382}
+  m_Layer: 9
   m_Name: Character_Elf
   m_TagString: Woodie
   m_Icon: {fileID: 0}
@@ -178,22 +178,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!54 &1768968710
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067053214699150}
-  serializedVersion: 2
-  m_Mass: 60
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!135 &1768968709
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -241,6 +225,22 @@ MonoBehaviour:
   TextID:
   - 00101,00102,00103
   - 00101,00102,00104
+--- !u!54 &691109382
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067053214699150}
+  serializedVersion: 2
+  m_Mass: 60
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1103208023307964
 GameObject:
   m_ObjectHideFlags: 0
