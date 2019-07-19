@@ -6,6 +6,12 @@ public class MissionGraph
 {
     private List<MissionNode> MissionTree;
 
+    public MissionGraph(string missionListPath)
+    {
+        MissionTree = new List<MissionNode>();
+        ReadMissionList(missionListPath);
+    }
+
     public void OnMissionTrgger(string missionID,MissionState targetState)
     {
         MissionTree[FindMissionNode(missionID)].SetMissionState(targetState);
@@ -36,5 +42,9 @@ public class MissionGraph
             }
         }
         return 0;
+    }
+    private int GetNextMissionNode(string missionID)
+    {
+        return FindMissionNode(MissionTree[FindMissionNode(missionID)].NextMissionID);
     }
 }

@@ -30,7 +30,7 @@ public class PlantSeed : MonoBehaviour
 
         Vector3 plant_posision = new Vector3(transform.position.x, 0, transform.position.z) + transform.forward * range;
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             if (selected_seed >= nb_seeds - 1)
                 selected_seed = 0;
@@ -50,7 +50,7 @@ public class PlantSeed : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.C) && pc.IsGrounded())
+        if (Input.GetKeyDown(KeyCode.F) && pc.IsGrounded())
         {
 
             StartCoroutine(Coroutine());

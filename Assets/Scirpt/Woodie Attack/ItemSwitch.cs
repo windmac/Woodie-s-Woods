@@ -20,7 +20,7 @@ public class ItemSwitch : MonoBehaviour
     {
 
         int previousSelected = selectedItem;
-        if(Input.GetKeyDown(KeyCode.S))
+        if(Input.GetKeyDown(KeyCode.R))
         {
             if (selectedItem >= num_items - 1)
                 selectedItem = 0;

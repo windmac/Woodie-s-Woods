@@ -63,7 +63,7 @@ public class PlayerController2 : MonoBehaviour
         //transform.Rotate(0, y, 0);
 
         //跳跃 x触发
-        if ((Input.GetKey(KeyCode.X)|| Input.GetKey(KeyCode.Space)) && IsGrounded() == true)
+        if ((Input.GetKey(KeyCode.Space)) && IsGrounded() == true)
         {
 
             rb.AddForce(Vector3.up*jumpHeight*Time.deltaTime,ForceMode.Impulse);
@@ -96,16 +96,16 @@ public class PlayerController2 : MonoBehaviour
 
     void playerMovement()
     {
-        float vertical = 0;
-        float horizontal = 0;
+        Vector2 input = Vector2.zero;
 
         if (canMove)
         {
-             vertical = Input.GetAxisRaw("Vertical");
-             horizontal = Input.GetAxisRaw("Horizontal");
+            input.y = Input.GetAxisRaw("Vertical");
+            input.x = Input.GetAxisRaw("Horizontal");
+            input = SquareToCircle(input);
         }
 
-        Vector3 movement = new Vector3(horizontal, 0f, vertical) * speed * Time.deltaTime;
+        Vector3 movement = new Vector3(input.x, 0f, input.y) * speed * Time.deltaTime;
 
         transform.Translate(movement, Space.World);
 
@@ -146,6 +146,13 @@ public class PlayerController2 : MonoBehaviour
                                          collider.bounds.min.y,
                                          collider.bounds.center.z),
                              collider.radius * 0.9f,groundLayers);
-        
+    }
+
+    private Vector2 SquareToCircle(Vector2 vector2)
+    {
+        Vector2 newVector2 = Vector2.zero;
+        newVector2.x = vector2.x * Mathf.Sqrt(1 - (vector2.y * vector2.y) / 2);
+        newVector2.y = vector2.y * Mathf.Sqrt(1 - (vector2.x * vector2.x) / 2);
+        return newVector2;
     }
 }
