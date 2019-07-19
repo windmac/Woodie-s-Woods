@@ -1,6 +1,7 @@
-Base path: E:/Softwares/Unity/Editor/Data
+Base path: D:/1_Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
+<<<<<<< HEAD
   api=4 insize=4845 outsize=3733 ok=1
 Cmd: compileComputeKernel
   api=4 insize=3396 outsize=2581 ok=1
@@ -10,6 +11,13 @@ Cmd: compileComputeKernel
   api=4 insize=1454 outsize=1461 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+=======
+  api=4 insize=11176 outsize=10593 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18731 outsize=10377 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1864 outsize=553 ok=1
+>>>>>>> refs/remotes/origin/LD-branch
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler

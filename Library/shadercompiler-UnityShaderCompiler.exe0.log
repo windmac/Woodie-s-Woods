@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 Base path: E:/Softwares/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 
 Quitting shader compiler process
+=======
+Base path: D:/1_Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+>>>>>>> refs/remotes/origin/LD-branch
