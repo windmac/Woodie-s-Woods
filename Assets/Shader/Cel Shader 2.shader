@@ -105,14 +105,21 @@ Shader "Our Toonshader Vol. 3" {
 	float outlineStrength = saturate((dot(input.normalDir, input.viewDir) - _OutlineThickness) * 1000);
 
 
-	float3 ambientLight = (1 - diffuseCutoff) * _UnlitColor.xyz; //adds general ambient illumination
+	/*float3 ambientLight = (1 - diffuseCutoff) * _UnlitColor.xyz; //adds general ambient illumination
 	float3 diffuseReflection = (1 - specularCutoff) * _Color.xyz * diffuseCutoff;
 	float3 specularReflection = _SpecColor.xyz * specularCutoff;
 
 	float3 combinedLight = (ambientLight + diffuseReflection) * outlineStrength + specularReflection;
 
-	return float4(combinedLight, 1.0); // + tex2D(_MainTex, input.uv); // DELETE LINE COMMENTS & ';' TO ENABLE TEXTURE
+	return float4(combinedLight, 1.0) + tex2D(_MainTex, input.uv); // DELETE LINE COMMENTS & ';' TO ENABLE TEXTURE
+	*/
+	float4 ambientLight = (1 - diffuseCutoff) * _UnlitColor; //adds general ambient illumination
+	float4 diffuseReflection = (1 - specularCutoff) * _Color * diffuseCutoff;
+	float4 specularReflection = _SpecColor * specularCutoff;
 
+	float4 combinedLight = (ambientLight + diffuseReflection+ tex2D(_MainTex, input.uv)) * outlineStrength + specularReflection;
+
+	return combinedLight; // DELETE LINE COMMENTS & ';' TO ENABLE TEXTURE
 
 	}
 

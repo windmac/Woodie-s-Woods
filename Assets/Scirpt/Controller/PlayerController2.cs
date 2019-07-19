@@ -16,7 +16,8 @@ public class PlayerController2 : MonoBehaviour
     private float c_speed = 2.5f;
     private float rotation_speed = 8f;
     public float rotSpeed;
-    public float jumpHeight = 300;
+    public float jumpHeight = 20;
+    public Camera cam;
 
     Rigidbody rb;
     // Animator anim;
@@ -34,58 +35,60 @@ public class PlayerController2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //触发蹲下 按下z
-        /*  if (Input.GetKeyDown(KeyCode.Z))
-          {
-              if (isCrouching)
+        if (canMove)
+        {
+            //触发蹲下 按下z
+            /*  if (Input.GetKeyDown(KeyCode.Z))
               {
-                  isCrouching = false;
-                  //anim.SetBool("isCrouching",false);
-                  collider.center = new Vector3(0, 1, 0);
-                  // collider.size.Set(collider.size.x, collider.size.y / 2, collider.size.z);
-                 // collider.size = new Vector3(1, 1.5f, 1);
+                  if (isCrouching)
+                  {
+                      isCrouching = false;
+                      //anim.SetBool("isCrouching",false);
+                      collider.center = new Vector3(0, 1, 0);
+                      // collider.size.Set(collider.size.x, collider.size.y / 2, collider.size.z);
+                     // collider.size = new Vector3(1, 1.5f, 1);
 
-              }
-              else
-              {
-                  isCrouching = true;
-                  //anim.SetBool("isCrouching",false);
-                  collider.center = new Vector3(0, 0.5f, 0);
-                  // collider.size.Set(collider.size.x, collider.size.y * 2, collider.size.z);
-                 // collider.size = new Vector3(1, 3, 1);
-              }
-          }*/
+                  }
+                  else
+                  {
+                      isCrouching = true;
+                      //anim.SetBool("isCrouching",false);
+                      collider.center = new Vector3(0, 0.5f, 0);
+                      // collider.size.Set(collider.size.x, collider.size.y * 2, collider.size.z);
+                     // collider.size = new Vector3(1, 3, 1);
+                  }
+              }*/
 
-        playerMovement();
-       
-        
-        //transform.Translate(0, 0, z);
-        //transform.Rotate(0, y, 0);
+            playerMovement();
 
-        //跳跃 x触发
-        if ((Input.GetKey(KeyCode.Space)) && IsGrounded() == true)
-        {
 
-            rb.AddForce(Vector3.up*jumpHeight*Time.deltaTime,ForceMode.Impulse);
-            //anim.SetTrigger("isJumping");
-            isCrouching = false;
-            //isGrounded = false;
-            Debug.Log("Jump");
+
+
+            //跳跃k触发
+            if ((Input.GetKey(KeyCode.K)) && IsGrounded() == true)
+            {
+
+                rb.velocity = Vector3.up * jumpHeight ;
+                //anim.SetTrigger("isJumping");
+                isCrouching = false;
+                //isGrounded = false;
+                Debug.Log("Jump");
+
+            }
+
+            //蹲着
+            if (isCrouching)
+            {
+                speed = c_speed;
+            }
+            else if (!isCrouching)
+            {
+                speed = w_speed;
+
+                //以下放动画控制
+            }
 
         }
-
-        if (isCrouching)
-        {
-            speed = c_speed;
-        }
-        else if (!isCrouching)
-        {
-            speed = w_speed;
-
-            //以下放动画控制
-        }
-
-
     }
     void FixedUpdate()
     {
@@ -98,14 +101,18 @@ public class PlayerController2 : MonoBehaviour
     {
         Vector2 input = Vector2.zero;
 
-        if (canMove)
-        {
+
             input.y = Input.GetAxisRaw("Vertical");
             input.x = Input.GetAxisRaw("Horizontal");
             input = SquareToCircle(input);
-        }
+        
 
         Vector3 movement = new Vector3(input.x, 0f, input.y) * speed * Time.deltaTime;
+
+        //Movement chase camera angle
+
+        Quaternion cam_rotation =  Quaternion.FromToRotation(new Vector3(0,0,1), new Vector3(cam.transform.forward.x,0, cam.transform.forward.z));
+        movement = cam_rotation * movement;
 
         transform.Translate(movement, Space.World);
 

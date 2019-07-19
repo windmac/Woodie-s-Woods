@@ -11,6 +11,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spring Mushroom
       objectReference: {fileID: 0}
+    - target: {fileID: 4257305528419527795, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257305528419527795, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.23666368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257305528419527795, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.018991787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257305528419527795, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.22976537
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257305528419527795, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.01006217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172719430231875536, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: pump_force
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 427364, guid: c7ed66d17eb35bb4aa258e811b349c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -54,6 +84,31 @@ PrefabInstance:
     - target: {fileID: 427364, guid: c7ed66d17eb35bb4aa258e811b349c08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302545742628849200, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302545742628849200, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302545742628849200, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302545742628849200, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 2784237960181203271, guid: c7ed66d17eb35bb4aa258e811b349c08,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7ed66d17eb35bb4aa258e811b349c08, type: 3}

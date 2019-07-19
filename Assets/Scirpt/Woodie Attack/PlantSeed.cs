@@ -14,6 +14,7 @@ public class PlantSeed : MonoBehaviour
     public int selected_seed = 0;
     public int nb_seeds;
     public Text SeedUI_text;
+    public float height_offset = -0.5f ;
 
     void Start()
     {
@@ -28,9 +29,9 @@ public class PlantSeed : MonoBehaviour
     void Update()
     {
 
-        Vector3 plant_posision = new Vector3(transform.position.x, 0, transform.position.z) + transform.forward * range;
+        Vector3 plant_posision = transform.position +new Vector3(0, height_offset, 0)+ transform.forward * range;
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             if (selected_seed >= nb_seeds - 1)
                 selected_seed = 0;
@@ -50,7 +51,7 @@ public class PlantSeed : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.F) && pc.IsGrounded())
+        if (Input.GetKeyDown(KeyCode.J) && pc.IsGrounded())
         {
 
             StartCoroutine(Coroutine());
