@@ -1,4 +1,4 @@
-Base path: E:/Softwares/Unity/Editor/Data
+Base path: D:/1_Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
   api=4 insize=10881 outsize=9693 ok=1
@@ -14,8 +14,13 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+>>>>>>> LD-branch
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+
+Quitting shader compiler process
