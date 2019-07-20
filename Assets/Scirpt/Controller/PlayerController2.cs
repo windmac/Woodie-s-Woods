@@ -63,15 +63,13 @@ public class PlayerController2 : MonoBehaviour
         //transform.Rotate(0, y, 0);
 
         //跳跃 x触发
-        if ((Input.GetKey(KeyCode.Space)) && IsGrounded() == true)
+        if ((Input.GetKey(KeyCode.Space)) && IsGrounded() == true && canMove)
         {
 
             rb.AddForce(Vector3.up*jumpHeight*Time.deltaTime,ForceMode.Impulse);
             //anim.SetTrigger("isJumping");
             isCrouching = false;
             //isGrounded = false;
-            Debug.Log("Jump");
-
         }
 
         if (isCrouching)

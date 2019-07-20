@@ -18,23 +18,10 @@ public class ItemSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        int previousSelected = selectedItem;
-        if(Input.GetKeyDown(KeyCode.R))
+        if(Input.GetKeyDown(KeyCode.R) && PlayerManager.instance.IsEmpty())
         {
-            if (selectedItem >= num_items - 1)
-                selectedItem = 0;
-            else
-                selectedItem++;
-
-
+            SelectNextItem();
         }
-
-        if(previousSelected != selectedItem)
-        {
-            SelectItem();
-        }
-
     }
 
     void SelectItem()
@@ -42,20 +29,49 @@ public class ItemSwitch : MonoBehaviour
         int i = 0;
         foreach(Transform item in transform)
         {
-            if (i == selectedItem)
+            bool itemactive = false;
+            if (i>=2)
+            {
+                for (int j = 2; j < PlayerManager.instance.ItemList.Count; j++)
+                {
+                    if (PlayerManager.instance.ItemList[j].Active)
+                    {
+                        itemactive = true;
+                    }
+                }
+            }
+            else
+            {
+                itemactive = PlayerManager.instance.ItemList[i].Active;
+            }
+            if (i == selectedItem && itemactive)
             {
                 item.gameObject.SetActive(true);
                 EquipmentUI_text.text = "装备：" + item.name;
+            }
+            else if (i == selectedItem && !itemactive)
+            {
+                SelectNextItem();
             }
             else
             {
                 item.gameObject.SetActive(false);
             }
-
             i++;
+        }  
+    }
+
+    private void SelectNextItem()
+    {
+        int previousSelected = selectedItem;
+        if (selectedItem >= num_items - 1)
+            selectedItem = 0;
+        else
+            selectedItem++;
+
+        if (previousSelected != selectedItem)
+        {
+            SelectItem();
         }
-
-
-        
     }
 }
