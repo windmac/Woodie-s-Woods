@@ -105,7 +105,7 @@ public class PlayerController2 : MonoBehaviour
             input.y = Input.GetAxisRaw("Vertical");
             input.x = Input.GetAxisRaw("Horizontal");
             input = SquareToCircle(input);
-        
+
 
         Vector3 movement = new Vector3(input.x, 0f, input.y) * speed * Time.deltaTime;
 
@@ -119,7 +119,7 @@ public class PlayerController2 : MonoBehaviour
 
          if(movement.sqrMagnitude>0.00003)
          {
-            
+
 
             transform.rotation = Quaternion.Slerp(
                                                     transform.rotation,
@@ -134,16 +134,16 @@ public class PlayerController2 : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        
+
         //Pick up object
         if (collision!=null&&collision.collider.tag=="PickUps")
         {
             Debug.Log("Pick");
             collision.collider.GetComponent<ItemPickUp>().PickUp();
-            
+
         }
-        
-        
+
+
     }
 
     public bool IsGrounded()
