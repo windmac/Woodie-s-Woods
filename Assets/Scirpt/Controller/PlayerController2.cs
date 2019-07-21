@@ -18,7 +18,10 @@ public class PlayerController2 : MonoBehaviour
     public float rotSpeed;
     public float jumpHeight = 20;
     public Camera cam;
+    public AudioSource jump_sound;
+   public AudioSource walking_sound;
 
+    private bool is_walking = false;
     Rigidbody rb;
     // Animator anim;
     CapsuleCollider collider;
@@ -73,7 +76,7 @@ public class PlayerController2 : MonoBehaviour
                 isCrouching = false;
                 //isGrounded = false;
                 Debug.Log("Jump");
-
+                jump_sound.Play();
             }
 
             //蹲着
@@ -125,6 +128,15 @@ public class PlayerController2 : MonoBehaviour
                                                     transform.rotation,
                                                     Quaternion.LookRotation(movement),
                                                     Time.deltaTime * rotation_speed);
+
+            if(!walking_sound.isPlaying&&IsGrounded())
+            {
+                walking_sound.Play();
+            }
+        }
+        else
+        {
+            walking_sound.Stop();
         }
 
 

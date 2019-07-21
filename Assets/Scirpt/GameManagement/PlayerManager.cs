@@ -7,7 +7,7 @@ public enum ItemAndSkill
 {
     Axe=0,
     WateringCan=1,
-    SeedFake=2,
+    SeedShooter=2,
     SeedMushroom=3,
     SeedBoom=4,
 }
@@ -46,9 +46,12 @@ public class PlayerManager : MonoBehaviour
         ItemList = new List<ItemNode>();
         ItemList.Add(new ItemNode(ItemAndSkill.Axe, null, ItemActive[0]));
         ItemList.Add(new ItemNode(ItemAndSkill.WateringCan, null, ItemActive[1]));
-        ItemList.Add(new ItemNode(ItemAndSkill.SeedFake, Seed.transform, ItemActive[2]));
+        ItemList.Add(new ItemNode(ItemAndSkill.SeedShooter, Seed.transform, ItemActive[2]));
         ItemList.Add(new ItemNode(ItemAndSkill.SeedMushroom, Seed.transform, ItemActive[3]));
         ItemList.Add(new ItemNode(ItemAndSkill.SeedBoom, Seed.transform, ItemActive[4]));
+
+        
+
     }
 
     public bool IsEmpty()

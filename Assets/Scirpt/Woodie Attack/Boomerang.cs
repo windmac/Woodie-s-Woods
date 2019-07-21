@@ -17,6 +17,8 @@ public class Boomerang : MonoBehaviour
     public float rotation_speed = 0f;
     public int damage = 1;
 
+    public AudioSource chop_sound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +80,7 @@ public class Boomerang : MonoBehaviour
             Debug.Log(other.transform.name + " Damaged");
 
             other.GetComponent<EnemyStat>().takeDamage(damage);
+            chop_sound.Play();
         }
     }
 }

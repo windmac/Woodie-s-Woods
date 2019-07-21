@@ -89,7 +89,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pump_force: 10
   damage: 2
-  enemy: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &1296330218292868824
 GameObject:
   m_ObjectHideFlags: 0
