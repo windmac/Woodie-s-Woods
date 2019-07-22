@@ -65,7 +65,7 @@ Shader "Our Toonshader Vol. 3" {
 		vertexOutput output;
 
 		//normalDirection
-		output.normalDir = normalize(mul(float4(input.normal, 0.0), unity_WorldToObject).xyz);
+		output.normalDir = abs(normalize(mul(float4(input.normal, 0.0), unity_WorldToObject).xyz));
 
 		//World position
 		float4 posWorld = mul(unity_ObjectToWorld, input.vertex);
@@ -116,8 +116,8 @@ Shader "Our Toonshader Vol. 3" {
 	float4 ambientLight = (1 - diffuseCutoff) * _UnlitColor; //adds general ambient illumination
 	float4 diffuseReflection = (1 - specularCutoff) * _Color * diffuseCutoff;
 	float4 specularReflection = _SpecColor * specularCutoff;
-
-	float4 combinedLight = (ambientLight + diffuseReflection+ tex2D(_MainTex, input.uv)) * outlineStrength + specularReflection;
+	
+	float4 combinedLight = (0.8*ambientLight + 0.8*diffuseReflection+ 0.8*tex2D(_MainTex, input.uv)) * outlineStrength + specularReflection;
 
 	return combinedLight; // DELETE LINE COMMENTS & ';' TO ENABLE TEXTURE
 
