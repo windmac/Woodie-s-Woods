@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExplosionDelayTime: 3
-  ExplosionForce: 10
+  ExplosionForce: 50
   ExlposionRadius: 5
   Damage: 5
 --- !u!82 &8257404067861688418

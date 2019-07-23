@@ -9,7 +9,6 @@ public class Watering : MonoBehaviour
     public bool watering = false;
     private PlayerController2 pc;
     public float stop_time = 0.1f;
-    public AudioSource sound;
     void Start()
     {
         pc = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
@@ -20,7 +19,7 @@ public class Watering : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J)&& pc.IsGrounded())
         {
-            
+
             StartCoroutine(Coroutine());
             
         }
@@ -41,10 +40,10 @@ public class Watering : MonoBehaviour
     IEnumerator Coroutine()
     {
         watering = true;
-        sound.Play();
+   
         pc.canMove = false;
         yield return new WaitForSeconds(stop_time);
-        sound.Stop();
+
         watering = false;
         pc.canMove = true;
     }

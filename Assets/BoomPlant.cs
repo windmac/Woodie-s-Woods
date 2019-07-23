@@ -45,8 +45,6 @@ public class BoomPlant : MonoBehaviour
                     break;
                 case "Destoryable":
                     //TO DO
-                    //Debug.Log("Found destoryable");
-                    chaGameObject.GetComponent<Destroyable>().DestoryObject();
                     break;
                 default:
                     break;

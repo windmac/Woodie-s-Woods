@@ -18,10 +18,7 @@ public class PlayerController2 : MonoBehaviour
     public float rotSpeed;
     public float jumpHeight = 20;
     public Camera cam;
-    public AudioSource jump_sound;
-   public AudioSource walking_sound;
 
-    private bool is_walking = false;
     Rigidbody rb;
     // Animator anim;
     CapsuleCollider collider;
@@ -76,7 +73,7 @@ public class PlayerController2 : MonoBehaviour
                 isCrouching = false;
                 //isGrounded = false;
                 Debug.Log("Jump");
-                jump_sound.Play();
+
             }
 
             //蹲着
@@ -108,7 +105,7 @@ public class PlayerController2 : MonoBehaviour
             input.y = Input.GetAxisRaw("Vertical");
             input.x = Input.GetAxisRaw("Horizontal");
             input = SquareToCircle(input);
-
+        
 
         Vector3 movement = new Vector3(input.x, 0f, input.y) * speed * Time.deltaTime;
 
@@ -122,21 +119,12 @@ public class PlayerController2 : MonoBehaviour
 
          if(movement.sqrMagnitude>0.00003)
          {
-
+            
 
             transform.rotation = Quaternion.Slerp(
                                                     transform.rotation,
                                                     Quaternion.LookRotation(movement),
                                                     Time.deltaTime * rotation_speed);
-
-            if(!walking_sound.isPlaying&&IsGrounded())
-            {
-                walking_sound.Play();
-            }
-        }
-        else
-        {
-            walking_sound.Stop();
         }
 
 
@@ -146,16 +134,16 @@ public class PlayerController2 : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-
+        
         //Pick up object
         if (collision!=null&&collision.collider.tag=="PickUps")
         {
             Debug.Log("Pick");
             collision.collider.GetComponent<ItemPickUp>().PickUp();
-
+            
         }
-
-
+        
+        
     }
 
     public bool IsGrounded()

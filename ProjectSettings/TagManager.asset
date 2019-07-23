@@ -11,7 +11,6 @@ TagManager:
   - Plant
   - PickUps
   - Friend
-  - Destoryable
   layers:
   - Default
   - TransparentFX

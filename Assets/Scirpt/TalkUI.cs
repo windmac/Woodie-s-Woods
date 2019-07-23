@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,11 +37,7 @@ public class TalkUI : MonoBehaviour
 
     private void LoadText(string textPath)
     {
-        FileStream fs = new FileStream(@".\Assets\Resources\Text\TalkText.json", FileMode.Open, FileAccess.Read);
-
-        StreamReader sr = new StreamReader(fs, System.Text.Encoding.ASCII);
-
-        string talkContent = sr.ReadToEnd();
+        string talkContent = Resources.Load<TextAsset>(textPath).text;
         string[] talkContent1 = talkContent.Split('\n');
         TextContent = new string[talkContent1.Length][];
         for (int i = 0; i < talkContent1.Length; i++)

@@ -33,7 +33,6 @@ public class PlantSeed : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.I))
         {
-            /*
             if (selected_seed >= nb_seeds - 1)
                 selected_seed = 0;
             else
@@ -47,8 +46,7 @@ public class PlantSeed : MonoBehaviour
                 child.gameObject.SetActive(false);
             }
 
-            transform.GetChild(selected_seed).gameObject.SetActive(true);*/
-            SelectNextSeed();
+            transform.GetChild(selected_seed).gameObject.SetActive(true);
         }
 
 
@@ -68,38 +66,6 @@ public class PlantSeed : MonoBehaviour
         pc.canMove = false;
         yield return new WaitForSeconds(stop_time);
         pc.canMove = true;
-
-    }
-
-    void SelectSeed()
-    {
-        int i = 0;
-        foreach (Transform item in transform)
-        {
-            if (i == selected_seed && PlayerManager.instance.ItemList[i+2].Active)
-            {
-                item.gameObject.SetActive(true);
-                SeedUI_text.text = "种子：" + seeds[selected_seed].name;
-            }
-            else if (i == selected_seed && !PlayerManager.instance.ItemList[i + 2].Active)
-            {
-                SelectNextSeed();
-            }
-            else
-            {
-                item.gameObject.SetActive(false);
-            }
-            i++;
-        }
-    }
-
-    private void SelectNextSeed()
-    {
-        if (selected_seed >= nb_seeds - 1)
-            selected_seed = 0;
-        else
-            selected_seed++;
-        SelectSeed();
 
     }
 }
