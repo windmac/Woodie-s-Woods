@@ -6,7 +6,7 @@
 		_DissolveTexture("Dissolve Texture", 2D) = "white" {}
 		_DissolveX("Current X of the dissolve effect", Float) = 0
 		_DissolveSize("Size of the effect", Float) = 2
-		_StartingX("Starting point of the effect", Float) = -10
+		_StartingX("Starting point of the effect", Float) = 0
 	}
 		SubShader
 		{
