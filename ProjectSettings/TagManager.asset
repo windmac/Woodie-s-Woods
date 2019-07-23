@@ -12,6 +12,7 @@ TagManager:
   - PickUps
   - Friend
   - Destoryable
+  - Bridge Seed
   layers:
   - Default
   - TransparentFX

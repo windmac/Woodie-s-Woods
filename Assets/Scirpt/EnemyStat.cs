@@ -9,6 +9,7 @@ public class EnemyStat : MonoBehaviour
 
     public GameObject enemy;
 
+    public GameObject drop;
 
     void Awake()
     {
@@ -44,6 +45,10 @@ public class EnemyStat : MonoBehaviour
     public void die()
     {
         Debug.Log(enemy.name + " Die");
+        if(drop!=null)
+        {
+            Instantiate(drop, this.transform);
+        }
         Destroy(enemy.gameObject);
     }
 }

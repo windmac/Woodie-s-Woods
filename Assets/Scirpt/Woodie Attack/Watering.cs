@@ -36,6 +36,15 @@ public class Watering : MonoBehaviour
                 seed.growth();
             }
         }
+        if (collider.transform.tag == "Bridge Seed" && watering == true)
+        {
+            BridgeSeed seed = collider.gameObject.GetComponent<BridgeSeed>();
+            if (seed != null)
+            {
+                seed.growth();
+            }
+        }
+
     }
 
     IEnumerator Coroutine()
