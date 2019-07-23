@@ -15,13 +15,19 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 43.2
     width: 1536
     height: 821
+=======
+    y: 43
+    width: 1920
+    height: 997
+>>>>>>> parent of 7456953a... add clouds
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,12 +48,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1536
     height: 771
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
   controlID: 122
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 681, y: 498}
+  m_MaxSize: {x: 14002, y: 14048}
+  vertical: 0
+  controlID: 115
+>>>>>>> parent of 7456953a... add clouds
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,6 +78,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1225
     y: 0
     width: 311
@@ -70,6 +86,15 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
+=======
+    x: 1528
+    y: 0
+    width: 392
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+>>>>>>> parent of 7456953a... add clouds
   m_Panes:
   - {fileID: 15}
   - {fileID: 12}
@@ -92,8 +117,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 303
     height: 467
+=======
+    width: 342
+    height: 651
+>>>>>>> parent of 7456953a... add clouds
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
@@ -117,9 +147,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 467
     width: 1225
     height: 304
+=======
+    y: 651
+    width: 1528
+    height: 296
+>>>>>>> parent of 7456953a... add clouds
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 14}
@@ -148,8 +184,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1536
     height: 821
+=======
+    width: 1920
+    height: 997
+>>>>>>> parent of 7456953a... add clouds
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -169,7 +210,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1536
+=======
+    width: 1920
+>>>>>>> parent of 7456953a... add clouds
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -190,8 +235,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 801
     width: 1536
+=======
+    y: 977
+    width: 1920
+>>>>>>> parent of 7456953a... add clouds
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -214,12 +264,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1225
     height: 771
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
   controlID: 86
+=======
+    width: 1528
+    height: 947
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 116
+>>>>>>> parent of 7456953a... add clouds
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,12 +298,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1225
     height: 467
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
   controlID: 87
+=======
+    width: 1528
+    height: 651
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 117
+>>>>>>> parent of 7456953a... add clouds
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,10 +328,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 303
     y: 0
     width: 922
     height: 467
+=======
+    x: 342
+    y: 0
+    width: 1186
+    height: 651
+>>>>>>> parent of 7456953a... add clouds
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 17}
@@ -347,9 +422,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 540
     width: 1223
     height: 284
+=======
+    y: 673
+    width: 1526
+    height: 272
+>>>>>>> parent of 7456953a... add clouds
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -363,20 +444,27 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scirpt
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scirpt
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\0_UnityProject\Woodie-s-Woods
+  m_LastProjectPath: F:\Unity Projects\Woodie's Woods
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 1125}
     m_SelectedIDs: 82250000
     m_LastClickedID: 9602
     m_ExpandedIDs: 00000000b4180000541900007c1a0000de1a0000921b0000481c0000041d0000c01d0000ee1d0000621e0000961e0000241f00008a1f0000ba1f0000fe1f00001e210000a2210000b8210000082200005822000076220000aa2200009e23000082250000a22600001c2800009228000040290000482a0000f42c0000cc2d0000e82d0000402f00007a2f000088310000fe310000f83200004c330000483400009e340000103500002c3600009c360000b4360000f4610000f6610000f8610000fa610000fc610000fe61000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: c4410000
+    m_LastClickedID: 16836
+    m_ExpandedIDs: 00000000c44100006442000088430000ea4300009e4400004e45000008460000c4460000f246000066470000864700009a470000284800008e480000bc480000004900001c4a0000a04a0000b64a0000044b0000444b0000544b0000a64b0000ea4b0000984c0000724e00008e4f0000065100007c5100002a52000032530000d8550000b0560000ca560000c65700001e58000058580000665a0000d85a0000d05b0000245c0000205d0000365d0000765d0000e65d0000025f0000705f0000885f00003e760000407600004276000044760000467600004876000000ca9a3b
+>>>>>>> parent of 7456953a... add clouds
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +492,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b4180000541900007c1a0000de1a0000921b0000481c0000041d0000c01d0000621e0000961e0000241f00008a1f0000ba1f0000fe1f00001e210000a2210000b82100000822000058220000aa2200009e23000082250000a22600001c2800009228000040290000482a0000f42c0000cc2d0000e82d0000402f00007a2f000088310000fe310000f83200004c330000483400009e3400002c3600009c360000b4360000f4610000f6610000f8610000fa610000fc610000fe610000
+=======
+    m_ExpandedIDs: 00000000c44100006442000088430000ea4300009e4400004e45000008460000c4460000664700009a470000284800008e480000bc480000004900001c4a0000a04a0000b64a0000044b0000544b0000a64b0000984c0000724e00008e4f0000065100007c5100002a52000032530000d8550000b0560000ca5600001e58000058580000665a0000d85a0000d05b0000245c0000205d0000765d0000025f0000705f0000885f00003e7600004076000042760000447600004676000048760000
+>>>>>>> parent of 7456953a... add clouds
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,10 +572,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1224.8
     y: 73.6
     width: 309
     height: 751
+=======
+    x: 1528
+    y: 73
+    width: 390
+    height: 927
+>>>>>>> parent of 7456953a... add clouds
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -516,6 +615,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 73.6
     width: 301
     height: 447
@@ -526,6 +626,18 @@ MonoBehaviour:
       m_SelectedIDs: 6c3a0000
       m_LastClickedID: 14956
       m_ExpandedIDs: cae5ffffd4fbffff4a3900006e3b0000363c0000
+=======
+    y: 22
+    width: 340
+    height: 627
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 682}
+      m_SelectedIDs: 40620000
+      m_LastClickedID: 25152
+      m_ExpandedIDs: ba96fdff6cacfdffa0b6fdff4089ffffb4d8ffffb8d8ffff88daffffe6dbffffeadbffff98dcffff08f4ffff1af4ffffd4f4ffffe8f4fffff0f4fffff6f4ffff18f5ffff22f5ffff24f5ffffbc610000dc62000022630000da6300000c64000048640000a6640000c0640000c4640000a4650000b6650000ca650000a26600001c67000094670000f8670000346800009c680000c0680000426900001a6a00008c6a0000
+>>>>>>> parent of 7456953a... add clouds
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -570,10 +682,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 303.2
     y: 73.6
     width: 918
     height: 447
+=======
+    x: 342
+    y: 73
+    width: 1182
+    height: 631
+>>>>>>> parent of 7456953a... add clouds
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 3e9e1b1ef06c7a9469a365ad89902bac
   m_SceneLighting: 1
@@ -581,9 +700,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 126.56265, y: -45.688927, z: 11.4797125}
     speed: 2
     m_Value: {x: 126.56265, y: -45.688927, z: 11.4797125}
+=======
+    m_Target: {x: 36.81462, y: -78.11686, z: -55.183014}
+    speed: 2
+    m_Value: {x: 36.81462, y: -78.11686, z: -55.183014}
+>>>>>>> parent of 7456953a... add clouds
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -611,6 +736,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.06658636, y: 0.93339705, z: -0.2466306, w: -0.25201103}
     speed: 2
     m_Value: {x: -0.06658636, y: 0.93339705, z: -0.2466306, w: -0.25201103}
@@ -618,6 +744,15 @@ MonoBehaviour:
     m_Target: 19.035866
     speed: 2
     m_Value: 19.035866
+=======
+    m_Target: {x: 0.071637005, y: -0.90192586, z: 0.16449372, w: 0.39286098}
+    speed: 2
+    m_Value: {x: 0.071637005, y: -0.90192586, z: 0.16449372, w: 0.39286098}
+  m_Size:
+    m_Target: 109.72708
+    speed: 2
+    m_Value: 109.72708
+>>>>>>> parent of 7456953a... add clouds
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -650,10 +785,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 303.2
     y: 73.6
     width: 918
     height: 447
+=======
+    x: 342
+    y: 73
+    width: 1182
+    height: 631
+>>>>>>> parent of 7456953a... add clouds
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -665,10 +807,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -677,7 +819,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -686,16 +828,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 918
       height: 430
     m_Scale: {x: 0.4976852, y: 0.4976852}
     m_Translation: {x: 459, y: 215}
+=======
+      width: 1182
+      height: 614
+    m_Scale: {x: 0.5685185, y: 0.5685185}
+    m_Translation: {x: 591, y: 307}
+>>>>>>> parent of 7456953a... add clouds
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -922.2698
       y: -432
       width: 1844.5396
@@ -705,6 +855,17 @@ MonoBehaviour:
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
   m_LastWindowPixelSize: {x: 1147.5, y: 558.75}
+=======
+      x: -1039.544
+      y: -540
+      width: 2079.088
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.5685185
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 1
+  m_LastWindowPixelSize: {x: 1182, y: 631}
+>>>>>>> parent of 7456953a... add clouds
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
