@@ -6,7 +6,7 @@ public class Boomerang : MonoBehaviour
 {
     bool back;
     GameObject player;
-    GameObject axe;
+     GameObject axe;
 
     Transform rotating_model;
     Vector3 frontOfPlayer_location;
@@ -17,6 +17,8 @@ public class Boomerang : MonoBehaviour
     public float rotation_speed = 0f;
     public int damage = 1;
 
+    public AudioSource chop_sound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,7 @@ public class Boomerang : MonoBehaviour
         player = GameObject.Find("Woodie");
         axe = GameObject.Find("Axe");
 
-        axe.GetComponent<MeshRenderer>().enabled = false;
+        axe.GetComponentInChildren<MeshRenderer>().enabled=false;
 
         //rotating_model = gameObject.transform.GetChild(0);
         rotating_model = gameObject.transform;
@@ -60,7 +62,7 @@ public class Boomerang : MonoBehaviour
         }
         if(!back&&Vector3.Distance(player.transform.position,transform.position)<0.8)
         {
-            axe.GetComponent<MeshRenderer>().enabled = true;
+            axe.GetComponentInChildren<MeshRenderer>().enabled = true;
             Destroy(this.gameObject);
         }
 
@@ -78,6 +80,7 @@ public class Boomerang : MonoBehaviour
             Debug.Log(other.transform.name + " Damaged");
 
             other.GetComponent<EnemyStat>().takeDamage(damage);
+            chop_sound.Play();
         }
     }
 }

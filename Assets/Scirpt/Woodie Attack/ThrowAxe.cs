@@ -9,6 +9,7 @@ public class ThrowAxe : MonoBehaviour
     public GameObject axe_projectile;
     private PlayerController2 pc;
     public float stop_time = 0.1f;
+    public AudioSource sound;
 
     void Start()
     {
@@ -35,7 +36,7 @@ public class ThrowAxe : MonoBehaviour
             
                 GameObject clone;
                 clone = Instantiate(axe_projectile, new Vector3(x, y + 0.5f, z), transform.rotation) as GameObject;
-
+                sound.Play();
         }
     }
 

@@ -8,11 +8,12 @@ public class Stomped : MonoBehaviour
 
     public float pump_force = 10f;
     public int damage = 2;
-    public GameObject enemy;
-
+    //public GameObject enemy;
+    public AudioSource sound;
+    
     void Start()
     {
-        
+        sound =  WoodieStat.instance.player.transform.Find("Sounds").Find("StompedSound").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,13 +29,11 @@ public class Stomped : MonoBehaviour
 
         if (other.tag == "Woodie")
         {
-            Debug.Log("Springed");
-        
-           // other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force * Time.fixedDeltaTime, ForceMode.VelocityChange);
-           // other.GetComponent<Rigidbody>().AddForce(other.transform.up.normalized * pump_force , ForceMode.VelocityChange);
+           // Debug.Log("Springed");
+            sound.Play();
             other.GetComponent<Rigidbody>().velocity = other.transform.up.normalized * pump_force;
-            //other.GetComponent<Rigidbody>().AddForce(other.transform.up * 8f*Time.fixedDeltaTime, ForceMode.Impulse);
             GetComponentInParent<EnemyStat>().takeDamage(damage) ;
+            
         }
     }
 }
