@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     public Sensation sensation;
     public Attack attack;
     private Vector3 origin_position;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,8 @@ public class EnemyController : MonoBehaviour
         float distance = 999999999999;
         target = sensation.target;
 
+
+
         if (target != null)
         {
             distance = Vector3.Distance(target.position, transform.position);
@@ -40,6 +43,19 @@ public class EnemyController : MonoBehaviour
         if(distance<=lookRadius)
         {
             agent.SetDestination(target.position);
+
+            if(anim!=null)
+            {
+                if(agent.isStopped)
+                {
+                    anim.SetBool("isMoving", false);
+                }
+                else
+                {
+                    anim.SetBool("isMoving", true);
+                }
+                
+            }
 
             if(distance<= agent.stoppingDistance)
             {
