@@ -166,6 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   max_health: 2
   enemy: {fileID: 3415652823092911664}
+  drop: {fileID: 0}
 --- !u!54 &7788561527503052161
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -200,6 +201,7 @@ MonoBehaviour:
   sensation: {fileID: 2753776749994209091}
   attack: {fileID: 0}
   anim: {fileID: 8724776244479643427}
+  patrolOffset: {x: 6, y: 0, z: 0}
 --- !u!136 &1167535589055658022
 CapsuleCollider:
   m_ObjectHideFlags: 0

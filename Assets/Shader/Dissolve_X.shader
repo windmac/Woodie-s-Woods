@@ -52,7 +52,7 @@
 				fixed4 frag(v2f i) : SV_Target
 				{
 					float transition = _DissolveX - i.localPos.x;
-					clip(_StartingX + (transition + (tex2D(_DissolveTexture, i.uv)) * _DissolveSize));
+					clip(-_StartingX - (transition + (tex2D(_DissolveTexture, i.uv)) * _DissolveSize));
 					fixed4 col = tex2D(_MainTex, i.uv);
 
 					return col;

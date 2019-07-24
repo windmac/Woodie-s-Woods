@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -13,11 +14,27 @@ public class EnemyController : MonoBehaviour
     public Attack attack;
     private Vector3 origin_position;
     public Animator anim;
+    
+
+    [Header("Patrol Settings")]
+    [SerializeField] Vector3 patrolOffset = new Vector3(5f, 0f, 0f);
+
+    Vector3 startPos;
+    Vector3 patrolPos;
+    Vector3 currentTarget;
+    bool isAttacking = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(this.tag=="Enemy")
+        //initialize patrol target
+        startPos = transform.position;
+        patrolPos = startPos + patrolOffset;
+        currentTarget = patrolPos;
+        print(startPos + " " + patrolPos);
+
+
+        if (this.tag=="Enemy")
         {
             target = PlayerManager.instance.player.transform;
         }
@@ -29,6 +46,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isAttacking)
+        {            
+            Patrol();
+        }
+       
         float distance = 999999999999;
         target = sensation.target;
 
@@ -43,6 +65,7 @@ public class EnemyController : MonoBehaviour
         if(distance<=lookRadius)
         {
             agent.SetDestination(target.position);
+            isAttacking = true;
 
             if(anim!=null)
             {
@@ -73,11 +96,11 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            if(agent.remainingDistance<=0.1f)
-            {
+            //if(agent.remainingDistance<=0.1f)
+            //{
                 //Debug.Log("Agent Stop");
-                agent.SetDestination(origin_position);
-            }
+            //   agent.SetDestination(origin_position);
+            //}
            
             if (attack != null)
             {
@@ -85,6 +108,20 @@ public class EnemyController : MonoBehaviour
             }
             
         }
+    }
+
+    private void Patrol()
+    {
+        if (Vector3.Distance(transform.position, startPos) < 1f)
+        {
+            currentTarget = patrolPos;
+
+        }
+        if (Vector3.Distance(transform.position, patrolPos) < 1f)
+        {
+            currentTarget = startPos;
+        }
+        agent.SetDestination(currentTarget);
     }
 
     void FaceTarget()

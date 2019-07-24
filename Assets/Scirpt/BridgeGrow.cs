@@ -5,6 +5,7 @@ using UnityEngine;
 public class BridgeGrow : MonoBehaviour
 {
     [SerializeField] float growTime = 2f;
+    [SerializeField] float fullX = 1f;
     Material myMat;
     float growPercent;
 
@@ -23,9 +24,9 @@ public class BridgeGrow : MonoBehaviour
 
     public IEnumerator Grow()
     {
-        while (growPercent < 1)
+        while (growPercent > fullX)
         {
-            growPercent += Time.deltaTime / growTime;
+            growPercent -= Time.deltaTime / growTime;
             yield return null;
         }
         
