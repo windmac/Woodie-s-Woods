@@ -11,6 +11,7 @@ public class ThrowAxe : MonoBehaviour
     public float stop_time = 0.1f;
     public AudioSource sound;
 
+    public Animator animator;
     void Start()
     {
         pc  = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
@@ -28,8 +29,8 @@ public class ThrowAxe : MonoBehaviour
         //扔斧头
         if (Input.GetKeyDown(KeyCode.J)&&GameObject.FindGameObjectsWithTag("Axe").Length == 0)
         {
-
-            if(pc.IsGrounded())
+            animator.SetTrigger("Nock");
+            if (pc.IsGrounded())
             {
                 StartCoroutine(Coroutine());
             }
@@ -43,6 +44,7 @@ public class ThrowAxe : MonoBehaviour
     IEnumerator Coroutine()
     {
         pc.canMove = false;
+        
         yield return new WaitForSeconds(stop_time);
         pc.canMove = true;
   

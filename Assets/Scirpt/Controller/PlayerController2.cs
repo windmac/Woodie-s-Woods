@@ -21,6 +21,8 @@ public class PlayerController2 : MonoBehaviour
     public AudioSource jump_sound;
    public AudioSource walking_sound;
 
+    public Animator animator;
+
     private bool is_walking = false;
     Rigidbody rb;
     // Animator anim;
@@ -91,6 +93,30 @@ public class PlayerController2 : MonoBehaviour
                 //以下放动画控制
             }
 
+            if(!IsGrounded())
+            {
+                if(rb.velocity.y>0)
+                {
+                    animator.SetBool("isJumping", true);
+                    animator.SetBool("isFalling", false);
+                }
+                else
+                {
+                    animator.SetBool("isJumping", false);
+                    animator.SetBool("isFalling", true);
+                }
+               
+            }
+            else
+            {
+                animator.SetBool("isJumping", false);
+                animator.SetBool("isFalling", false);
+            }
+
+
+        }else
+        {
+            animator.SetBool("isMoving", false);
         }
     }
     void FixedUpdate()
@@ -119,7 +145,7 @@ public class PlayerController2 : MonoBehaviour
 
         transform.Translate(movement, Space.World);
 
-
+        //is Moving
          if(movement.sqrMagnitude>0.00003)
          {
 
@@ -133,10 +159,16 @@ public class PlayerController2 : MonoBehaviour
             {
                 walking_sound.Play();
             }
+
+
+                animator.SetBool("isMoving", true);
+
+            
         }
         else
         {
             walking_sound.Stop();
+            animator.SetBool("isMoving", false);
         }
 
 

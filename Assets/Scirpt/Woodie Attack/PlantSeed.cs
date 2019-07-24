@@ -15,7 +15,7 @@ public class PlantSeed : MonoBehaviour
     public int nb_seeds;
     public Text SeedUI_text;
     public float height_offset = -0.5f ;
-
+    public Animator animator;
     void Start()
     {
         pc = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
@@ -55,7 +55,7 @@ public class PlantSeed : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.J) && pc.IsGrounded())
         {
-
+            animator.SetTrigger("Nock");
             StartCoroutine(Coroutine());
             GameObject clone;
             clone = Instantiate(seeds[selected_seed], plant_posision, transform.rotation) as GameObject;
