@@ -13,9 +13,9 @@ public enum ItemAndSkill
 }
 public struct ItemNode
 {
-    public ItemAndSkill Item;
-    public Transform Parent;
-    public bool Active;
+    public ItemAndSkill Item { get; set; }
+    public Transform Parent { get; set; }
+    public bool Active { get; set; }
 
     public ItemNode(ItemAndSkill item, Transform parent, bool active)
     {
@@ -34,6 +34,7 @@ public class PlayerManager : MonoBehaviour
 
     public List<ItemNode> ItemList;
     public GameObject Seed;
+    public GameObject LogUI;
 
     void Awake()
     {
@@ -49,9 +50,6 @@ public class PlayerManager : MonoBehaviour
         ItemList.Add(new ItemNode(ItemAndSkill.SeedShooter, Seed.transform, ItemActive[2]));
         ItemList.Add(new ItemNode(ItemAndSkill.SeedMushroom, Seed.transform, ItemActive[3]));
         ItemList.Add(new ItemNode(ItemAndSkill.SeedBoom, Seed.transform, ItemActive[4]));
-
-        
-
     }
 
     public bool IsEmpty()
@@ -64,5 +62,18 @@ public class PlayerManager : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void SetItemState(string log,int index,bool active)
+    {
+
+        ItemList[index] = new ItemNode(ItemList[index].Item, ItemList[index].Parent, active);
+        ItemActive[index] = active;
+        ShowLog(log);
+    }
+
+    public void ShowLog(string log)
+    {
+        LogUI.GetComponent<LogUI>().ShowLog(log);
     }
 }
