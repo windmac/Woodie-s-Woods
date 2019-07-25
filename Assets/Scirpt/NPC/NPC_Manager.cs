@@ -98,7 +98,7 @@ public class NPC_Manager : MonoBehaviour
         direction.y = 0;
         direction = direction.normalized;
 
-        this.transform.rotation = Quaternion.LookRotation(direction);
+        this.transform.parent.transform.rotation = Quaternion.LookRotation(direction);
         PlayerWoodie.transform.rotation = Quaternion.LookRotation(-direction);
     }
 
