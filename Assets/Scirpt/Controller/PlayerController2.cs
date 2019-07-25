@@ -11,7 +11,7 @@ public class PlayerController2 : MonoBehaviour
     public LayerMask groundLayers;
     public bool canMove = true;
 
-    private float speed = 5f;
+    public float speed = 8f;
     private float w_speed = 5f;
     private float c_speed = 2.5f;
     private float rotation_speed = 8f;
@@ -82,7 +82,7 @@ public class PlayerController2 : MonoBehaviour
             }
 
             //蹲着
-            if (isCrouching)
+          /*  if (isCrouching)
             {
                 speed = c_speed;
             }
@@ -91,7 +91,7 @@ public class PlayerController2 : MonoBehaviour
                 speed = w_speed;
 
                 //以下放动画控制
-            }
+            }*/
 
             if(!IsGrounded())
             {

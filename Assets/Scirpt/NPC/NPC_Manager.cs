@@ -10,6 +10,7 @@ public class NPC_Manager : MonoBehaviour
     public GameObject TalkUIParent;
     public GameObject TalkUIPrefab;
 
+    public Vector3 talking_offest_adjestment;
     private GameObject TalkUIClone;
 
     private GameObject PlayerWoodie;
@@ -62,6 +63,10 @@ public class NPC_Manager : MonoBehaviour
         {
             PlayerWoodie = other.gameObject;
             Talking = true;
+            GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_target = this.gameObject;
+            GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talk_point = other.transform;
+            GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_offest_adjestment = talking_offest_adjestment;
+
         }
     }
 
@@ -73,6 +78,10 @@ public class NPC_Manager : MonoBehaviour
             PlayerWoodie = null;
             Destroy(TalkUIClone);
             Talking = false;
+            GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_target = null;
+            GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talk_point = null;
+            GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_offest_adjestment =new Vector3(0,0,0);
+
         }
     }
 
