@@ -32,4 +32,21 @@ public class CloudMovement : MonoBehaviour
         Vector3 offset = movementFactor * movementVector * rawSinWave;
         transform.localPosition = startingPos + offset;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("enter");
+        if (other.tag == "Woodie")
+        {
+            other.transform.parent = transform;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Woodie")
+        {
+            other.transform.parent = null;
+        }
+    }
 }

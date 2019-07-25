@@ -26,15 +26,17 @@ public class PlayerController2 : MonoBehaviour
     private bool is_walking = false;
     Rigidbody rb;
     // Animator anim;
-    CapsuleCollider collider;
+    CapsuleCollider footCollider;
+    BoxCollider collider;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         //      anim = GetComponent<Animator>();
-        collider = GetComponent<CapsuleCollider>();
-       // isGrounded = true;
+        collider = GetComponent<BoxCollider>();
+        footCollider = GetComponent<CapsuleCollider>();
+        // isGrounded = true;
     }
 
     // Update is called once per frame
@@ -192,11 +194,11 @@ public class PlayerController2 : MonoBehaviour
 
     public bool IsGrounded()
     {
-        return Physics.CheckCapsule(collider.bounds.center,
-                             new Vector3(collider.bounds.center.x,
-                                         collider.bounds.min.y,
-                                         collider.bounds.center.z),
-                             collider.radius * 0.9f,groundLayers);
+        return Physics.CheckCapsule(footCollider.bounds.center,
+                             new Vector3(footCollider.bounds.center.x,
+                                         footCollider.bounds.min.y,
+                                         footCollider.bounds.center.z),
+                             footCollider.radius * 0.9f,groundLayers);
     }
 
     private Vector2 SquareToCircle(Vector2 vector2)
