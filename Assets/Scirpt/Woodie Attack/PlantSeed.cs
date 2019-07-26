@@ -75,6 +75,7 @@ public class PlantSeed : MonoBehaviour
     void SelectSeed()
     {
         int i = 0;
+        Debug.Log("here");
         foreach (Transform item in transform)
         {
             if (i == selected_seed && PlayerManager.instance.ItemList[i+2].Active)

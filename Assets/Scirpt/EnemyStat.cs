@@ -47,7 +47,10 @@ public class EnemyStat : MonoBehaviour
         Debug.Log(enemy.name + " Die");
         if(drop!=null)
         {
-            Instantiate(drop, this.transform);
+            GameObject clone = Instantiate(drop, transform.position, transform.rotation) as GameObject;
+            clone.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            //  = Instantiate(drop, new Vector3(x, y + 0.2f, z), transform.rotation) as GameObject;
+            Debug.Log("Drop" + clone.name);
         }
         Destroy(enemy.gameObject);
     }

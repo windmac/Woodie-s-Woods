@@ -13,7 +13,7 @@ public class NPC_Manager : MonoBehaviour
     public Vector3 talking_offest_adjestment;
     private GameObject TalkUIClone;
 
-    private GameObject PlayerWoodie;
+    //private GameObject PlayerWoodie;
 
     private bool Talking = false;
     private bool ShowText = false;
@@ -23,6 +23,8 @@ public class NPC_Manager : MonoBehaviour
 
     private void Awake()
     {
+        
+
         TalkID = new string[TextID.Length][];
         for (int i = 0; i < TextID.Length; i++)
         {
@@ -45,13 +47,23 @@ public class NPC_Manager : MonoBehaviour
                 GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().SetCameraMode(1);
                 InstantiateTalkContent();
                 ShowText = true;
+
+
             }
             if (ShowText && TalkUIClone.GetComponent<TalkUI>().TextIndex >= TalkID[TalkListID].Length)
             {
-                PlayerWoodie.GetComponent<PlayerController2>().canMove = true;
+                PlayerManager.instance.player.GetComponent<PlayerController2>().canMove = true;
                 Destroy(TalkUIClone);
                 GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().SetCameraMode(0);
                 ShowText = false;
+
+                //Fake scrolling text
+               if(TalkListID< TextID.Length-1)
+                 {
+                     TalkListID++;
+                 }
+                 Debug.Log("Talk list id " +TalkListID);
+                
             }
         }
         
@@ -61,7 +73,7 @@ public class NPC_Manager : MonoBehaviour
     {
         if (other.gameObject.tag=="Woodie")
         {
-            PlayerWoodie = other.gameObject;
+           // PlayerWoodie = other.gameObject;
             Talking = true;
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_target = this.gameObject;
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talk_point = other.transform;
@@ -73,9 +85,9 @@ public class NPC_Manager : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag=="Woodie")
-        {           
-            PlayerWoodie.GetComponent<PlayerController2>().canMove = true;
-            PlayerWoodie = null;
+        {
+            PlayerManager.instance.player.GetComponent<PlayerController2>().canMove = true;
+           // PlayerWoodie = null;
             Destroy(TalkUIClone);
             Talking = false;
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_target = null;
@@ -93,13 +105,13 @@ public class NPC_Manager : MonoBehaviour
 
     private void LookAtEachOther()
     {
-        PlayerWoodie.GetComponent<PlayerController2>().canMove = false;
-        Vector3 direction = PlayerWoodie.transform.position - this.gameObject.transform.position;
+        PlayerManager.instance.player.GetComponent<PlayerController2>().canMove = false;
+        Vector3 direction = PlayerManager.instance.player.transform.position - this.gameObject.transform.position;
         direction.y = 0;
         direction = direction.normalized;
 
         this.transform.parent.transform.rotation = Quaternion.LookRotation(direction);
-        PlayerWoodie.transform.rotation = Quaternion.LookRotation(-direction);
+        PlayerManager.instance.player.transform.rotation = Quaternion.LookRotation(-direction);
     }
 
     /*public void SetTalkListID(int talkListID)
