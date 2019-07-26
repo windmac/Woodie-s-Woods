@@ -22,7 +22,8 @@ public class PlantSeed : MonoBehaviour
         nb_seeds = seeds.Length;
 
         //UI initialization
-        SeedUI_text.text = "种子：" + seeds[selected_seed].name;
+        SeedUI_text.text = "种子：";// + seeds[selected_seed].name;
+        SelectSeed();
     }
 
     // Update is called once per frame
