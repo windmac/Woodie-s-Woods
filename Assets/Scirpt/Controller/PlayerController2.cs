@@ -126,6 +126,7 @@ public class PlayerController2 : MonoBehaviour
     void FixedUpdate()
     {
         //修改重力
+
         rb.AddForce(Physics.gravity * rb.mass* rb.mass);
     }
 

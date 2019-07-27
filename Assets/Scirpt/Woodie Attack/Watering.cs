@@ -20,7 +20,7 @@ public class Watering : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J)&& pc.IsGrounded())
+        if (Input.GetKeyDown(KeyCode.J)&& pc.IsGrounded()&&pc.canMove)
         {
             animator.SetTrigger("Nock");
             StartCoroutine(Coroutine());

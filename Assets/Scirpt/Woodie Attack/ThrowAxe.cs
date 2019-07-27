@@ -27,7 +27,7 @@ public class ThrowAxe : MonoBehaviour
         float z = transform.position.z;
 
         //扔斧头
-        if (Input.GetKeyDown(KeyCode.J)&&GameObject.FindGameObjectsWithTag("Axe").Length == 0)
+        if (Input.GetKeyDown(KeyCode.J)&&GameObject.FindGameObjectsWithTag("Axe").Length == 0 && pc.canMove)
         {
             animator.SetTrigger("Nock");
             if (pc.IsGrounded())
