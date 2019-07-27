@@ -46,7 +46,7 @@ public class NPC_Manager : MonoBehaviour
                 InstantiateTalkContent();
                 ShowText = true;
             }
-            if (ShowText && TalkUIClone.GetComponent<TalkUI>().TextIndex >= TalkID[TalkListID].Length)
+            if (ShowText && TalkUIClone!=null && TalkUIClone.GetComponent<TalkUI>().TextIndex >= TalkID[TalkListID].Length)
             {
                 PlayerWoodie.GetComponent<PlayerController2>().canMove = true;
                 Destroy(TalkUIClone);
