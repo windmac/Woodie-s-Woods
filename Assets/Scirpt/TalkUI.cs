@@ -15,6 +15,7 @@ public class TalkUI : MonoBehaviour
     public int TextIndex = 0;
 
     private bool Talking = false;
+    private GameObject MessageReciver;
 
     private void Awake()
     {
@@ -29,6 +30,10 @@ public class TalkUI : MonoBehaviour
             if (TextIndex >= TalkText.Length)
             {
                 DestroyThis();
+                if (MessageReciver != null)
+                {
+                    MessageReciver.BroadcastMessage("OnTalkFinished");
+                }
                 return;
             }
             TalkContent.text = TalkText[TextIndex];
@@ -38,7 +43,7 @@ public class TalkUI : MonoBehaviour
 
     private void LoadText(string textPath)
     {
-        FileStream fs = new FileStream(@".\Assets\Resources\Text\TalkText.json", FileMode.Open, FileAccess.Read);
+        FileStream fs = new FileStream(textPath, FileMode.Open, FileAccess.Read);
 
         StreamReader sr = new StreamReader(fs, System.Text.Encoding.ASCII);
 
@@ -57,7 +62,7 @@ public class TalkUI : MonoBehaviour
         }
     }
 
-    public void ShowText(string textPath,string[] textID)
+    public void ShowText(string textPath,string[] textID,GameObject messageReciver=null)
     {
         LoadText(textPath);
         TalkText = new string[textID.Length];
@@ -82,6 +87,7 @@ public class TalkUI : MonoBehaviour
         }
         TalkContent.text = TalkText[TextIndex];
         Talking = true;
+        MessageReciver = messageReciver;
     }
 
     public void DestroyThis(float time = 1)
