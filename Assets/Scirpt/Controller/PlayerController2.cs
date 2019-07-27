@@ -95,31 +95,33 @@ public class PlayerController2 : MonoBehaviour
                 //以下放动画控制
             }*/
 
-            if(!IsGrounded())
-            {
-                if(rb.velocity.y>0)
-                {
-                    animator.SetBool("isJumping", true);
-                    animator.SetBool("isFalling", false);
-                }
-                else
-                {
-                    animator.SetBool("isJumping", false);
-                    animator.SetBool("isFalling", true);
-                }
-               
-            }
-            else
-            {
-                animator.SetBool("isJumping", false);
-                animator.SetBool("isFalling", false);
-            }
 
 
         }else
         {
             animator.SetBool("isMoving", false);
         }
+
+        if (!IsGrounded())
+        {
+            if (rb.velocity.y > 0)
+            {
+                animator.SetBool("isJumping", true);
+                animator.SetBool("isFalling", false);
+            }
+            else
+            {
+                animator.SetBool("isJumping", false);
+                animator.SetBool("isFalling", true);
+            }
+
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isFalling", false);
+        }
+
     }
     void FixedUpdate()
     {

@@ -95,6 +95,7 @@
      <Compile Include="Assets\Scirpt\Main Light.cs" />
      <Compile Include="Assets\Scirpt\MonoScript\RockBreak.cs" />
      <Compile Include="Assets\Scirpt\NPC\NPC_Manager.cs" />
+     <Compile Include="Assets\Scirpt\River.cs" />
      <Compile Include="Assets\Scirpt\Seed\Seed.cs" />
      <Compile Include="Assets\Scirpt\Seed\SpringMushroom.cs" />
      <Compile Include="Assets\Scirpt\TalkUI.cs" />
