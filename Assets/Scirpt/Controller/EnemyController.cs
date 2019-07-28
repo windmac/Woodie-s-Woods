@@ -89,6 +89,7 @@ public class EnemyController : MonoBehaviour
                 if(attack!= null)
                 {
                     attack.attack(target);
+                    //anim.SetTrigger("Attack");
                 }
                 
             }

@@ -8,6 +8,7 @@ public class BoomPlant : MonoBehaviour
     public float ExplosionForce;
     public float ExlposionRadius;
     public int Damage;
+    public ParticleSystem ps;
 
     private List<GameObject> CHAGameObjects;
     private SphereCollider Collider;
@@ -25,7 +26,17 @@ public class BoomPlant : MonoBehaviour
 
     private void Boom()
     {
-        this.GetComponent<AudioSource>().Play();
+
+        AudioSource ads = Instantiate( this.GetComponent<AudioSource>(),transform.position, Quaternion.identity);
+        ads.Play();
+        Destroy(ads.gameObject, ads.clip.length);
+
+        //this.GetComponent<AudioSource>().Play()
+        if (ps == null) { return; }
+        ParticleSystem ps1 = Instantiate(ps, transform.position, Quaternion.identity) as ParticleSystem;
+        ps1.Play();
+        Destroy(ps1.gameObject, ps1.main.startLifetime.constant);
+
         foreach (GameObject chaGameObject in CHAGameObjects)
         {
             Debug.Log("do damage");
@@ -53,7 +64,8 @@ public class BoomPlant : MonoBehaviour
             }
         }
 
-        Destroy(this.gameObject, 1);
+       // Destroy(this.gameObject, 1);
+        Destroy(this.gameObject);
     }
 
     private void OnTriggerStay(Collider other)

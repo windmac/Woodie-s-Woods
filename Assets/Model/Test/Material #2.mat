@@ -70,7 +70,7 @@ Material:
     - _OutlineThickness: 0.206
     - _Parallax: 0.02
     - _RampSmooth: 0
-    - _RampThreshold: 0.4
+    - _RampThreshold: 0.1
     - _RimSmooth: 0
     - _RimThreshold: 0.447
     - _Shininess: 0.3

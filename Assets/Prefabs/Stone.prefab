@@ -109,8 +109,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.6765897, z: 1}
-  m_Center: {x: 0, y: -0.06687805, z: 0}
+  m_Size: {x: 1.3046497, y: 2.9174993, z: 1.2751824}
+  m_Center: {x: -0.0029857457, y: -0.5620332, z: 0.042198747}
 --- !u!1001 &626409963209650833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,10 +118,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6240903517140806223}
     m_Modifications:
-    - target: {fileID: 164592, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}
-      propertyPath: m_Name
-      value: stone
-      objectReference: {fileID: 0}
     - target: {fileID: 486098, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -168,15 +164,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 486098, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 486098, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 486098, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 164592, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}
+      propertyPath: m_Name
+      value: stone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35926f9f2e67e848868c7fbabe6c2f0, type: 3}

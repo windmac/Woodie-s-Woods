@@ -17,22 +17,31 @@ public class ShootingAttack : Attack
     private Transform target;
     public float projectile_existing_time = 3f;
     public bool friend_or_enemy = false;
+    public Animator anim;
+    public float delay = 0.5f;
 
     void Update()
     {
         if (is_attacking)
         {
             //Debug.Log(shootCounter);
+            anim.speed = attack_rate;
+
             shootCounter -= Time.deltaTime* attack_rate;
 
             if(shootCounter <=0 &&target!=null)
             {
+                
                 shootCounter = timeBetweenShoot;
+                anim.SetTrigger("Attack");
+              //  StartCoroutine(coroutine());
+               /* shootCounter = timeBetweenShoot;
                 Projectile projectile_ref = Instantiate(projectile, shoot_position.position, shoot_position.rotation) as Projectile;
                 projectile_ref.speed = projectile_speed;
                 projectile_ref.friend_or_enemy = friend_or_enemy;
                 //projectile_ref.direction = (target.position- shoot_position.position).normalized;
-               Destroy(projectile_ref.gameObject, projectile_existing_time);
+               Destroy(projectile_ref.gameObject, projectile_existing_time);*/
+               
             }
 
         }
@@ -43,16 +52,31 @@ public class ShootingAttack : Attack
     {
         is_attacking = true;
         this.target = target;
-        //Debug.Log("Start Attacking");
+        
 
     }
 
     public override void stopAttack()
     {
         is_attacking = false;
-       // Debug.Log("Stop Attacking");
-       // this.target = null;
 
+    }
+
+    public void shoot()
+    {
+        
+        Projectile projectile_ref = Instantiate(projectile, shoot_position.position, shoot_position.rotation) as Projectile;
+        projectile_ref.speed = projectile_speed;
+        projectile_ref.friend_or_enemy = friend_or_enemy;
+        //projectile_ref.direction = (target.position- shoot_position.position).normalized;
+        Destroy(projectile_ref.gameObject, projectile_existing_time);
+    }
+
+    IEnumerator coroutine()
+    {
+        
+        yield return new WaitForSeconds(delay);
+        shoot();
     }
 }
 

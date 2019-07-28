@@ -12,7 +12,7 @@ public class NPC_Manager : MonoBehaviour
 
     public Vector3 talking_offest_adjestment;
     private GameObject TalkUIClone;
-
+    public bool destoryable = false;
     //private GameObject PlayerWoodie;
 
     private bool Talking = false;
@@ -43,7 +43,11 @@ public class NPC_Manager : MonoBehaviour
         {
             if (!ShowText&&Input.GetKeyDown(KeyCode.V))
             {
-                LookAtEachOther();
+                if(!destoryable)
+                {
+                    LookAtEachOther();
+                }
+                
                 GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().SetCameraMode(1);
                 InstantiateTalkContent();
                 ShowText = true;

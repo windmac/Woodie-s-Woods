@@ -7,18 +7,20 @@ public class ItemSwitch : MonoBehaviour
     public int selectedItem = 0;
     private int num_items;
     public Text EquipmentUI_text;
-
+    private PlayerController2 pc;
     // Start is called before the first frame update
     void Start()
     {
         SelectItem();
         num_items = transform.childCount;
+        pc = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R) && PlayerManager.instance.IsEmpty())
+        if(Input.GetKeyDown(KeyCode.R) && PlayerManager.instance.IsEmpty()&&pc.canMove)
         {
             SelectNextItem();
         }

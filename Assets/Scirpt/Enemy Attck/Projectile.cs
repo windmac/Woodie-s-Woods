@@ -54,6 +54,17 @@ public class Projectile : MonoBehaviour
             // Debug.Log(attack_vec);
         }
 
+        if (other.transform.tag == "Friend" && friend_or_enemy == false)
+        {
+
+            // other.GetComponent<Rigidbody>().AddForce(attack_vec * attack_force, ForceMode.VelocityChange);
+            //other.GetComponent<Rigidbody>().velocity = attack_vec * attack_force;
+            other.GetComponent<EnemyStat>().takeDamage(damage);
+            //WoodieStat.instance.takeDamage(damage);
+           // Debug.Log("Enemy Damaged " + damage);
+            // Debug.Log(attack_vec);
+        }
+
         if (other.transform.tag == "Axe")
         {
             Destroy(this.gameObject);
