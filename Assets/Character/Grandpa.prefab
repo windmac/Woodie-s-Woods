@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7450724302348120196}
   - component: {fileID: 7450724302348120198}
   - component: {fileID: 7450724302348120199}
+  - component: {fileID: 2672124319170726584}
   m_Layer: 0
   m_Name: NPC Manager
   m_TagString: Untagged
@@ -63,11 +64,25 @@ MonoBehaviour:
   TalkUIPrefab: {fileID: 7027757936201872016, guid: d6e2e17305496bf439cca30b3e6f48a8,
     type: 3}
   talking_offest_adjestment: {x: 0, y: 0, z: 0}
+  destoryable: 0
+  id: 1
   TextID:
   - 00101,00102,00103,00104,00105,00106,00107,00108,00109,00110,00111,00112,00113,00114,00115
   - 00147,00148,00149,00150,00151,00152,00153,00154,00155,00156
   - 00157,00158
   - 00166,00167,00168,00169,00170,00171
+--- !u!114 &2672124319170726584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450724302348120197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5903aa0337ad28d44b2b70359fb9d95d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7450724303641289259
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,26 +233,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5DE5\u7A0B\u5E08\u8001\u7237\u7237"
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -281,6 +276,26 @@ PrefabInstance:
     - target: {fileID: 400008, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0063fcd335d6dc9498516d70e6069375, type: 3}

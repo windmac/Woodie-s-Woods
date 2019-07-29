@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 6179030158638904948}
   - component: {fileID: 6179030158638904950}
   - component: {fileID: 6179030158638904951}
+  - component: {fileID: 7060830465826681943}
   m_Layer: 0
   m_Name: NPC Manager
   m_TagString: Untagged
@@ -152,9 +153,23 @@ MonoBehaviour:
   TalkUIPrefab: {fileID: 7027757936201872016, guid: d6e2e17305496bf439cca30b3e6f48a8,
     type: 3}
   talking_offest_adjestment: {x: 0, y: 0, z: 0}
+  destoryable: 0
+  id: 2
   TextID:
   - 00117,00118,00119,00120,00121,00122,00123,00124,00125,00126,00127
   - 00127
+--- !u!114 &7060830465826681943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179030158638904949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f1037cf8a5a404c9f7e5aa259e9aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &981155071892830860
 PrefabInstance:
   m_ObjectHideFlags: 0

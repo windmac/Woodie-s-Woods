@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using EventCallBacks;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +14,11 @@ public class NPC_Manager : MonoBehaviour
     public Vector3 talking_offest_adjestment;
     private GameObject TalkUIClone;
     public bool destoryable = false;
+    public int id;
     //private GameObject PlayerWoodie;
+   // public KeyCode talk_key = KeyCode.H;
+
+    
 
     private bool Talking = false;
     private bool ShowText = false;
@@ -41,7 +46,7 @@ public class NPC_Manager : MonoBehaviour
     {
         if (Talking)
         {
-            if (!ShowText&&Input.GetKeyDown(KeyCode.V))
+            if (!ShowText&& KeyMappingManager.instance.talk)
             {
                 if(!destoryable)
                 {
@@ -62,12 +67,18 @@ public class NPC_Manager : MonoBehaviour
                 ShowText = false;
 
                 //Fake scrolling text
-               if(TalkListID< TextID.Length-1)
-                 {
-                     TalkListID++;
-                 }
-                 Debug.Log("Talk list id " +TalkListID);
-                
+                /*   if(TalkListID< TextID.Length-1)
+                     {
+                         TalkListID++;
+                     }
+                     Debug.Log("Talk list id " +TalkListID);
+                    */
+                NPCChatInfo nci = new NPCChatInfo();
+                nci.EventDescription = gameObject.name + " Chat finished";
+                nci.chatter_id = id;
+                nci.eventType = EventSystem.EVENT_TYPE.DIALOG_FINISHED;
+
+                EventSystem.Current.FireEvent(EventSystem.EVENT_TYPE.DIALOG_FINISHED, nci);
             }
         }
         

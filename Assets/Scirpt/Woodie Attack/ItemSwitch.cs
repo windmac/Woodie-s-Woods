@@ -8,6 +8,10 @@ public class ItemSwitch : MonoBehaviour
     private int num_items;
     public Text EquipmentUI_text;
     private PlayerController2 pc;
+    public KeyCode switch_key = KeyCode.L;
+    public KeyCode use_key = KeyCode.J;
+
+    public bool use_item = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +24,11 @@ public class ItemSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R) && PlayerManager.instance.IsEmpty()&&pc.canMove)
+        if(KeyMappingManager.instance.item_switch && PlayerManager.instance.IsEmpty()&&pc.canMove)
         {
             SelectNextItem();
         }
+
     }
 
     void SelectItem()

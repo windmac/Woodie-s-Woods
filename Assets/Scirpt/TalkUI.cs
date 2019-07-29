@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class TalkUI : MonoBehaviour
 {
-    public KeyCode NextText = KeyCode.V;
+   // public KeyCode NextText = KeyCode.H;
     private string[][] TextContent;
 
     private Text TalkContent;
@@ -24,7 +24,7 @@ public class TalkUI : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(NextText)&&Talking)
+        if (KeyMappingManager.instance.talk&&Talking)
         {
             TextIndex++;
             if (TextIndex >= TalkText.Length)
@@ -57,7 +57,7 @@ public class TalkUI : MonoBehaviour
             for (int j = 0; j < talkContent2.Length; j++)
             {
                 TextContent[i][j] = talkContent2[j];
-                Debug.Log(talkContent2[j]);
+               // Debug.Log(talkContent2[j]);
             }
         }
     }

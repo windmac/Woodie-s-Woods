@@ -10,8 +10,9 @@ public class Watering : MonoBehaviour
     private PlayerController2 pc;
     public float stop_time = 0.1f;
     public AudioSource sound;
-
     public Animator animator;
+
+    //public 
     void Start()
     {
         pc = gameObject.GetComponentInParent(typeof(PlayerController2)) as PlayerController2;
@@ -20,7 +21,7 @@ public class Watering : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J)&& pc.IsGrounded()&&pc.canMove)
+        if (KeyMappingManager.instance.item_use& pc.IsGrounded()&&pc.canMove)
         {
             animator.SetTrigger("Nock");
             StartCoroutine(Coroutine());

@@ -32,7 +32,7 @@ public class PlantSeed : MonoBehaviour
 
         Vector3 plant_posision = transform.position +new Vector3(0, height_offset, 0)+ transform.forward * range;
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (KeyMappingManager.instance.seed_switch)
         {
             /*
             if (selected_seed >= nb_seeds - 1)
@@ -54,7 +54,7 @@ public class PlantSeed : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.J) && pc.IsGrounded() && pc.canMove)
+        if (KeyMappingManager.instance.item_use && pc.IsGrounded() && pc.canMove)
         {
             animator.SetTrigger("Nock");
             StartCoroutine(Coroutine());

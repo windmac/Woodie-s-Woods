@@ -11,23 +11,27 @@
         _MainTex ("Main Texture", 2D) = "white" { }
         
         // ramp
-        _ToonSteps ("Steps of Toon", range(1, 9)) = 2
-        _RampThreshold ("Ramp Threshold", Range(0.1, 1)) = 0.5
-        _RampSmooth ("Ramp Smooth", Range(0, 1)) = 0.1
-        
-        // specular
-        _SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 1)
-        _SpecSmooth ("Specular Smooth", Range(0, 1)) = 0.1
-        _Shininess ("Shininess", Range(0.001, 10)) = 0.2
-        
-        // rim light
-        _RimColor ("Rim Color", Color) = (0.8, 0.8, 0.8, 0.6)
-        _RimThreshold ("Rim Threshold", Range(0, 1)) = 0.5
-        _RimSmooth ("Rim Smooth", Range(0, 1)) = 0.1
+		_ToonSteps("Steps of Toon", range(1, 9)) = 2
+		_RampThreshold("Ramp Threshold", Range(0.1, 1)) = 0.5
+		_RampSmooth("Ramp Smooth", Range(0, 1)) = 0.1
+
+			// specular
+			_SpecColor("Specular Color", Color) = (0.5, 0.5, 0.5, 1)
+			_SpecSmooth("Specular Smooth", Range(0, 1)) = 0.1
+			_Shininess("Shininess", Range(0.001, 10)) = 0.2
+
+			// rim light
+			_RimColor("Rim Color", Color) = (0.8, 0.8, 0.8, 0.6)
+			_RimThreshold("Rim Threshold", Range(0, 1)) = 0.5
+			_RimSmooth("Rim Smooth", Range(0, 1)) = 0.1
+
+			
     }
     
     SubShader
     {
+		Cull Off
+
         Tags { "RenderType" = "Opaque" }
         
         CGPROGRAM
@@ -35,6 +39,8 @@
         #pragma surface surf Toon addshadow fullforwardshadows exclude_path:deferred exclude_path:prepass
         #pragma target 3.0
         
+		
+
         fixed4 _Color;
         fixed4 _HColor;
         fixed4 _SColor;
@@ -66,6 +72,9 @@
         inline fixed4 LightingToon(SurfaceOutput s, half3 lightDir, half3 viewDir, half atten)
         {
             half3 normalDir = normalize(s.Normal);
+
+			normalDir = dot(viewDir, normalDir) > 0 ? normalDir : -normalDir;
+
             half3 halfDir = normalize(lightDir + viewDir);
             
             float ndl = max(0, dot(normalDir, lightDir));

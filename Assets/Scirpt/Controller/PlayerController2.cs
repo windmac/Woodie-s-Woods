@@ -72,7 +72,7 @@ public class PlayerController2 : MonoBehaviour
 
 
             //跳跃k触发
-            if ((Input.GetKey(KeyCode.K)) && IsGrounded() == true)
+            if (KeyMappingManager.instance.jump && IsGrounded() == true)
             {
 
                 rb.velocity = Vector3.up * jumpHeight ;

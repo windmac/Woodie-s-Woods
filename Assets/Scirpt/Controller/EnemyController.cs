@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
         startPos = transform.position;
         patrolPos = startPos + patrolOffset;
         currentTarget = patrolPos;
-        print(startPos + " " + patrolPos);
+       // print(startPos + " " + patrolPos);
 
 
         if (this.tag=="Enemy")
