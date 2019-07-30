@@ -48,7 +48,10 @@ public class NPC_Manager : MonoBehaviour
         {
             if (!ShowText&& KeyMappingManager.instance.talk)
             {
-                if(!destoryable)
+
+                GetChildWithName(GetChildWithName(PlayerManager.instance.player, "UI"), "Exclamation").SetActive(false);
+
+                if (!destoryable)
                 {
                     LookAtEachOther();
                 }
@@ -79,6 +82,8 @@ public class NPC_Manager : MonoBehaviour
                 nci.eventType = EventSystem.EVENT_TYPE.DIALOG_FINISHED;
 
                 EventSystem.Current.FireEvent(EventSystem.EVENT_TYPE.DIALOG_FINISHED, nci);
+
+                GetChildWithName(GetChildWithName(PlayerManager.instance.player, "UI"), "Exclamation").SetActive(true);
             }
         }
         
@@ -94,6 +99,10 @@ public class NPC_Manager : MonoBehaviour
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talk_point = other.transform;
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_offest_adjestment = talking_offest_adjestment;
 
+
+            GetChildWithName(GetChildWithName(PlayerManager.instance.player, "UI"), "Exclamation").SetActive(true);
+
+
         }
     }
 
@@ -108,6 +117,8 @@ public class NPC_Manager : MonoBehaviour
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_target = null;
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talk_point = null;
             GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().talking_offest_adjestment =new Vector3(0,0,0);
+
+            GetChildWithName(GetChildWithName(PlayerManager.instance.player, "UI"), "Exclamation").SetActive(false);
 
         }
     }
@@ -133,4 +144,18 @@ public class NPC_Manager : MonoBehaviour
     {
         TalkListID = talkListID;
     }*/
+
+    GameObject GetChildWithName(GameObject obj, string name)
+    {
+        Transform trans = obj.transform;
+        Transform childTrans = trans.Find(name);
+        if (childTrans != null)
+        {
+            return childTrans.gameObject;
+        }
+        else
+        {
+            return null;
+        }
+    }
 }
