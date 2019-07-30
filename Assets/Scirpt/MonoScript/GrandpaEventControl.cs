@@ -15,10 +15,12 @@ public class GrandpaEventControl : MonoBehaviour
         chatter_id = nm.id;
 
         EventSystem.Current.RegisterListener(EventSystem.EVENT_TYPE.DIALOG_FINISHED, firsttalk);
+        EventSystem.Current.RegisterListener(EventSystem.EVENT_TYPE.DIALOG_FINISHED, secondtalk);
+
     }
 
 
-    
+
     public void firsttalk(EventInfo ei)
     {
         NPCChatInfo nci =null;
@@ -32,21 +34,30 @@ public class GrandpaEventControl : MonoBehaviour
             if (WorldStateManager.instance.worldstate == 0 && nci.chatter_id == chatter_id)
             {
                 Debug.Log("Grandpa first talk");
-                WorldStateManager.instance.worldstate++;
+                WorldStateManager.instance.worldstate = 1;
                 nm.TalkListID++;
             }
         }
 
     }
 
-   /* void secondtalk(NPCChatInfo nci)
+    public void secondtalk(EventInfo ei)
     {
-        if (WorldStateManager.instance.worldstate == 1)
+        NPCChatInfo nci = null;
+        if (ei.eventType == EventSystem.EVENT_TYPE.DIALOG_FINISHED)
         {
-            Debug.Log("Grandpa second talk");
-            
-
-            WorldStateManager.instance.worldstate++;
+            nci = (NPCChatInfo)ei;
         }
-    }*/
+
+        if (nci != null)
+        {
+            if (WorldStateManager.instance.worldstate == 5 && nci.chatter_id == chatter_id)
+            {
+                Debug.Log("Grandpa Second talk");
+                WorldStateManager.instance.worldstate = 6;
+                nm.TalkListID = 3;
+            }
+        }
+
+    }
 }

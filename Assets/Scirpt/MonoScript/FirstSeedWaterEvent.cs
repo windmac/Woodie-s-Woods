@@ -18,7 +18,7 @@ public class FirstSeedWaterEvent : MonoBehaviour
 
     void watered(EventInfo ei)
     {
-        Debug.Log(ei.eventType + " " + EventSystem.EVENT_TYPE.OBJECT_INTERACTION);
+       // Debug.Log(ei.eventType + " " + EventSystem.EVENT_TYPE.OBJECT_INTERACTION);
         ObjectInteractionInfo oii = null;
         if (ei.eventType == EventSystem.EVENT_TYPE.OBJECT_INTERACTION)
         {
@@ -32,7 +32,7 @@ public class FirstSeedWaterEvent : MonoBehaviour
             if (oii.object_id == bs.object_id)
             {
                 Debug.Log("Watering Event Triggered");
-                WorldStateManager.instance.worldstate++;
+                WorldStateManager.instance.worldstate = 3;
                 flowerie_manager.TalkListID = 2;
             }
         }

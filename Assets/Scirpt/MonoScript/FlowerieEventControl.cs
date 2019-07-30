@@ -31,7 +31,7 @@ public class FlowerieEventControl : MonoBehaviour
             if (WorldStateManager.instance.worldstate == 1 && nci.chatter_id == chatter_id)
             {
                 Debug.Log("Flowerie first talk");
-                WorldStateManager.instance.worldstate++;
+                WorldStateManager.instance.worldstate =2;
                 nm.TalkListID++;
             }
         }
@@ -50,7 +50,7 @@ public class FlowerieEventControl : MonoBehaviour
             if (WorldStateManager.instance.worldstate == 3 && nci.chatter_id == chatter_id)
             {
                 Debug.Log("Flowerie second talk");
-                WorldStateManager.instance.worldstate++;
+                WorldStateManager.instance.worldstate =4;
                 nm.TalkListID++;
             }
         }
