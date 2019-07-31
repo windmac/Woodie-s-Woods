@@ -7,14 +7,15 @@ public class River : MonoBehaviour
 {
     public float StayTime = 2;
     public int Damage = 1;
-    public float RebornDistance = 2;
+    //public float RebornDistance = 2;
     public float RebornHeight = 0.5f;
+    public int CountBackwards = 0;
 
     private float StayedTime = 0;
-    private GameObject Player;
-    private Vector3 RebornPosition = Vector3.zero;
+    //private GameObject Player;
+    //private Vector3 RebornPosition = Vector3.zero;
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag=="Woodie")
         {
@@ -25,7 +26,7 @@ public class River : MonoBehaviour
             RebornPosition -= forward * RebornDistance;
             RebornPosition += Vector3.up * RebornHeight;
         }
-    }
+    }*/
 
     private void OnTriggerStay(Collider other)
     {
@@ -43,20 +44,23 @@ public class River : MonoBehaviour
     {
         if (other.gameObject.tag == "Woodie")
         {
-            Player = null;
+            //Player = null;
             StayedTime = 0;
         }
     }
 
     private void RemovePlayer()
     {
-        if (Player!=null)
+        WoodieStat.instance.SetPlayerPositionBackwards(CountBackwards, Vector3.up * RebornHeight);
+        WoodieStat.instance.takeDamage(Damage);
+        StayedTime = 0;
+        /*if (Player!=null)
         {
             Player.transform.position = RebornPosition;
             Player.GetComponent<Rigidbody>().velocity = Vector3.zero;
             WoodieStat.instance.takeDamage(Damage);
             Player = null;
-            StayedTime = 0;
-        }
+            
+        }*/
     }
 }

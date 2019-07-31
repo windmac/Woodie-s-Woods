@@ -211,4 +211,13 @@ public class PlayerController2 : MonoBehaviour
         newVector2.y = vector2.y * Mathf.Sqrt(1 - (vector2.x * vector2.x) / 2);
         return newVector2;
     }
+
+    public void SetPlayerPosition(Vector3 position)
+    {
+        if (canMove)
+        {
+            this.gameObject.transform.position = position;
+            this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
+    }
 }
