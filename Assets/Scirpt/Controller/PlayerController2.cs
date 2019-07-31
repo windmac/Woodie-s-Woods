@@ -19,7 +19,7 @@ public class PlayerController2 : MonoBehaviour
     public float jumpHeight = 20;
     public Camera cam;
     public AudioSource jump_sound;
-   public AudioSource walking_sound;
+   //public AudioSource walking_sound;
 
     public Animator animator;
 
@@ -160,10 +160,10 @@ public class PlayerController2 : MonoBehaviour
                                                     Quaternion.LookRotation(movement),
                                                     Time.deltaTime * rotation_speed);
 
-            if(!walking_sound.isPlaying&&IsGrounded())
+          /*  if(!walking_sound.isPlaying&&IsGrounded())
             {
                 walking_sound.Play();
-            }
+            }*/
 
 
                 animator.SetBool("isMoving", true);
@@ -172,7 +172,7 @@ public class PlayerController2 : MonoBehaviour
         }
         else
         {
-            walking_sound.Stop();
+           // walking_sound.Stop();
             animator.SetBool("isMoving", false);
         }
 

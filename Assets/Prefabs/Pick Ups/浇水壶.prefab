@@ -34,6 +34,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8670999017261098213}
+  - {fileID: 8211530833124575303}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -138,7 +139,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemLog: "\u6361\u8D77\u4E86\u6D47\u6C34\u58F6"
   Index: 0
-  playerManager: {fileID: 0}
+--- !u!1001 &4081943076138515163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6551292096670338193}
+    m_Modifications:
+    - target: {fileID: 5282949208114190286, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_Name
+      value: magic_ring_01 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 528d556d757c06a48b16a06851302a8c, type: 3}
+--- !u!4 &8211530833124575303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5282949208114410140, guid: 528d556d757c06a48b16a06851302a8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4081943076138515163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6267014814703937449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -146,20 +221,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6551292096670338193}
     m_Modifications:
+    - target: {fileID: 4588484317799381574, guid: d87b78c0187368349ab65e14f812897e,
+        type: 3}
+      propertyPath: m_Name
+      value: WateringCan
+      objectReference: {fileID: 0}
     - target: {fileID: 3363480214848013132, guid: d87b78c0187368349ab65e14f812897e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.32
+      value: -0.48
       objectReference: {fileID: 0}
     - target: {fileID: 3363480214848013132, guid: d87b78c0187368349ab65e14f812897e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.003
+      value: -0.372
       objectReference: {fileID: 0}
     - target: {fileID: 3363480214848013132, guid: d87b78c0187368349ab65e14f812897e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3363480214848013132, guid: d87b78c0187368349ab65e14f812897e,
         type: 3}
@@ -215,11 +295,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4588484317799381574, guid: d87b78c0187368349ab65e14f812897e,
-        type: 3}
-      propertyPath: m_Name
-      value: WateringCan
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87b78c0187368349ab65e14f812897e, type: 3}

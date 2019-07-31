@@ -13,11 +13,11 @@ public class NPC_Manager : MonoBehaviour
 
     public Vector3 talking_offest_adjestment;
     private GameObject TalkUIClone;
-    public bool destoryable = false;
+  //  public bool destoryable = false;
     public int id;
     //private GameObject PlayerWoodie;
-   // public KeyCode talk_key = KeyCode.H;
-
+    // public KeyCode talk_key = KeyCode.H;
+    public bool moveable = true;
     
 
     private bool Talking = false;
@@ -51,7 +51,7 @@ public class NPC_Manager : MonoBehaviour
 
                 GetChildWithName(GetChildWithName(PlayerManager.instance.player, "UI"), "Exclamation").SetActive(false);
 
-                if (!destoryable)
+                if (moveable)
                 {
                     LookAtEachOther();
                 }

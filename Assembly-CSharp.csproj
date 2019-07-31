@@ -118,6 +118,7 @@
      <Compile Include="Assets\Scirpt\UI\LogUI.cs" />
      <Compile Include="Assets\Scirpt\UI\MainMenu.cs" />
      <Compile Include="Assets\Scirpt\UseItem.cs" />
+     <Compile Include="Assets\Scirpt\WalkingSound.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\Boomerang.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\ItemSwitch.cs" />
      <Compile Include="Assets\Scirpt\Woodie Attack\PlantSeed.cs" />

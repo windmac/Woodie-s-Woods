@@ -28,11 +28,11 @@ public class FlowerieEventControl : MonoBehaviour
 
         if(nci!=null)
         {
-            if (WorldStateManager.instance.worldstate == 1 && nci.chatter_id == chatter_id)
+            if (WorldStateManager.instance.worldstate <= 1 && nci.chatter_id == chatter_id)
             {
                 Debug.Log("Flowerie first talk");
                 WorldStateManager.instance.worldstate =2;
-                nm.TalkListID++;
+                nm.TalkListID=1;
             }
         }
     }
@@ -47,11 +47,11 @@ public class FlowerieEventControl : MonoBehaviour
 
         if (nci != null)
         {
-            if (WorldStateManager.instance.worldstate == 3 && nci.chatter_id == chatter_id)
+            if (nm.TalkListID == 2 && nci.chatter_id == chatter_id)
             {
                 Debug.Log("Flowerie second talk");
-                WorldStateManager.instance.worldstate =4;
-                nm.TalkListID++;
+                WorldStateManager.instance.worldstate =3;
+                nm.TalkListID = 3;
             }
         }
     }

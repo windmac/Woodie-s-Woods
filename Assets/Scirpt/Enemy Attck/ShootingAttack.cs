@@ -12,7 +12,7 @@ public class ShootingAttack : Attack
     public float attack_rate = 1f;
     public bool is_attacking = true;
     public float timeBetweenShoot = 1f;
-    private float shootCounter = 1f;
+    private float shootCounter = 0f;
     public float projectile_speed = 2f;
     private Transform target;
     public float projectile_existing_time = 3f;

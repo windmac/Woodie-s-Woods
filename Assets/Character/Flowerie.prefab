@@ -44,7 +44,8 @@ GameObject:
   - component: {fileID: 6179030157755283537}
   - component: {fileID: 6179030157755283541}
   - component: {fileID: 6179030157755283539}
-  m_Layer: 0
+  - component: {fileID: 3983358466628490754}
+  m_Layer: 11
   m_Name: Flowerie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,11 +85,24 @@ CapsuleCollider:
   m_GameObject: {fileID: 6179030157755283630}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.64
   m_Height: 1.67
   m_Direction: 1
   m_Center: {x: 0, y: -0.3, z: 0}
+--- !u!65 &3983358466628490754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179030157755283630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.93236065, z: 1}
+  m_Center: {x: 0, y: -0.43966055, z: 0}
 --- !u!1 &6179030158638904949
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,8 +167,8 @@ MonoBehaviour:
   TalkUIPrefab: {fileID: 7027757936201872016, guid: d6e2e17305496bf439cca30b3e6f48a8,
     type: 3}
   talking_offest_adjestment: {x: 0, y: 0, z: 0}
-  destoryable: 0
   id: 2
+  moveable: 1
   TextID:
   - 00117,00118,00119,00120,00121,00122,00123,00124,00125,00126,00127
   - 00127
