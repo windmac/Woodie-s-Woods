@@ -201,7 +201,9 @@ MonoBehaviour:
   sensation: {fileID: 2753776749994209091}
   attack: {fileID: 0}
   anim: {fileID: 8724776244479643427}
+  patrol: 1
   patrolOffset: {x: 6, y: 0, z: 0}
+  patrolOffset_f: 5
 --- !u!136 &1167535589055658022
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -43,11 +43,13 @@ public class TalkUI : MonoBehaviour
 
     private void LoadText(string textPath)
     {
-        FileStream fs = new FileStream(textPath, FileMode.Open, FileAccess.Read);
+      //  FileStream fs = new FileStream(textPath, FileMode.Open, FileAccess.Read);
 
-        StreamReader sr = new StreamReader(fs, System.Text.Encoding.ASCII);
+       // StreamReader sr = new StreamReader(fs, System.Text.Encoding.ASCII);
 
-        string talkContent = sr.ReadToEnd();
+        TextAsset ta = (TextAsset)Resources.Load(textPath);
+        string talkContent = ta.text;
+       // string talkContent = sr.ReadToEnd();
         string[] talkContent1 = talkContent.Split('\n');
         TextContent = new string[talkContent1.Length][];
         for (int i = 0; i < talkContent1.Length; i++)

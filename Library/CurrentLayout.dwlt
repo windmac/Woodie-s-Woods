@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 398}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,8 +44,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 683, y: 348}
+  m_MaxSize: {x: 12008, y: 8048}
   vertical: 0
   controlID: 61
 --- !u!114 &3
@@ -75,7 +75,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 313
     height: 604
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -121,16 +121,16 @@ MonoBehaviour:
     y: 604
     width: 1426
     height: 343
-  m_MinSize: {x: 232, y: 274}
-  m_MaxSize: {x: 10002, y: 10024}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 102, y: 124}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 17}
   - {fileID: 22}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,7 +153,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 1426
     height: 947
-  m_MinSize: {x: 404, y: 498}
-  m_MaxSize: {x: 10002, y: 14048}
+  m_MinSize: {x: 406, y: 348}
+  m_MaxSize: {x: 8006, y: 8048}
   vertical: 1
   controlID: 62
 --- !u!114 &10
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 1426
     height: 604
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
   controlID: 63
 --- !u!114 &11
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -12704
+  m_LastSelectedObjectID: 28068
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -424,10 +424,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1137.6
-    y: 80.8
-    width: 390
-    height: 736
+    x: 1426
+    y: 73
+    width: 492
+    height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &15
 MonoBehaviour:
@@ -519,20 +519,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Enemy
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Enemy
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Unity Projects\Woodie's Woods
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 2430}
-    m_SelectedIDs: f8380000
-    m_LastClickedID: 14584
-    m_ExpandedIDs: 00000000c038000090390000083b0000843b0000723c0000523d00005a3d0000523e0000363f0000743f0000763f0000004000002c4000004e400000104100009041000096410000d0410000e4410000244200005a420000a84300002845000040450000824500009e450000a44500001246000022460000624600009e460000f0460000b44700001a490000f64900001e4a0000844b0000a84b0000d84c0000684d0000044e0000e84e0000de4f00005c500000ba530000ce540000f054000036560000a2560000f25600005e5900001c5a0000625b0000ee5b0000505d00006a5d0000bc5d00003a5e0000a25f00005a6000008486000086860000888600008a8600008c8600008e86000090860000928600009486000096860000988600009a8600009c8600008e0b0a00940b0a0000ca9a3b
+    scrollPos: {x: 0, y: 2670}
+    m_SelectedIDs: 26610000
+    m_LastClickedID: 24870
+    m_ExpandedIDs: 00000000e6380000b63900003e3b0000c23b0000b23c0000943d00009c3d00009c3e0000843f0000c63f0000c83f00005640000082400000a640000068410000e8410000ee4100002a4200003e4200007e420000b442000004440000844500009e450000e0450000fc450000024600007046000080460000c0460000fe460000504700001448000080490000644a00008c4a0000f44b0000184c0000484d0000d84d0000744e00005c4f0000c04f00005a500000dc500000425400005655000078550000c25600002e57000080570000f4590000b25a0000fe5b00008e5c0000f65d0000105e0000625e0000e05e00004c600000c2600000086100003c8800003e88000040880000428800004488000046880000488800004a8800004c8800004e88000050880000528800005488000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,7 +560,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c038000090390000083b0000843b0000723c0000523d00005a3d0000523e0000363f0000743f0000763f0000004000002c4000004e400000104100009041000096410000d0410000e4410000244200005a420000a84300002845000040450000824500009e450000a44500001246000022460000624600009e460000f0460000b44700001a490000f64900001e4a0000844b0000a84b0000d84c0000684d0000044e0000e84e0000de4f00005c500000ba530000ce540000f054000036560000a2560000f25600005e5900001c5a0000625b0000ee5b0000505d00006a5d0000bc5d00003a5e0000a25f00005a6000008486000086860000888600008a8600008c8600008e86000090860000928600009486000096860000988600009a8600009c860000
+    m_ExpandedIDs: 00000000e6380000b63900003e3b0000c23b0000b23c0000943d00009c3d00009c3e0000843f0000c63f0000c83f00005640000082400000a640000068410000e8410000ee4100002a4200003e4200007e420000b442000004440000844500009e450000e0450000fc450000024600007046000080460000c0460000fe460000504700001448000080490000644a00008c4a0000f44b0000184c0000484d0000d84d0000744e00005c4f0000c04f00005a500000dc500000425400005655000078550000c25600002e57000080570000f4590000b25a0000fe5b00008e5c0000f65d0000105e0000625e0000e05e00004c600000c2600000086100003c8800003e88000040880000428800004488000046880000488800004a8800004c8800004e880000508800005288000054880000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -585,8 +585,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 2eacffff
+    m_LastClickedInstanceID: -21458
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000082aa010020c50200fcdd020096ed020008c80300064b000064b30000e87d0000646a0000c49300006296000000000000889300004e590000ac380000fa40000000430000844e000044510000
     m_RenameOverlay:
@@ -678,24 +678,24 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 5216}
-      m_SelectedIDs: b0650000
-      m_LastClickedID: 26032
-      m_ExpandedIDs: fef9f7ff10faf7ffb4cdffff72ceffff88ceffffc0ceffffdaceffffd8d9ffffe0dfffff96e6ffff98e6fffface6ffffbee6ffffc6e6ffffdee6ffff06e7ffff9cfbffff9e620000e46200003a6300009e640000cc650000dc6500008e670000e26800002869000096690000a4690000f46900002e6a00004c6a00008c6a00007a6c00002e6d0000e0700000ec7000002471000052710000847100008e710000e07100006e72000088720000f6720000d4730000067400000477000026770000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ecdbfeff0adcfeff02e0feff4ee0feff6afbfeff4c17ffff6a17ffff621bffffae1bffff065affff2a5affff225effff765effff9cb2ffff9eb2ffffb2b2ffffc4b2ffffccb2ffffe2b2fffffcb2ffff00b3ffffe0c7ffff8afbfffffc6a0000b67400003c8d0000ec8e00005a9000007c920000f4990000e62d01008a4602005a490200da4d020082590200805f0200fce602007ceb0200a4fa020048010300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Cliff_A_LOD0 (1)
-        m_OriginalName: Cliff_A_LOD0 (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 27814
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -737,9 +737,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 123.23177, y: -3.679001, z: -7.2224817}
+    m_Target: {x: 95.85413, y: -27.552961, z: -90.22784}
     speed: 2
-    m_Value: {x: 123.23177, y: -3.679001, z: -7.2224817}
+    m_Value: {x: 95.85413, y: -27.552961, z: -90.22784}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -767,13 +767,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.10020662, y: -0.88703954, z: 0.38259253, w: 0.23820676}
+    m_Target: {x: 0.027114792, y: 0.91921675, z: 0.05837449, w: -0.38845563}
     speed: 2
-    m_Value: {x: 0.10020662, y: -0.88703954, z: 0.38259253, w: 0.23820676}
+    m_Value: {x: 0.027114792, y: 0.91921675, z: 0.05837449, w: -0.38845563}
   m_Size:
-    m_Target: 0.09332657
+    m_Target: 5.715757
     speed: 2
-    m_Value: 0.09332657
+    m_Value: 5.715757
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -890,54 +890,4 @@ MonoBehaviour:
     y: 677
     width: 1424
     height: 323
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Failed to load
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &24
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:SetHeightTool
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Failed to load
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
   m_PersistentViewDataDictionary: {fileID: 0}

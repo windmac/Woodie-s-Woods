@@ -75,12 +75,13 @@ public class PlantSeed : MonoBehaviour
     void SelectSeed()
     {
         int i = 0;
-        Debug.Log("here");
+        //Debug.Log("here");
         foreach (Transform item in transform)
         {
             if (i == selected_seed && PlayerManager.instance.ItemList[i+2].Active)
             {
                 item.gameObject.SetActive(true);
+                Debug.Log(seeds[selected_seed].name);
                 SeedUI_text.text = "种子：" + seeds[selected_seed].name;
             }
             else if (i == selected_seed && !PlayerManager.instance.ItemList[i + 2].Active)

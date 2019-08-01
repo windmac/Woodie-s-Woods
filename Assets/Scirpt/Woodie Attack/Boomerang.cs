@@ -25,7 +25,7 @@ public class Boomerang : MonoBehaviour
         back = false;
 
         player = GameObject.Find("Woodie");
-        axe = GameObject.Find("Axe");
+        axe = GameObject.Find("斧头");
 
         axe.GetComponentInChildren<MeshRenderer>().enabled=false;
 

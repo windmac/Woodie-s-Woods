@@ -14,10 +14,12 @@ public class EnemyController : MonoBehaviour
     public Attack attack;
     private Vector3 origin_position;
     public Animator anim;
-    
+    public bool patrol = false;
 
     [Header("Patrol Settings")]
     [SerializeField] Vector3 patrolOffset = new Vector3(5f, 0f, 0f);
+
+    [SerializeField] float patrolOffset_f = 5f;
 
     Vector3 startPos;
     Vector3 patrolPos;
@@ -29,7 +31,8 @@ public class EnemyController : MonoBehaviour
     {
         //initialize patrol target
         startPos = transform.position;
-        patrolPos = startPos + patrolOffset;
+        // patrolPos = startPos + patrolOffset;
+        patrolPos = startPos;
         currentTarget = patrolPos;
        // print(startPos + " " + patrolPos);
 
@@ -46,7 +49,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isAttacking)
+        if (!isAttacking&& patrol)
         {            
             Patrol();
         }
@@ -113,16 +116,19 @@ public class EnemyController : MonoBehaviour
 
     private void Patrol()
     {
-        if (Vector3.Distance(transform.position, startPos) < 1f)
-        {
-            currentTarget = patrolPos;
+        /*  if (Vector3.Distance(transform.position, startPos) < 1f)
+          {
+              currentTarget = patrolPos;
 
-        }
-        if (Vector3.Distance(transform.position, patrolPos) < 1f)
+          }*/
+        Debug.DrawLine(this.transform.position, currentTarget);
+        if (Vector3.Distance(transform.position, currentTarget) < 1f)
         {
-            currentTarget = startPos;
+            Debug.Log(this.name + " Patrolling " + patrolPos);
+            currentTarget = startPos+ new Vector3(UnityEngine.Random.Range(0, patrolOffset_f), 0f, UnityEngine.Random.Range(0, patrolOffset_f));
         }
         agent.SetDestination(currentTarget);
+       
     }
 
     void FaceTarget()

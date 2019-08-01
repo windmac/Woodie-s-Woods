@@ -18,12 +18,12 @@ public class WoodieStat : MonoBehaviour
     public Text HealthUI_text;
     public GameObject TalkUIParent;
     public GameObject TalkUIPrefab;
-    public string TextPath;
+    private string TextPath= "Text/TalkText";
     public string TextID;
     //角色路径表
     private List<Vector3> PlayerPositionList;
     private float PlayerPositionStartTime = 0;
-    private float PlayerPositionDelayTime = 3;
+    private float PlayerPositionDelayTime = 1;
     private int PlayerPositionListMax = 20;
 
 

@@ -9,7 +9,7 @@ public class River : MonoBehaviour
     public int Damage = 1;
     //public float RebornDistance = 2;
     public float RebornHeight = 0.5f;
-    public int CountBackwards = 0;
+    public int CountBackwards = 1;
 
     private float StayedTime = 0;
     //private GameObject Player;

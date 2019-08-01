@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(SphereCollider))]
 public class NPC_Manager : MonoBehaviour
 {
-    public string TextPath;
+    private string TextPath = "Text/TalkText";
     public int TalkListID;
     public GameObject TalkUIParent;
     public GameObject TalkUIPrefab;
@@ -55,7 +55,7 @@ public class NPC_Manager : MonoBehaviour
                 {
                     LookAtEachOther();
                 }
-                
+                PlayerManager.instance.player.GetComponent<PlayerController2>().canMove = false;
                 GameObject.Find("Main Camera").GetComponent<TopDownCamera2>().SetCameraMode(1);
                 InstantiateTalkContent();
                 ShowText = true;
@@ -131,7 +131,7 @@ public class NPC_Manager : MonoBehaviour
 
     private void LookAtEachOther()
     {
-        PlayerManager.instance.player.GetComponent<PlayerController2>().canMove = false;
+        //PlayerManager.instance.player.GetComponent<PlayerController2>().canMove = false;
         Vector3 direction = PlayerManager.instance.player.transform.position - this.gameObject.transform.position;
         direction.y = 0;
         direction = direction.normalized;
